@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "a bee on the right of a refrigerator",
+    "Prompt_zh": "冰箱右边的一只蜜蜂",
+    "final_ranking": "{GPT} > { Z_Image, Banana_pro,Banana } > {Qwen_Image,Flux}  > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "a desk on the right of a horse",
+    "Prompt_zh": "马右边的一张书桌",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana} > {Z_Image, Flux} > {SD3} >  {SDXL}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "a pig under a train",
+    "Prompt_zh": "火车下面的一头猪",
+    "final_ranking": "{SD3} > { GPT} > {Qwen_Image,  Banana} > {Z_Image,Flux} > {SDXL, Banana_pro}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "a mouse under a vase",
+    "Prompt_zh": "花瓶下面的一只老鼠",
+    "final_ranking": "{Qwen_Image, SD3, GPT} > {Z_Image,  Banana}  > {Banana_pro} > {Flux,SDXL}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "a plate on the bottom of a fish",
+    "Prompt_zh": "一条鱼底部的一个盘子",
+    "final_ranking": "{SD3, SDXL, Qwen_Image, Flux, Z_Image}  > {Banana} > {Banana_pro} > {GPT}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "a bicycle on the top of a turtle",
+    "Prompt_zh": "一只乌龟顶部的一辆自行车",
+    "final_ranking": "{Banana_pro, Banana, Flux, GPT, Qwen_Image, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "a bicycle on the bottom of a chicken",
+    "Prompt_zh": "一只鸡底部的一辆自行车",
+    "final_ranking": "{Banana_pro, Qwen_Image, SDXL, GPT, Banana} > {Flux} > {Z_Image, SD3}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "a giraffe on the left of a table",
+    "Prompt_zh": "桌子左边的一只长颈鹿",
+    "final_ranking": "{Banana, GPT, Banana_pro,Z_Image} > {Qwen_Image, SDXL} >  {SD3} > {Flux}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "a cup on the right of a dog",
+    "Prompt_zh": "狗右边的一个杯子",
+    "final_ranking": "{GPT, Banana, Banana_pro, Qwen_Image} > {Flux,SD3} > {SDXL} > { Z_Image}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "a book on the top of a butterfly",
+    "Prompt_zh": "一只蝴蝶顶部的一本书",
+    "final_ranking": "{Banana_pro, GPT} > {Banana} > { Z_Image, Flux, Qwen_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "a frog on the top of a bowl",
+    "Prompt_zh": "碗顶部的一只青蛙",
+    "final_ranking": "{Banana, Flux, Banana_pro, SDXL} > {Qwen_Image, SD3,GPT} > {Z_Image}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "a pig on the left of a lamp",
+    "Prompt_zh": "台灯左边的一头猪",
+    "final_ranking": "{Banana_pro, Banana, Z_Image, GPT, Qwen_Image, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "a wallet on the left of a giraffe",
+    "Prompt_zh": "一只长颈鹿左边的一个钱包",
+    "final_ranking": "{Qwen_Image} > {GPT} > { Z_Image,Banana_pro, Banana} > {SDXL,SD3} > {Flux}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "a clock on the top of a sheep",
+    "Prompt_zh": "一只绵羊顶部的一座时钟",
+    "final_ranking": "{Flux, Banana, Qwen_Image, GPT, Banana_pro, SD3, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "a bird on the left of a microwave",
+    "Prompt_zh": "微波炉左边的一只鸟",
+    "final_ranking": "{GPT, SD3}  > {Qwen_Image} >  {Banana_pro} > { Z_Image,Flux, SDXL, Banana}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "a computer on the top of a rabbit",
+    "Prompt_zh": "一只兔子顶部的一台电脑",
+    "final_ranking": "{Banana, Banana_pro, GPT} > {Flux, Qwen_Image, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "a dog under a refrigerator",
+    "Prompt_zh": "冰箱下面的一只狗",
+    "final_ranking": "{Qwen_Image, GPT} > {Banana, SDXL, Z_Image, Banana_pro}  > { Flux}  > { SD3}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "a couch on the right of a chicken",
+    "Prompt_zh": "一只鸡右边的一张长沙发",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Z_Image} > {SDXL} > {Banana, Flux, SD3}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "a phone on the right of a rabbit",
+    "Prompt_zh": "一只兔子右边的一部电话",
+    "final_ranking": "{Banana, Qwen_Image, GPT, SD3, Banana_pro} > {Flux, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "a candle on the left of a mouse",
+    "Prompt_zh": "一只老鼠左边的一支蜡烛",
+    "final_ranking": "{Banana, Banana_pro, Qwen_Image, Flux, SD3,Z_Image} > {SDXL} > {GPT}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "a bicycle in front of a suitcase",
+    "Prompt_zh": "手提箱前面的一辆自行车",
+    "final_ranking": "{GPT} > {Flux, Banana_pro, Banana, SDXL, Z_Image, Qwen_Image, SD3}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "a truck behind a mailbox",
+    "Prompt_zh": "信箱后面的一辆卡车",
+    "final_ranking": "{Flux, Banana_pro} > { Z_Image, Qwen_Image, GPT} > {Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "a spoon inside a bowl",
+    "Prompt_zh": "碗里的一把勺子",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image} > {SDXL,Banana_pro, Banana, SD3} > {Flux}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "a candle hidden by a vase",
+    "Prompt_zh": "被花瓶遮挡的一支蜡烛",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Z_Image} > {SDXL, SD3, Qwen_Image, Flux}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "a phone hidden behind a laptop",
+    "Prompt_zh": "藏在笔记本电脑后面的一部手机",
+    "final_ranking": "{Qwen_Image} > {GPT, Banana_pro} > {Z_Image, Flux, Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "a teddy bear behind a pillow",
+    "Prompt_zh": "枕头后面的一只泰迪熊",
+    "final_ranking": "{ GPT} >  {Banana, Banana_pro} > {SD3,Flux, Qwen_Image, Z_Image, SDXL}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "a bowl in front of a plate",
+    "Prompt_zh": "盘子前面的一个碗",
+    "final_ranking": "{Qwen_Image, GPT} > { Banana,SD3, Banana_pro} > {Flux, Z_Image, SDXL}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "a plate behind a glass",
+    "Prompt_zh": "玻璃杯后面的一个盘子",
+    "final_ranking": "{Banana} > { SD3, Flux, Qwen_Image} >  {GPT, Banana_pro, Z_Image}  > {SDXL}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "a scarf draped over a chair",
+    "Prompt_zh": "搭在椅子上的一条围巾",
+    "final_ranking": "{Banana, Banana_pro, Z_Image, Flux, GPT, SDXL, Qwen_Image, SD3}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "a bottle between a cup and a plate",
+    "Prompt_zh": "杯子和盘子之间的一个瓶子",
+    "final_ranking": "{GPT, Banana,Banana_pro} > { Qwen_Image} > { SD3, Flux,Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "a broom leaning against a wall",
+    "Prompt_zh": "靠在墙上的一把扫帚",
+    "final_ranking": "{Flux, Z_Image, SD3, SDXL, Banana_pro, GPT, Banana, Qwen_Image}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "a cup in front of a turtle",
+    "Prompt_zh": "一只乌龟前面的一个杯子",
+    "final_ranking": "{Banana, GPT, Banana_pro,  Qwen_Image} > {SD3,Z_Image} > {Flux, SDXL}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "a dog in front of a desk",
+    "Prompt_zh": "书桌前面的一只狗",
+    "final_ranking": "{Z_Image, Banana, SD3} > {Banana_pro} > {Qwen_Image, SDXL, GPT, Flux}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "a jacket hanging on a coat rack",
+    "Prompt_zh": "挂在衣帽架上的一件夹克",
+    "final_ranking": "{Qwen_Image, Banana, Z_Image, GPT} > {SD3, Banana_pro} > {Flux, SDXL}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "a blanket spread across a bed",
+    "Prompt_zh": "铺在床上的一条毯子",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image, SDXL, Banana, Banana_pro, SD3} > {Flux}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "a hat perched on a hook",
+    "Prompt_zh": "挂在钩子上的一顶帽子",
+    "final_ranking": "{ GPT, SD3} > { Banana, Z_Image}  > {Banana_pro,SDXL} > {Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "a ring placed inside a small box",
+    "Prompt_zh": "放在小盒子里的一个戒指",
+    "final_ranking": "{Banana, Banana_pro, Flux, GPT, Qwen_Image, SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "a vase between two candles",
+    "Prompt_zh": "两支蜡烛之间的一个花瓶",
+    "final_ranking": "{Z_Image, Banana, Flux, Banana_pro, Qwen_Image, GPT} > {SD3, SDXL}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "a painting centered between two lamps",
+    "Prompt_zh": "两盏灯中心位置的一幅画",
+    "final_ranking": "{Z_Image, Flux, Qwen_Image, Banana_pro, SD3, SDXL, Banana, GPT}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "a chair between a table and a sofa",
+    "Prompt_zh": "桌子和沙发之间的一把椅子",
+    "final_ranking": "{Z_Image} > {GPT, Banana} > {Flux, Banana_pro, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "a banana on the left of a toaster",
+    "Prompt_zh": "烤面包机左边的一根香蕉",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image,Flux, Banana} > { SD3, Z_Image} >  {SDXL}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "a kite on the right of a lighthouse",
+    "Prompt_zh": "灯塔右边的一个风筝",
+    "final_ranking": "{Banana, Banana_pro, GPT, SD3, Z_Image} > {Flux, Qwen_Image, SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "a cactus on the left of a suitcase",
+    "Prompt_zh": "手提箱左边的一棵仙人掌",
+    "final_ranking": "{GPT, SD3, Z_Image, Qwen_Image, Banana_pro, Flux,Banana} > {SDXL}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "a cat in front of a washing machine",
+    "Prompt_zh": "洗衣机前面的一只猫",
+    "final_ranking": "{Flux, SDXL, GPT, Qwen_Image, Banana_pro, Banana, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "a submarine behind a sailboat",
+    "Prompt_zh": "帆船后面的一艘潜艇",
+    "final_ranking": "{Qwen_Image, Banana, Banana_pro,GPT} > { SD3, Z_Image} > {SDXL,Flux}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "a penguin in front of a snowman",
+    "Prompt_zh": "雪人前面的一只企鹅",
+    "final_ranking": "{Banana_pro, Qwen_Image, SD3} > {GPT, Z_Image} > {Flux, SDXL, Banana}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "a robot behind a curtain",
+    "Prompt_zh": "窗帘后面的一个机器人",
+    "final_ranking": "{Banana_pro, Z_Image, GPT} > {Banana} > {Qwen_Image, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "a coin inside a jar",
+    "Prompt_zh": "罐子里的一枚硬币",
+    "final_ranking": "{GPT, Banana_pro} > {Banana} > {Z_Image, Flux,Qwen_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "a fish inside a bucket",
+    "Prompt_zh": "桶里的一条鱼",
+    "final_ranking": "{Flux, Banana, Qwen_Image, GPT, Banana_pro, SDXL} > {SD3} > {Z_Image}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "a cloud above a mountain",
+    "Prompt_zh": "大山上空的一朵云",
+    "final_ranking": "{Qwen_Image, Banana, Flux, GPT, SDXL, Z_Image} > {Banana_pro, SD3}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "a butterfly above a cupcake",
+    "Prompt_zh": "纸杯蛋糕上方的一只蝴蝶",
+    "final_ranking": "{Banana_pro, Banana, Flux, SD3, GPT, Qwen_Image, Z_Image} >  {SDXL}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "a moon above a castle",
+    "Prompt_zh": "城堡上空的一轮明月",
+    "final_ranking": "{Z_Image, SD3, Banana_pro, Banana, Qwen_Image, GPT} > {Flux,SDXL}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "a plane above a bridge",
+    "Prompt_zh": "大桥上空的一架飞机",
+    "final_ranking": "{Flux, Banana_pro, Banana} > {GPT, Qwen_Image} > {SDXL} >  {SD3} > {Z_Image}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "a sandwich between a cup and a bowl",
+    "Prompt_zh": "杯子和碗之间的一个三明治",
+    "final_ranking": "{Banana_pro} > {Banana} > {GPT,SD3, Z_Image, Qwen_Image} >  {Flux} > {SDXL}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "a toothbrush between two bottles",
+    "Prompt_zh": "两个瓶子之间的一把牙刷",
+    "final_ranking": "{GPT, Flux, Banana, SD3, Qwen_Image} > {Z_Image} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "a toy car between two books",
+    "Prompt_zh": "两本书之间的一辆玩具车",
+    "final_ranking": "{Z_Image, GPT, Banana_pro} > {Qwen_Image} > {SD3, Banana, Flux} > {SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "a seashell between two stones",
+    "Prompt_zh": "两块石头之间的一个贝壳",
+    "final_ranking": "{SD3,  Banana, Z_Image} > {GPT,Banana_pro, Qwen_Image} > {SDXL,Flux}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "a scarf wrapped around a lantern",
+    "Prompt_zh": "缠绕在灯笼上的一条围巾",
+    "final_ranking": "{Banana, Banana_pro, SD3, Z_Image, Qwen_Image, GPT, SDXL} > {Flux}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "a snake coiled around a tree branch",
+    "Prompt_zh": "盘绕在树枝上的一条蛇",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana} > {Flux} > {Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "a ribbon tied around a gift box",
+    "Prompt_zh": "系在礼盒上的一条缎带",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Flux, Qwen_Image, SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "a crown on the top of a lion's head",
+    "Prompt_zh": "狮子头顶上的一顶皇冠",
+    "final_ranking": "{Banana, Banana_pro, Flux, GPT, Qwen_Image, SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "a rug beneath a wooden coffee table",
+    "Prompt_zh": "木质咖啡桌下方的一张地毯",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana, Flux, Z_Image,SD3} > { SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "a bird perched on the top of a street lamp",
+    "Prompt_zh": "路灯顶部停歇的一只鸟",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, SD3, Banana_pro, Flux} > {Banana} >  {SDXL}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "a slipper under a plush armchair",
+    "Prompt_zh": "毛绒单人沙发下面的一只拖鞋",
+    "final_ranking": "{Banana_pro, SD3, GPT} > {Z_Image, Banana} > {SDXL, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "a mirror mounted above a fireplace",
+    "Prompt_zh": "壁炉上方挂着的一面镜子",
+    "final_ranking": "{Banana_pro, Z_Image, Banana, SDXL, Flux, Qwen_Image,GPT} > { SD3}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "a mat placed beneath a cat's food bowl",
+    "Prompt_zh": "猫碗下方垫着的一个垫子",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image, SD3, Flux} > {Banana_pro, Banana} > {SDXL}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "a helicopter hovering above a skyscraper",
+    "Prompt_zh": "摩天大楼上空盘旋的一架直升机",
+    "final_ranking": "{Banana}  > {SD3, Banana_pro, Qwen_Image, SDXL} > {Z_Image, Flux, GPT}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "a tunnel passing beneath a mountain",
+    "Prompt_zh": "大山下方穿过的一条隧道",
+    "final_ranking": "{Banana, GPT, SDXL, SD3, Banana_pro} > {Z_Image, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "a rake on the right of a garden shed",
+    "Prompt_zh": "花园工具房右侧的一个耙子",
+    "final_ranking": "{GPT}  > {Banana_pro, Z_Image} > {Banana, SDXL} > {Qwen_Image} > { Flux, SD3}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "a pair of binoculars on the left of a window",
+    "Prompt_zh": "窗户左侧的一架望远镜",
+    "final_ranking": "{GPT, Banana_pro, Flux, Qwen_Image} > {Banana,  SD3} > {Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "a speaker on the right of a computer monitor",
+    "Prompt_zh": "电脑显示器右侧的一个音箱",
+    "final_ranking": "{Z_Image, GPT, SD3, Qwen_Image, Banana, Banana_pro, Flux} > {SDXL}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "an umbrella on the left of a doorway",
+    "Prompt_zh": "门口左侧的一把雨伞",
+    "final_ranking": "{Banana, Z_Image, Banana_pro, GPT, SD3} > {Qwen_Image} > {SDXL}  > {Flux}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "a stool on the right of a grand piano",
+    "Prompt_zh": "大钢琴右侧的一个凳子",
+    "final_ranking": "{GPT,Qwen_Image, Banana_pro, Banana} > {Z_Image, Flux,SDXL, SD3}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "a printer on the left of a white laptop",
+    "Prompt_zh": "白色笔记本电脑左侧的一台打印机",
+    "final_ranking": "{GPT, Banana, Banana_pro, Flux, Qwen_Image} > {SD3}  >{Z_Image} > { SDXL}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "a long coat on the right of a full-length mirror",
+    "Prompt_zh": "全身镜右侧的一件长外套",
+    "final_ranking": "{GPT, Banana_pro, Banana, Z_Image, Flux} > {SD3} > {Qwen_Image}  > {SDXL}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "a cooking pot on the left of a kitchen stove",
+    "Prompt_zh": "厨房炉灶左侧的一个煮锅",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro, Z_Image} > {SD3, Banana, Flux} > {SDXL}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "a shovel on the right of a blue wheelbarrow",
+    "Prompt_zh": "蓝色独轮车右侧的一把铁铲",
+    "final_ranking": "{GPT, SD3, Z_Image, Flux, Qwen_Image, Banana,Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "a candle on the left of a gold picture frame",
+    "Prompt_zh": "金色画框左侧的一支蜡烛",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Banana, Qwen_Image, Flux} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "a hiker in front of a massive waterfall",
+    "Prompt_zh": "巨大瀑布前面的一名徒步者",
+    "final_ranking": "{Z_Image, Banana, Qwen_Image, GPT, SD3, SDXL, Banana_pro} > {Flux}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "a red tractor behind a wooden barn",
+    "Prompt_zh": "木制谷仓后面的一台红色拖拉机",
+    "final_ranking": "{Banana_pro} >  {SDXL, SD3,GPT, Flux, Z_Image, Qwen_Image, Banana}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "a pearl inside an open oyster shell",
+    "Prompt_zh": "张开的牡蛎壳内的一颗珍珠",
+    "final_ranking": "{Flux, GPT, Banana_pro} > {Banana, SD3, Qwen_Image, Z_Image, SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "a letter inside a vintage mailbox",
+    "Prompt_zh": "老式信箱内的一封信",
+    "final_ranking": "{Banana_pro, Flux, GPT, Qwen_Image, SDXL}  > {Z_Image} > {Banana} > {SD3}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "a fox hidden behind a fallen log",
+    "Prompt_zh": "倒下的原木后面藏着的一只狐狸",
+    "final_ranking": "{Banana_pro, Flux, GPT, Banana, Qwen_Image, Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "a trophy inside a glass display cabinet",
+    "Prompt_zh": "玻璃展示柜内的一个奖杯",
+    "final_ranking": "{SDXL, SD3, Banana_pro, Flux, Z_Image, GPT, Qwen_Image, Banana}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "a cyclist behind the finish line ribbon",
+    "Prompt_zh": "终点线缎带后面的一名骑手",
+    "final_ranking": "{GPT, Qwen_Image, Banana, SD3} > {Flux} > {Banana_pro} > {Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "a large ship in front of an iceberg",
+    "Prompt_zh": "冰山前面的一艘大船",
+    "final_ranking": "{Qwen_Image, Flux, Banana_pro, Banana,SD3} > {Z_Image}  > {GPT, SDXL}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "a key hidden inside a hollow book",
+    "Prompt_zh": "镂空书本内藏着的一把钥匙",
+    "final_ranking": "{Banana_pro, GPT} >  {Qwen_Image} > { Z_Image, Banana, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "a bridge spanning between two steep cliffs",
+    "Prompt_zh": "两座陡峭悬崖之间横跨的一座桥",
+    "final_ranking": "{Flux, Z_Image, Banana_pro, GPT, Qwen_Image, SDXL, SD3, Banana}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "a driveway between two rows of hedges",
+    "Prompt_zh": "两排树篱之间的一条车道",
+    "final_ranking": "{Banana_pro, Banana, Flux, GPT, Qwen_Image, Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "a flower garland wrapped around a banister",
+    "Prompt_zh": "缠绕在楼梯扶手上的一个花环",
+    "final_ranking": "{Qwen_Image,Z_Image, Flux} > {Banana,GPT}  > {Banana_pro,  SD3} > {SDXL }"
+  },
+  {
+    "ID": 91,
+    "Prompt": "a silver bracelet around a person's wrist",
+    "Prompt_zh": "人手腕上戴着的一只银色手镯",
+    "final_ranking": "{Z_Image, Banana_pro, GPT, Flux, Qwen_Image, SDXL, SD3, Banana}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "a deep valley between two snowy peaks",
+    "Prompt_zh": "两座雪峰之间的一条深谷",
+    "final_ranking": "{GPT, SD3, Qwen_Image, SDXL,Banana_pro, Z_Image, Flux} > { Banana}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "a silk tie wrapped around a neck",
+    "Prompt_zh": "脖子上系着的一条丝绸领带",
+    "final_ranking": "{Banana, Banana_pro, Flux, GPT, Qwen_Image, SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "a soup spoon between a fork and a knife",
+    "Prompt_zh": "叉子和刀子中间的一把汤勺",
+    "final_ranking": "{SDXL, Banana, Flux, Z_Image, GPT, Banana_pro} > {Qwen_Image} >  {SD3}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "a cat sitting to the left of a dog",
+    "Prompt_zh": "坐在狗左侧的一只猫",
+    "final_ranking": "{GPT, Z_Image, Banana, Flux, Banana_pro, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "a bicycle parked in front of a brick wall",
+    "Prompt_zh": "停在砖墙前面的一辆自行车",
+    "final_ranking": "{Qwen_Image, GPT, Flux, Banana, Banana_pro, SD3, Z_Image, SDXL}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "a pair of shoes under a wooden bench",
+    "Prompt_zh": "木长椅下面的一双鞋",
+    "final_ranking": "{Banana_pro, Banana, Z_Image, GPT, Qwen_Image} > {SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "a ring inside a velvet-lined jewelry box",
+    "Prompt_zh": "天鹅绒衬里珠宝盒内的一枚戒指",
+    "final_ranking": "{Flux, Banana_pro, GPT, Qwen_Image, Z_Image, SD3, SDXL, Banana}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "a belt cinched around a red dress",
+    "Prompt_zh": "红色连衣裙腰部系着的一条腰带",
+    "final_ranking": "{SDXL, Banana, Banana_pro, SD3, Z_Image, Qwen_Image, GPT} > {Flux}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "a path winding between two rows of trees",
+    "Prompt_zh": "两排树木之间蜿蜒的一条小路",
+    "final_ranking": "{SD3, GPT, Qwen_Image, Z_Image, Flux, SDXL, Banana, Banana_pro}"
+  }
+]

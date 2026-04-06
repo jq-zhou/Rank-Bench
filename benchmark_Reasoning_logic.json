@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "A string of decorative lights hanging from a balcony. The model should generate an image where the lights hang downwards due to gravity, and not floating in the air or defying gravity The curve of the string should be consistent with a hanging object",
+    "Prompt_zh": "挂在阳台上的装饰灯串。生成的图像中，灯串应因重力自然下垂，而不是悬浮或违背重力。灯串的弧度应符合悬挂物体的物理特征。",
+    "final_ranking": "{GPT, Banana_pro, Flux} > {SD3, Qwen_Image} > {Z_Image} >  {Banana}  > {SDXL}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "An elephant and a rabbit stand on both sides of a seesaw. The model should generate an image where the seesaw is significantly tilted due to the weight difference between the elephant and the rabbit. The elephant should be on the lower side, close to the ground, and the rabbit should be on the higher side, elevated in the air The seesaw should not be level",
+    "Prompt_zh": "大象和兔子站在跷跷板的两端。由于体重差异巨大，跷跷板应显著倾斜。大象的一侧应降至最低并接近地面，兔子的一侧应高高升起。跷跷板不应保持水平。",
+    "final_ranking": "{GPT, Qwen_Image, Flux, Banana, Banana_pro, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "An iron ball and an equally sized soccer ball are standing on either side of the balance beam. The model should generate an image where the beam balance is heavily tilted due to the substantial weight difference between the iron ball and the soccer ball The pan holding the iron ball should be positioned low, possibly touching the ground, and the pan holding the soccer ball should be noticeably higher The balance should be in a static tilted position",
+    "Prompt_zh": "天平的两端分别放着一个铁球和一个等大的足球。生成的图像中，天平应因重量差异剧烈倾斜。放铁球的托盘应处于低位甚至接触地面，放足球的托盘显著升高。天平应处于静止的倾斜状态。",
+    "final_ranking": "{Banana_pro, Z_Image} > {Qwen_Image} > {GPT, Banana} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "A small piece of dry wood and a dense iron block are in a transparent water tank. The model should generate an image where the piece of wood is floating on the surface of the water, while the iron block is sunk to the bottom. The image should clearly show the difference in buoyancy between the two materials, with one floating and the other completely submerged",
+    "Prompt_zh": "透明水箱中有一块小干木头和一个致密的铁块。图像中木头应漂浮在水面，而铁块沉入水底。应清晰展示两种材料的浮力差异：一个漂浮，另一个完全沉没。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Banana, Z_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "An empty plastic bottle and a large rock in a transparent water tank. The model should generate an image where the plastic bottle is floating on the surface of the water, while the rock is sunk to the bottom. The image should clearly show the difference in buoyancy between the two materials, with one floating and the other completely submerged",
+    "Prompt_zh": "透明水箱中有一个空塑料瓶和一块大石头。图像中塑料瓶应浮在水面，石头沉入水底。清晰展示浮力差异。",
+    "final_ranking": "{GPT, Banana_pro, SD3,Qwen_Image} > {Z_Image} > {Banana, Flux} >  {SDXL}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "A balloon filled with helium in a room. The model should generate an image showing a balloon filled with helium floating towards the ceiling, demonstrating its buoyancy due to being less dense than the surrounding air",
+    "Prompt_zh": "房间里充有氦气的气球。图像应显示氦气球飘向天花板，展示其密度小于周围空气而产生的浮力。",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image } > {SDXL, SD3} > {Banana, Flux, Banana_pro}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "A glass bottle placed on a pile of soft cotton balls. The model should generate an image showing the cotton balls being compressed and deformed by the pressure of the bottle",
+    "Prompt_zh": "放在一堆软棉球上的玻璃瓶。图像应显示棉球因瓶子的压力而受压变形。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Flux} > { Z_Image} > {Qwen_Image, SDXL} > {SD3}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "A full jar of jam sitting on a sponge. The model should generate an image depicting the sponge compressing under the weight of the jar, showing a clear indentation",
+    "Prompt_zh": "放在海绵上的满罐果酱。图像应描绘海绵在果酱罐重量下被压缩，显示出明显的压痕。",
+    "final_ranking": "{Banana, GPT, Banana_pro} > {SD3, Flux, Qwen_Image, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "A beach after many footsteps. The model should generate an image showing various depths of footprints in the sand, illustrating different levels of pressure applied by walking",
+    "Prompt_zh": "布满足迹的沙滩。图像应显示沙滩上深浅不一的脚印，体现步行时施加的不同压力水平。",
+    "final_ranking": "{Banana_pro} > {GPT, Banana} > {Z_Image, SD3, Qwen_Image} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "A small needle carefully placed on the surface of water. The model should generate an image showing a small needle floating on the surface of water, illustrating how surface tension supports the object despite it being denser than water",
+    "Prompt_zh": "小心放置在水面上的一根细针。图像应显示细针浮在水面，展示表面张力如何支撑密度大于水的物体。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Banana, Z_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "Depict a glass of water at above one hundred degrees Celsius, highlighting water's state. The model should generate an image showing a glass of water with the water actively boiling and producing steam, illustrating the effects of being above 100°C",
+    "Prompt_zh": "描绘一杯超过100摄氏度的水。图像应显示杯中的水正在剧烈沸腾并产生蒸汽，体现超过100°C时的物态。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image, Flux, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "Depict a glass of oil at above 170 degrees Celsius, highlighting oil's state. The model should generate an image of a glass of oil that shows signs of active boiling and producing steam",
+    "Prompt_zh": "描绘一杯超过170摄氏度的油。图像应显示油有剧烈沸腾和产生油烟/蒸汽的迹象。",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {Z_Image, Qwen_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "A cup of hot tea. The model should generate an image of a cup of hot tea with clear steam rising, showing the evaporation of water due to its high temperature",
+    "Prompt_zh": "一杯热茶。图像应显示热茶有明显的蒸汽升腾，展示高温导致的水分蒸发。",
+    "final_ranking": "{Banana_pro, Flux, Z_Image, GPT} > {Banana, Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "A chocolate bar left in direct sunlight, highlighting the state of the chocolate. The model should generate an image showing a chocolate bar that is partially melted and soft, especially along its edges, demonstrating the effect of heat and melting",
+    "Prompt_zh": "放在阳光直射下的巧克力棒。图像应显示巧克力棒部分融化变软，尤其是边缘处，展示受热融化的效果。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Qwen_Image, SD3} > {SDXL} > {Z_Image, Flux}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "A popsicle on a sweltering summer day. The model should generate an image showing a popsicle that is actively melting, maybe with drips and softened structure",
+    "Prompt_zh": "酷暑夏日里的冰棍。图像应显示冰棍正在融化，伴有滴落感和变软的结构。",
+    "final_ranking": "{GPT} > {Banana_pro} > {Flux, Banana, SD3} > {Z_Image, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "A pair of eyeglasses going from cold to warm, highlighting the state of the lenses. The model should generate an image of a pair of glasses that are fogged over because of condensation, having been brought from a cold place into a warmer one",
+    "Prompt_zh": "眼镜从冷处进入暖处。图像应显示眼镜镜片因冷凝作用而布满雾气。",
+    "final_ranking": "{GPT, Banana} > {Banana_pro, Z_Image} > {SDXL, Qwen_Image} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "The bathroom mirror after a cold shower. The model should generate an image showing a bathroom mirror that is relatively clear, with minimal or no condensation, indicating that the cold shower did not generate enough water vapor to cause significant condensation",
+    "Prompt_zh": "洗完冷水澡后的浴室镜子。图像应显示镜面相对清晰，几乎没有冷凝水雾，表明冷水澡未产生足够的水蒸气。",
+    "final_ranking": "{Banana, SDXL, GPT, Banana_pro} > {Qwen_Image, Flux, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "A chunk of dry ice on a hot metal plate, highlighting the state of the dry ice. The model should generate an image showing a chunk of dry ice placed on a hot metal plate that has a visible vaporous fog immediately coming off of the dry ice due to the rapid sublimation that is caused by the heat of the plate",
+    "Prompt_zh": "放在热金属板上的一块干冰。图像应显示干冰接触热板后立即产生明显的白色烟雾，体现受热发生的剧烈升华现象。",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {Flux, Z_Image} > {Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "A clear glass of water with a portion of a pencil submerge. The model should generate an image showing a pencil partially submerged in a glass of water, with the pencil appearing to be bent or displaced at the water level due to light refraction",
+    "Prompt_zh": "一杯清澈的水，水中插着铅笔。图像应显示铅笔部分浸入水中，因光的折射现象，铅笔在水面交界处看起来像是弯折或错位的。",
+    "final_ranking": "{Banana_pro, Banana,Z_Image, Flux, GPT} > {Qwen_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "Headlights of a car in heavy fog. The model should generate an image showing the headlights of a car projecting through thick fog, with a diffused and widespread beam of light, making a bright path through the fog due to the scattering of light",
+    "Prompt_zh": "浓雾中的汽车大灯。图像应显示大灯光束穿过浓雾，因光散射形成扩散且宽阔的光路。",
+    "final_ranking": "{GPT, Flux, Qwen_Image, Banana_pro,Banana} > {Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "A cup of oil mixed with water after long time. The model should generate an image showing a cup where the oil and water have separated into distinct layers, with the oil on top, demonstrating their immiscibility over time and the lower density of oil",
+    "Prompt_zh": "混合静置后的油和水。图像应显示杯中油水已分层，油浮在水面上，展示两者的不相容性及密度差异。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana} > {Qwen_Image} > {Z_Image, Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "A soda can opened after violently shaken. The model should generate an image of a soda can being opened with significant fizzing and a spray of liquid, indicating a large release of pressure due to prior agitation",
+    "Prompt_zh": "剧烈摇晃后开启的汽水罐。图像应显示开启时有大量泡沫喷涌而出，体现剧烈震荡后的压力释放。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image,Banana, Qwen_Image} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "Magnet near iron filings. The model should generate an image of a magnet with iron filings clinging to it",
+    "Prompt_zh": "磁铁靠近铁屑。图像应显示铁屑吸附在磁铁上。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image} > {SD3, Flux} > {Z_Image,SDXL }"
+  },
+  {
+    "ID": 24,
+    "Prompt": "A candle in space. The model should generate an image showing a candle that is not burning",
+    "Prompt_zh": "太空中的蜡烛。图像应显示蜡烛无法燃烧（缺乏氧气对流）。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image, SD3} > {Z_Image, Flux, SDXL}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "Within a sealed glass container of carbon dioxide, a burning candle has been left to stand for a while. The model should generate an image showing a candle in a sealed glass jar and its flame has been extinguished",
+    "Prompt_zh": "在充满二氧化碳的密封玻璃容器中放置了一段时间的蜡烛。图像应显示蜡烛火苗已经熄灭。",
+    "final_ranking": "{Banana, Banana_pro, GPT} > {Flux, Qwen_Image, SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "an iron block that is not rusted. The model should generate an image showing an iron block with a clean, metallic, and shiny surface, with no visible signs of rust or corrosion",
+    "Prompt_zh": "未生锈的铁块。图像显示铁块表面干净、有金属光泽，无生锈迹象。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Z_Image, SDXL, SD3} > {Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "an iron block that is rusted. The model should generate an image showing an iron block with a surface covered in visible rust, having a reddish-brown color and a rough, pitted texture indicating corrosion",
+    "Prompt_zh": "生锈的铁块。图像显示铁块表面覆盖着红褐色的铁锈，质地粗糙且有坑洼。",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro, Flux, Banana} > {SD3, SDXL} > {Z_Image}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "A copper pipe that is rusted. The model should generate an image of a copper pipe with a visible layer of green patina, showing the characteristic corrosion of copper",
+    "Prompt_zh": "生锈的铜管。图像显示铜管表面有一层绿色的铜锈（铜绿）。",
+    "final_ranking": "{Banana_pro, GPT, SDXL, Z_Image, Banana} > {Qwen_Image, SD3, Flux}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "The inside of a bus during peak hours The bus is full of people. It is bright outside.",
+    "Prompt_zh": "高峰时段的公交车内部。车厢里挤满了人，窗外阳光明亮。",
+    "final_ranking": "{Banana_pro, GPT} > {Z_Image, Banana, Qwen_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "A campfire that was lit at dusk and left burning overnight. Charred logs with glowing embers, no active flames.",
+    "Prompt_zh": "黄昏点燃并燃烧了一整夜的营火。木头已焦黑，有暗红的余烬，没有明火。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Z_Image, Flux, Qwen_Image, SDXL} > {SD3}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "A candle burning continuously for three hours. Melted wax pooled around the base; shortened wick.",
+    "Prompt_zh": "连续燃烧了三小时的蜡烛。底部堆积了一滩蜡油，烛芯变短。",
+    "final_ranking": "{GPT, Qwen_Image,Flux} > {Banana_pro, Banana, SDXL} > {SD3} > {Z_Image}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "A slice of bread left uncovered on a counter for 24 hours. The bread appears dry and slightly hardened.",
+    "Prompt_zh": "在台面上敞开放置了24小时的面包片。看起来很干燥且略微变硬。",
+    "final_ranking": "{Qwen_Image, Banana, Z_Image} > {SD3} > {Flux, Banana_pro, SDXL} > {GPT}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "A glass of ice water left on a table for an hour. Smaller ice cubes; higher water level.",
+    "Prompt_zh": "在桌上放了一小时的冰水。冰块变小了，水位升高了。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana} > { Z_Image,Flux, Qwen_Image, SDXL} > {SD3}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "A car parked outdoors overnight in freezing temperatures. Frost covering the windshield and windows.",
+    "Prompt_zh": "在严寒户外停了一夜的车。挡风玻璃和车窗覆盖着冰霜。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Z_Image, Banana} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "A sidewalk immediately after a rainstorm in autumn. Wet pavement with fallen leaves stuck to it.",
+    "Prompt_zh": "秋季大雨过后的行人路。路面湿漉漉的，上面粘着落叶。",
+    "final_ranking": "{Banana, GPT, Banana_pro, Qwen_Image, SD3, SDXL, Flux, Z_Image}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "A piece of toast left in the toaster for 30 minutes. The toast is charred or blackened.",
+    "Prompt_zh": "在烤面包机里放了30分钟的吐司。已经烧焦发黑。",
+    "final_ranking": "{Banana_pro, GPT, Banana, Qwen_Image} > {Z_Image} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "A transparent water tank with a tennis ball and an iron block. The model should generate an image where the tennis ball is floating on the surface of the water, and the iron block is sunk to the bottom of the tank. The image should clearly differentiate between the two objects' positions in water, showing one buoyant and one submerged",
+    "Prompt_zh": "透明水箱里有一个网球和一个铁块。网球漂浮在水面，铁块沉在箱底，清晰区分两者的浮沉状态。",
+    "final_ranking": "{GPT, Banana, Qwen_Image, Banana_pro} > {Flux, SD3, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "A balloon filled with air in a room. The model should generate an image showing a balloon filled with air resting on the floor or suspended slightly, indicating its lack of significant buoyancy",
+    "Prompt_zh": "房间里充有普通空气的气球。气球落在地板上或只是低垂，表明它没有显著浮力。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Banana, Z_Image} > {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "An image of a seesaw with a child on one side and an adult on the other. The model should generate an image where the seesaw is significantly tilted due to the weight difference between the child and the adult. The adult should be on the lower side, close to the ground, and the child should be on the higher side, elevated in the air. The seesaw should not be level",
+    "Prompt_zh": "跷跷板的一端是小孩，另一端是大人。由于重量差异，跷跷板显著倾斜：大人的一端压在地面，小孩的一端高高翘起。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Qwen_Image} > {Z_Image, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "A pair of scissors is cutting paper. The blades are aligned horizontally, with one blade above the paper and one below.",
+    "Prompt_zh": "一把剪刀正在裁剪纸张。刀片水平排列，一片在纸上方，一片在纸下方。",
+    "final_ranking": "{Banana_pro} > {GPT, Qwen_Image,Banana,Flux} > { Z_Image, SDXL} > { SD3}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "A used tea bag next to a cup. Damp, stained, and expanded tea bag.",
+    "Prompt_zh": "杯子旁用过的茶包。茶包湿漉漉的，有茶渍且膨胀。",
+    "final_ranking": "{GPT, Qwen_Image, Banana, Banana_pro} > {Flux,  Z_Image}  > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "A spoon in a glass of water. The spoon appears bent at the water’s surface due to refraction.",
+    "Prompt_zh": "玻璃杯里的勺子。受折射影响，勺子在水面处看起来是弯折的。",
+    "final_ranking": "{Banana_pro} > {Z_Image,Banana,  GPT, Flux} > {Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "A mirror reflecting a red ball. A perfect red replica of the ball in the reflection.",
+    "Prompt_zh": "镜子反射红球。镜中呈现出球体的完美红色副本。",
+    "final_ranking": "{GPT, Banana_pro, Z_Image} > {Flux, Banana} > {Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "A pair of glasses lying on a newspaper. The newspaper text is clearly visible through the lenses, slightly magnified or refracted.",
+    "Prompt_zh": "放在报纸上的眼镜。透过镜片可以清晰看到报纸文字，文字有轻微放大或折射效果。",
+    "final_ranking": "{GPT} > {Z_Image, Banana, Qwen_Image, Banana_pro, Flux} >  {SD3} > {SDXL}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "A vintage clock showing 3 AM. The hour hand points towards the right. The minute hand points upwards.",
+    "Prompt_zh": "显示凌晨3点的老式钟表。时针指向右侧（3点钟方向），分针指向正上方（12点钟方向）。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, SD3} > {Z_Image, Qwen_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "A sundae untouched for several hours The ice cream within the glass has melted into liquid form.",
+    "Prompt_zh": "放置了几小时未动的圣代。玻璃杯里的冰淇淋已经融化成液体。",
+    "final_ranking": "{Banana_pro} > {SDXL, GPT, Flux} > {Z_Image, Banana, SD3} > {Qwen_Image}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "A candle just blown out Smoke is seen rising from the candle's wick. No flame is burning at the candle's wick.",
+    "Prompt_zh": "刚被吹灭的蜡烛。烛芯冒出白烟，没有火焰燃烧。",
+    "final_ranking": "{Banana, GPT, Qwen_Image} > {Banana_pro} >  {Flux, SDXL, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "An hourglass just finishing its counting The sand is mostly in the bottom half of the hourglass.",
+    "Prompt_zh": "计时即将结束的沙漏。沙子绝大部分都在沙漏的下半部。",
+    "final_ranking": "{Banana_pro} > {SD3, GPT, Qwen_Image} > { Z_Image, SDXL, Banana, Flux}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "An hourglass just starting to count The sand is mostly in the upper half of the hourglass.",
+    "Prompt_zh": "刚开始计时的沙漏。沙子绝大部分都在上半部。",
+    "final_ranking": "{Banana_pro, Z_Image, Banana, Flux, Qwen_Image} > {SD3, SDXL, GPT}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "An empty bottle in water The empty bottle is floating on the water surface.",
+    "Prompt_zh": "水里的空瓶子。空瓶漂浮在水面上。",
+    "final_ranking": "{GPT, Banana_pro, Z_Image, Qwen_Image} > {Banana, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "Iron nails and a magnet The iron nails are attracted to the magnet.",
+    "Prompt_zh": "铁钉和磁铁。铁钉被磁铁吸附。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana} > {Flux, Z_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "A wet umbrella just brought indoors. Water droplets are still clinging to the umbrella fabric and a small puddle of water is forming on the floor beneath it near the door.",
+    "Prompt_zh": "刚带进室内的湿雨伞。伞面布料还挂着水珠，门口的地板上正形成一小滩积水。",
+    "final_ranking": "{Banana_pro} > {GPT, Flux} > {Qwen_Image, Banana, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "An ice cube that has been lying on a warm table for several minutes. The ice cube is partially melted, surrounded by a small puddle of water, and the edges of the cube look rounded and soft instead of sharp.",
+    "Prompt_zh": "在温暖桌上放了几分钟的冰块。冰块部分融化，被一小滩水包围，边缘显得圆润柔和而非锐利。",
+    "final_ranking": "{Banana_pro, GPT, Banana, Z_Image} > {Qwen_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "A heavy stone and a leaf just dropped into a pond at the same time. The stone is already below the water surface with a splash ring spreading outward, while the leaf is still floating on the surface where it touched the water.",
+    "Prompt_zh": "重石和叶子同时掉进池塘。石头已经没入水下并产生向外扩散的水花涟漪，而叶子仍停留在接触点的水面上。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Z_Image} > {SDXL, Qwen_Image, SD3, Flux}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "A freshly parked car after driving through mud. The lower sides of the car and the tires are splattered with wet mud, and muddy tire tracks lead up to the car’s current position and then stop.",
+    "Prompt_zh": "刚开过泥地的车。车身下侧和轮胎溅满了湿泥，泥泞的胎印一直延伸到车位处终止。",
+    "final_ranking": "{GPT, Banana, Banana_pro, Flux} > {Qwen_Image, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "A tree branch that has just been shaken. Leaves are still falling through the air around the branch, and some leaves on the branch itself are blurred as if moving, while a few are scattered on the ground below.",
+    "Prompt_zh": "刚被摇动的树枝。树枝周围仍有叶子在飘落，树枝上的部分叶子因晃动而模糊，地面散落着几片叶子。",
+    "final_ranking": "{Banana, Qwen_Image, GPT, Z_Image} > {Banana_pro, SD3} > {SDXL, Flux}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "A piece of paper that has recently been folded and then unfolded. The paper lies flat on a table but has very sharp, visible crease lines, showing the shape in which it was previously folded.",
+    "Prompt_zh": "刚被折叠又摊开的纸。纸平铺在桌上，但有非常清晰锐利的折痕，显示出之前的折叠形状。",
+    "final_ranking": "{Banana, Banana_pro, Z_Image, Qwen_Image, GPT} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "A candle that has been extinguished by a gust of wind from an open window.The curtains are billowing inward, the candle flame is gone, and a thin trail of smoke leans in the same direction as the blowing curtain.",
+    "Prompt_zh": "被窗外阵风吹灭的蜡烛。窗帘向内飘动，烛火消失，一缕细烟顺着风向（与窗帘同向）倾斜。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT, Qwen_Image} > {Z_Image, SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "A glass of water that has been left in a freezer for hours. The liquid inside the glass has turned into solid ice with a slightly uneven surface, and frost is visible on the inside of the glass near the top edge.",
+    "Prompt_zh": "在冷冻室放了几小时的一杯水。液体已结成坚冰，表面略显不平，杯口附近的内壁可见霜花。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Z_Image, SDXL} > {SD3, Banana, Flux}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "A mountain path where a hiker has passed not long ago. Fresh footprints are visible in the dirt or snow on the narrow trail, and small stones or leaves appear recently disturbed along the path.",
+    "Prompt_zh": "登山者刚经过的山路。狭窄的小径泥土或雪地上留有新鲜脚印，沿途的小石子或叶子有近期扰动的痕迹。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT} > {Z_Image, SD3} > {Qwen_Image, SDXL, Flux}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "A person on a fast-moving bus that suddenly brakes. The model should generate an image showing the person leaning forward due to inertia, illustrating the law of motion.",
+    "Prompt_zh": "正在快速行驶并突然刹车的公交车上的人。图像应显示人因惯性向前倾斜，体现运动定律。",
+    "final_ranking": "{GPT} > {Banana_pro} > {Banana, Qwen_Image, Flux, Z_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "A glass of water tilted at a 45-degree angle. The model should generate an image where the water surface remains perfectly horizontal despite the glass being tilted, showing the effects of gravity on liquids.",
+    "Prompt_zh": "倾斜45度的水杯。图像应显示尽管水杯倾斜，水面仍保持水平，展示重力对液体的影响。",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Banana, Flux} > {Banana_pro, SD3, SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "A row of falling dominoes. The model should generate an image where the first few dominoes have fallen and are hitting the next ones in sequence, demonstrating a clear causal chain of motion.",
+    "Prompt_zh": "一排正在倒下的多米诺骨牌。图像应显示前几块骨牌已经倒下并依次撞击下一块，展示明确的运动因果链。",
+    "final_ranking": "{Banana_pro, GPT} > {Z_Image, Qwen_Image} > {Flux, Banana} > {SD3, SDXL}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "A digital clock reflected in a mirror. The model should generate an image showing the numbers on the clock appear reversed in the mirror reflection, illustrating optical mirror logic.",
+    "Prompt_zh": "镜子里的数字时钟。图像应显示镜中反射的时钟数字是左右反转的，体现光学镜像逻辑。",
+    "final_ranking": "{Flux} > {Qwen_Image, SDXL, Banana_pro, Banana, GPT, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "A heavy person and a light person on a seesaw. The model should generate an image where the heavy person is on the ground and the light person is high in the air, showing weight logic.",
+    "Prompt_zh": "跷跷板上的一个胖子和一个瘦子。图像应显示胖子那一端压在地上，瘦子那一端高高翘起，展示重量逻辑。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT} > {Qwen_Image, Z_Image, SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "A person walking on a dusty floor. The model should generate an image showing clear footprints behind the person, illustrating the causal relationship between contact and impression.",
+    "Prompt_zh": "在布满灰尘的地板上行走的人。图像应显示人身后留下的清晰脚印，体现接触与压痕的因果关系。",
+    "final_ranking": "{Banana_pro} > {Z_Image} > {Qwen_Image} > {GPT, SDXL, Banana, Flux} > {SD3}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "An umbrella being caught in a strong upward gust of wind. The model should generate an image showing the umbrella turned inside out, reflecting the physical force of the wind.",
+    "Prompt_zh": "在强劲上升气流中的雨伞。图像应显示雨伞被吹得向上翻转（翻伞），体现风的物理受力。",
+    "final_ranking": "{Banana_pro, Banana} > {Z_Image, SDXL, GPT, SD3, Qwen_Image, Flux}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "A ball dropped from a height onto a hard surface. The model should generate an image showing the ball compressing at the point of impact and then bouncing back up, demonstrating elastic collision.",
+    "Prompt_zh": "从高处落下到坚硬表面的球。图像应显示球在撞击点处压缩然后弹起，展示弹性碰撞逻辑。",
+    "final_ranking": "{GPT} > {Qwen_Image, Z_Image, Banana} > {Banana_pro, Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "A beam of light hitting a flat mirror at an angle. The model should generate an image showing the light reflecting off the mirror at the same equal angle, demonstrating the law of reflection.",
+    "Prompt_zh": "一束光线以一定角度照射在平面镜上。图像应显示光线以相等的角度反射出去，展示反射定律。",
+    "final_ranking": "{GPT} > {Banana_pro, Qwen_Image, Flux, Banana} > {Z_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "A hand squeezing a soft rubber ball. The model should generate an image where the ball is visibly deformed under the fingers, showing the logic of physical pressure.",
+    "Prompt_zh": "正在挤压软橡胶球的手。图像应显示球在手指压力下明显变形，展示物理压力逻辑。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, Qwen_Image} > {SD3, SDXL, Flux}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "A kite flying high in the sky. The model should generate an image showing the kite string pulled tight and straight, indicating the tension caused by the wind pushing the kite away.",
+    "Prompt_zh": "在高空飞行的风筝。图像应显示风筝线被拉得又紧又直，体现风力推动风筝产生的拉力逻辑。",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image} > {SD3, Banana} > {SDXL, Z_Image, Flux}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "A glass bottle that has just fallen onto a hard floor. The model should generate an image showing the bottle shattered into many pieces with fragments spreading outward from the impact point.",
+    "Prompt_zh": "刚掉在坚硬地板上的玻璃瓶。图像应显示瓶子碎成许多碎片，且碎片从撞击点向外扩散。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT, Qwen_Image} > {Flux, Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "An ice cube tray placed in the hot sun. The model should generate an image where the ice cubes are mostly gone and replaced by a tray full of water, showing the state change from solid to liquid.",
+    "Prompt_zh": "放在烈日下的冰格。图像应显示冰块基本消失，取而代之的是满格的水，展示固态到液态的物态变化。",
+    "final_ranking": "{Banana, Banana_pro} > {Qwen_Image, GPT} > {Z_Image, Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "Two magnets with identical poles (North and North) pushed towards each other. The model should generate an image showing a clear gap between the magnets as if they are repelling, illustrating magnetic logic.",
+    "Prompt_zh": "两个相同磁极（北极对北极）相互靠近的磁铁。图像应显示磁铁之间有明显的间隙，仿佛在相互排斥，展示磁性逻辑。",
+    "final_ranking": "{Banana_pro} > {Banana, Qwen_Image, Flux} > {GPT, SDXL, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "A shadow cast by an object. The model should generate an image where the shadow is on the opposite side of the object from the light source, following the logic of light propagation.",
+    "Prompt_zh": "物体投下的影子。图像应显示影子位于物体的背光侧（与光源方向相反），符合光传播逻辑。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image, SD3, SDXL, Flux, Z_Image}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "An apple dropped into a glass filled to the brim with water. The model should generate an image showing water spilling over the edges of the glass, illustrating the logic of displacement and buoyancy.",
+    "Prompt_zh": "掉入装满水的玻璃杯中的苹果。图像应显示水从杯沿溢出，展示排水与浮力逻辑。",
+    "final_ranking": "{GPT, Banana_pro, Z_Image} > {Banana} > {Qwen_Image, SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "A person running and then stopping suddenly. The model should generate an image showing the person's upper body leaning forward while their feet are planted, reflecting inertia.",
+    "Prompt_zh": "奔跑并突然停下的人。图像应显示人的上身向前倾而双脚已站定，体现惯性逻辑。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, Qwen_Image} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "A magnifying glass held over a piece of paper in bright sunlight. The model should generate an image showing a bright, concentrated spot of light on the paper, illustrating light convergence.",
+    "Prompt_zh": "在强阳光下对着纸张的放大镜。图像应显示纸上有一个明亮的汇聚光点，展示光线聚焦逻辑。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana, Z_Image} > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "A pot of boiling water with the lid on. The model should generate an image showing steam escaping from the edges and the lid slightly rattling or lifted by the pressure.",
+    "Prompt_zh": "盖着盖子的沸水锅。图像应显示蒸汽从边缘逸出，盖子被压力轻微顶起或震动。",
+    "final_ranking": "{GPT, Flux, Banana_pro, Banana, Qwen_Image} > {Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "A person's hair after rubbing a balloon against it. The model should generate an image showing individual strands of hair standing up and reaching toward the balloon, demonstrating static electricity.",
+    "Prompt_zh": "用气球摩擦后的人发。图像应显示发丝竖起并向气球方向延伸，展示静电逻辑。",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {Z_Image} > {Qwen_Image, Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "A match being struck against the side of a matchbox. The model should generate an image at the exact moment of ignition, showing sparks and a small flame bursting from the match head due to friction-induced heat.",
+    "Prompt_zh": "正在火柴盒侧面划动的火柴。图像应显示着火的瞬间，火柴头因摩擦生热而迸发出火星和小火焰。",
+    "final_ranking": "{GPT} > {Banana_pro, Qwen_Image} > {Banana, Z_Image, SDXL, SD3} > {Flux}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "A person blowing through a straw into a glass of water. The model should generate an image showing bubbles forming at the end of the straw and rising to the surface.",
+    "Prompt_zh": "对着水杯里的吸管吹气的人。图像应显示吸管末端形成气泡并升向水面。",
+    "final_ranking": "{Banana_pro, Z_Image, Flux, GPT} > {Banana, SDXL, SD3, Qwen_Image}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "A wet towel hanging on a line on a sunny, windy day. The model should generate an image showing the towel billowing in the wind and visible dry patches forming.",
+    "Prompt_zh": "在晴朗有风的日子里挂在绳上的湿毛巾。图像应显示毛巾在风中飘扬，并伴有逐渐形成的干燥斑块。",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image} > {SD3, Flux, Banana_pro, Banana} > {SDXL}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "A person pouring honey from a jar. The model should generate an image showing the honey forming a thick, slow-moving, and continuous stream, illustrating high viscosity.",
+    "Prompt_zh": "正在从罐子里倒蜂蜜的人。图像应显示蜂蜜形成粘稠、缓慢且连续的流束，展示高黏度逻辑。",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image} > {Banana, Flux} > {GPT, SD3, SDXL}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "A hammer hitting a nail into wood. The model should generate an image at the moment of impact, showing the nail partially driven into the wood and tiny wood splinters around the entry point.",
+    "Prompt_zh": "铁锤将钉子钉入木头。图像应显示撞击瞬间，钉子部分进入木头，入口处有细小木屑。",
+    "final_ranking": "{Z_Image, GPT, Banana, Banana_pro} > {Qwen_Image} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "A sponge soaked in water being lifted up. The model should generate an image showing water dripping heavily from the bottom of the sponge due to gravity.",
+    "Prompt_zh": "被提起的一块吸满水的海绵。图像应显示水分因重力从海绵底部剧烈滴落。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {SD3, SDXL, Qwen_Image} > {Z_Image, Flux}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "A candle placed inside a glass and then covered with another glass. The model should generate an image where the flame slowly gets smaller and then goes out, showing the consumption of oxygen.",
+    "Prompt_zh": "放在玻璃杯中并被另一个杯子盖住的蜡烛。图像应显示火焰逐渐变小并最终熄灭，展示氧气耗尽逻辑。",
+    "final_ranking": "{Banana_pro} > {Banana} > {Qwen_Image, SD3, SDXL, GPT, Flux, Z_Image}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "A person sliding down a playground slide. The model should generate an image showing motion blur around the person and their hair flying back due to speed and wind resistance.",
+    "Prompt_zh": "在滑梯上滑下的人。图像应显示人周围的运动模糊，以及头发因速度和风阻向后飘扬。",
+    "final_ranking": "{Banana_pro, GPT, Qwen_Image, Flux, Z_Image} > {Banana, SD3, SDXL}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "A footprint in deep, soft snow. The model should generate an image showing a clear indentation that reflects the shape of a boot sole and the compressed snow at the bottom.",
+    "Prompt_zh": "深软雪地里的脚印。图像应显示反映靴底形状的清晰压痕，以及底部被压缩的雪。",
+    "final_ranking": "{Banana_pro, Z_Image} > {GPT, Banana, Flux} > {SD3, Qwen_Image, SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "A snow-capped mountain reflected in a perfectly still, mirror-like lake. The model should generate a symmetrical, inverted image of the mountain on the water's surface, reflecting the law of reflection.",
+    "Prompt_zh": "倒映在平静如镜的湖面上的雪山。图像应在水面上显示雪山的对称倒影，展示平面镜反射逻辑。",
+    "final_ranking": "{Flux, Z_Image, Qwen_Image, Banana_pro, Banana, SD3, GPT, SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "A soap bubble floating in the air. The model should generate an image showing a perfect sphere with iridescent colors on its surface, reflecting the logic of surface tension.",
+    "Prompt_zh": "在空中飘浮的肥皂泡。图像应显示一个完美的球体，表面有斑斓的虹彩，体现表面张力逻辑。",
+    "final_ranking": "{Z_Image, Banana_pro, Banana, GPT, SD3, Qwen_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "A person's breath visible on a very cold day. The model should generate an image showing a white misty cloud coming from the person's mouth, illustrating condensation of water vapor.",
+    "Prompt_zh": "在极冷天里人呼出的气。图像应显示口中呼出的白色雾状云，展示水蒸气冷凝逻辑。",
+    "final_ranking": "{Banana_pro, Banana, GPT, Z_Image} > {Flux, Qwen_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "A bow being pulled back with an arrow notched. The model should generate an image showing the bow limbs bending significantly and the string forming a sharp V-shape, showing elastic potential energy.",
+    "Prompt_zh": "拉满弦并搭好箭的弓。图像应显示弓臂显著弯曲，弦呈锐利的V字形，展示弹性势能逻辑。",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT} > {Flux, Z_Image, Banana} > {SD3, SDXL}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "A heavy curtain pulled to one side with a tie-back. The model should generate an image showing the fabric bunched up and folds radiating from the tie-back point, reflecting gravity and tension.",
+    "Prompt_zh": "被拉向一侧并固定的厚窗帘。图像应显示布料堆叠，褶皱从固定点散发，体现重力与张力逻辑。",
+    "final_ranking": "{Banana, GPT, Z_Image, Flux} > {Banana_pro, SD3} > {SDXL, Qwen_Image}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "A person spinning around quickly with a long skirt. The model should generate an image showing the skirt flaring outwards away from the body due to centrifugal force.",
+    "Prompt_zh": "穿着长裙快速旋转的人。图像应显示裙摆因离心力向外张开，远离身体。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Z_Image, Flux, SDXL} > {Banana, SD3}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "A stone thrown into a still pond. The model should generate an image showing a series of concentric circular ripples spreading outward from the point where the stone hit the water.",
+    "Prompt_zh": "投入平静池塘的石头。图像应显示从击水点向外扩散的一系列同心圆涟漪。",
+    "final_ranking": "{Banana_pro} > {Banana, Z_Image, Qwen_Image} > {Flux, SD3, GPT} > {SDXL}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "A car's tires spinning in mud without moving forward. The model should generate an image showing mud spraying backwards and a deep rut being dug, reflecting the lack of friction.",
+    "Prompt_zh": "在泥中打滑无法前行的车轮。图像应显示泥浆向后喷溅并挖出深槽，体现缺乏摩擦力的逻辑。",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image, Banana} > {Z_Image, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "A hand held very close to a small lamp, casting a shadow on a far wall. The model should generate an image where the shadow is much larger than the hand and has soft, blurry edges (penumbra), following shadow geometry.",
+    "Prompt_zh": "紧贴小台灯的手在远处的墙上投下影子。图像应显示影子比手大得多，且边缘模糊（半影），符合影子几何逻辑。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image, Flux, Qwen_Image} > {SD3, Banana, SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "Raindrops falling onto a large lotus leaf. The model should generate an image showing the water forming near-perfect spherical beads that roll off the surface without wetting it, reflecting hydrophobicity.",
+    "Prompt_zh": "落在荷叶上的雨滴。图像应显示水分形成近乎完美的球形水珠并在表面滚动而不浸湿叶片，体现疏水性逻辑。",
+    "final_ranking": "{Flux, GPT, Qwen_Image, Z_Image} > {Banana, Banana_pro, SD3, SDXL}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "A glass of water with ice cubes floating. The model should generate an image where the ice cubes are about 90% submerged with only a small portion above the water line, showing density logic.",
+    "Prompt_zh": "漂着冰块的水杯。图像应显示冰块约90%没入水下，仅有小部分露在水面，展示密度逻辑。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Z_Image, Flux, Qwen_Image, SD3} > {SDXL}"
+  }
+]

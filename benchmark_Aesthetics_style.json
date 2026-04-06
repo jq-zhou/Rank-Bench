@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "A character with bright crimson eyes and wildly spiky jet-black hair holds an intricately detailed skull in their hands. This scene is conveyed through a watercolor style.",
+    "Prompt_zh": "一个拥有明亮深红双眼和狂野凌乱乌黑头发的角色，手里拿着一个细节复杂的头骨。这一场景以水彩风格呈现。",
+    "final_ranking": "{ Banana_pro, GPT ,Qwen_Image,Flux} > {Z_Image,Banana}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "Standing confidently outdoors, a character deftly adjusts a large white sun hat against the bright blue sky. They wear an elegant white dress, their long blonde hair styled in graceful braids. Rendered entirely in a watercolor style.",
+    "Prompt_zh": "一名角色自信地站在户外，在明亮的蓝天背景下灵巧地调整着一顶白色大遮阳帽。她穿着优雅的白色连衣裙，长长的金发编成优美的辫子。完全以水彩风格渲染。",
+    "final_ranking": "{GPT} > {Banana, Banana_pro,SDXL} > { Qwen_Image,Flux} > {Z_Image} > {SD3}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "Rendered in a watercolor style reminiscent, the scene depicts a muscular blond man, wearing a black leather jacket over a white tank top, fists clenched, mouth open, conveying anger and determination.",
+    "Prompt_zh": "以令人怀念的水彩风格渲染，画面描绘了一名强壮的金发男子，白背心外穿黑色皮夹克，双拳紧握，张着嘴，传达出愤怒与决心。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {SDXL} > {Z_Image,SD3 } > {Qwen_Image, Flux}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "Rendered in the watercolor style, the illustration depicts a blonde young woman in a pink crop top tied at the front, distressed jeans, standing confidently with hands behind her head indoors.",
+    "Prompt_zh": "以水彩风格渲染，插图描绘了一名金发年轻女性，穿着胸前打结的粉色短款上衣和破洞牛仔裤，双手抱头自信地站在室内。",
+    "final_ranking": "{GPT, Banana_pro,Banana} > { Z_Image, SD3, Qwen_Image} > {SDXL}  > {Flux}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "A character with emerald-green eyes and short silver hair leans over a cluttered desk, sketching glowing symbols onto aged parchment. Candlelight flickers across scattered quills and ink bottles. Rendered entirely in a delicate watercolor style.",
+    "Prompt_zh": "一个拥有翡翠绿双眼和银色短发的角色俯身在杂乱的书桌前，在陈旧的羊皮纸上勾勒着发光的符号。烛光在散落的羽毛笔和墨水瓶上闪烁。完全以细腻的水彩风格渲染。",
+    "final_ranking": "{GPT} > {Banana, Z_Image,  Banana_pro} > {Qwen_Image, Flux,SD3} > {SDXL}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "A young botanist kneels in a greenhouse, gently misting a tray of seedlings while sunlight spills through foggy glass panes, soft blooms of color and paper texture. Watercolor style.",
+    "Prompt_zh": "一名年轻的植物学家跪在温室里，轻轻地向一盘幼苗喷洒水雾，阳光穿过雾气蒙蒙的玻璃窗。画面色彩柔和，带有纸张质感。水彩风格。",
+    "final_ranking": "{Banana, Banana_pro} > {GPT, SDXL} > {Qwen_Image} > { Z_Image} >  {Flux} > {SD3}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "A playful street scene with a kid chasing soap bubbles, pastel splashes and translucent layers capturing motion and light. The image is in watercolor style.",
+    "Prompt_zh": "一个充满童趣的街道场景，一个小孩子在追逐肥皂泡，柔和的色块和半透明的图层捕捉到了动感与光影。图像采用水彩风格。",
+    "final_ranking": "{GPT, Banana} > {Qwen_Image, Banana_pro, SD3} > {SDXL} > {Z_Image, Flux}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "A quiet riverside café on a rainy afternoon, umbrellas clustered outside, reflections shimmering on the pavement, loose edges and subtle pigment bleeding. The image is in watercolor style.",
+    "Prompt_zh": "雨后下午宁静的河畔咖啡馆，室外簇拥着雨伞，路面上倒影闪烁，边缘松散且有微妙的颜料晕染效果。图像采用水彩风格。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {SDXL, SD3, Z_Image} > { Qwen_Image,Flux}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "A sleepy orange cat curled on a windowsill beside a half-open book, warm morning light and delicate washes creating a calm, airy mood. This scene is conveyed through a watercolor style.",
+    "Prompt_zh": "一只困倦的橘猫蜷缩在半开的书本旁的窗台上，温暖的晨光和细腻的晕染营造出宁静、通透的氛围。这一场景以水彩风格呈现。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana, Banana_pro} > {SDXL, SD3, Flux} > {Z_Image}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "Standing on a rainy city street at night, a character holds a transparent umbrella as neon signs blur into soft reflections on the wet pavement. They wear a long trench coat and scarf, expression calm and distant. This scene is conveyed through a watercolor style.",
+    "Prompt_zh": "夜晚站在下雨的城市街道上，一名角色撑着透明雨伞，霓虹灯招牌在湿润的路面上模糊成柔和的倒影。他穿着长风衣和围巾，神情冷静而疏离。这一场景以水彩风格呈现。",
+    "final_ranking": "{Banana, Banana_pro, GPT} > {SD3, SDXL, Flux, Qwen_Image} > {Z_Image}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "A character with warm brown skin and curly auburn hair plays a wooden violin on a sunlit balcony, petals drifting through the air. They wear a flowing teal blouse and gold earrings that catch the light. Rendered in a refined watercolor style.",
+    "Prompt_zh": "一个拥有温暖棕色皮肤和红褐色卷发的角色在阳光明媚的阳台上拉着木制小提琴，花瓣在空中飘落。她穿着飘逸的青蓝色上衣，金耳环闪烁着光芒。以精致的水彩风格渲染。",
+    "final_ranking": "{Banana_pro} > {GPT, Z_Image, Qwen_Image, Banana} > {SDXL,Flux} > { SD3}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "In a quiet library aisle, a character balances a tall stack of books while reaching for a dusty volume on the top shelf. They wear round glasses and a cozy oversized sweater, cheeks slightly flushed. Rendered entirely in a watercolor style.",
+    "Prompt_zh": "在安静的图书馆书架间，一名角色平衡着一大叠书，同时伸手去拿顶层书架上一本落满灰尘的书。他戴着圆眼镜，穿着舒适的宽大毛衣，脸颊微红。完全以水彩风格渲染。",
+    "final_ranking": "{GPT,  Banana_pro} > {Qwen_Image,Banana,Z_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "A fierce-looking character with a faint scar across the cheek tightens the straps of fingerless gloves before stepping into a boxing ring. Bright overhead lights halo the scene as the crowd fades into soft washes. Rendered in the watercolor style.",
+    "Prompt_zh": "一个面相凶悍、脸颊上有道浅疤的角色在步入拳击台前拉紧露指手套的带子。头顶明亮的灯光为场景笼罩上一层光晕，背景的人群淡化为柔和的色块。以水彩风格渲染。",
+    "final_ranking": "{GPT, Banana} > {Qwen_Image, Banana_pro}  > {SDXL} > {SD3, Flux} > {Z_Image}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "A character with long blue hair stands knee-deep in shallow water, holding a lantern that glows softly as fireflies swirl around. Their robe is patterned with subtle stars and moons. This illustration is conveyed through a dreamy watercolor style.",
+    "Prompt_zh": "一个长蓝发的角色站在齐膝深的浅水中，手里拿着一盏发出柔光、萤火虫环绕的灯笼。她的长袍上点缀着隐约的星月图案。插图以梦幻的水彩风格呈现。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro} > {Qwen_Image, SDXL, Banana} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "A character in a sharp navy suit sits at a café window, stirring coffee while watching people pass by in the morning haze. Steam rises in soft curls, and the scene feels quiet and contemplative. Rendered in a watercolor style.",
+    "Prompt_zh": "一名穿着笔挺海军蓝西装的角色坐在咖啡馆窗边，搅拌着咖啡，看着清晨薄雾中经过的行人。蒸汽袅袅升起，场景显得安静而沉思。以水彩风格渲染。",
+    "final_ranking": "{GPT} > {Banana, Banana_pro} > {SDXL, Qwen_Image, Z_Image} > {SD3, Flux}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "A futuristic warrior with fox-themed mask and cape holds a gunblade, glowing yellow eyes. The image is in pixel style.",
+    "Prompt_zh": "一位带着狐狸主题面具和披风的未来战士，手持枪刃，双眼闪烁黄光。图像采用像素风格。",
+    "final_ranking": "{ Banana_pro, SD3} > {Z_Image, Banana,Flux, Qwen_Image} > {SDXL, GPT}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "A young girl with curly hair rests her head against a dragon creature with large green eyes. The style of the photo is pixel.",
+    "Prompt_zh": "一个小卷发女孩把头靠在一只长着绿色大眼睛的巨龙生物身上。图像风格为像素风格。",
+    "final_ranking": "{Banana} > {SD3, Banana_pro} > {GPT, Qwen_Image, Z_Image} > {SDXL, Flux}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "A neon-lit ramen stall in a rainy alley, steam rising in blocky clusters, silhouettes passing by in parallax layers. The image is in pixel style.",
+    "Prompt_zh": "雨后小巷里霓虹闪烁的拉面摊，蒸汽呈方块状升起，人影以视差分层的方式经过。图像采用像素风格。",
+    "final_ranking": "{Qwen_Image} > {Banana, GPT} > {Z_Image, SD3, Banana_pro} > {SDXL, Flux}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "A small town train station at night, vending machines glowing, a lone traveler waiting under a flickering sign, crisp pixel shading and limited palette. Pixel style.",
+    "Prompt_zh": "夜晚的小镇火车站，自动售货机发着光，一名孤独的旅客在闪烁的标牌下等待，清晰的像素阴影和有限的配色。像素风格。",
+    "final_ranking": "{Banana} > {SD3, Banana_pro} > {Flux, Qwen_Image, GPT, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "A fantasy healer in a forest clearing casting a soft aura, tiny spark particles and tile-like ground textures. The image is in pixel style.",
+    "Prompt_zh": "森林空地上一位奇幻治疗师正在施放柔和的光环，带有微小的火花粒子和瓷砖状的地面纹理。图像采用像素风格。",
+    "final_ranking": "{GPT, Qwen_Image} > {Flux, Banana, Banana_pro} > {SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "A retro racing scene: a compact car drifts around a corner, skid marks as repeating sprites, spectators as small animated dots. The image is in pixel style.",
+    "Prompt_zh": "复古赛车场景：一辆紧凑型轿车在弯道漂移，刹车痕是重复的精灵图，观众是细小的动画点。图像采用像素风格。",
+    "final_ranking": "{GPT, Qwen_Image, Banana} > {Z_Image, Flux, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "A muscular figure with a large scar, orange patterned shorts, red Hawaiian shirt, blue hair, sunglasses, and confident smile holds a turtle-like creature. The image is depicted as the pixel style.",
+    "Prompt_zh": "一个肌肉发达的人物，有一道大伤疤，穿着橙色图案短裤、红色夏威夷衬衫，留着蓝发，戴着墨镜，带着自信的微笑，抱着一只类似乌龟的生物。图像以像素风格描绘。",
+    "final_ranking": "{GPT, Banana, Qwen_Image} > {Z_Image, SD3} > {Banana_pro} > {SDXL, Flux}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "A small astronaut with a cracked visor floats beside a tiny satellite, stars twinkling behind, blue thruster trail. The style of the photo is pixel.",
+    "Prompt_zh": "一名面罩破裂的小宇航员漂浮在微型卫星旁，背后星光闪烁，留下一道蓝色助推器尾迹。图像风格为像素风格。",
+    "final_ranking": "{Banana_pro, Banana} > {Qwen_Image, Z_Image} > {SD3, GPT} > {Flux, SDXL}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "A white-haired mage wearing a deep purple cloak raises a crystal staff, sparkling particles swirling around their hands. The image is depicted as the pixel style.",
+    "Prompt_zh": "一位穿着深紫色斗篷的白发法师举起水晶法杖，闪烁的粒子在手部周围旋转。图像以像素风格描绘。",
+    "final_ranking": "{Qwen_Image, Banana_pro,Z_Image} > {Banana, GPT} > {SD3, SDXL} > { Flux}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "A knight in rusted armor kneels to pet a tiny wolf pup, campfire flickering in the background, warm orange glow. The image is in pixel style.",
+    "Prompt_zh": "一位穿着生锈盔甲的骑士跪下来抚摸一只小狼崽，背景篝火闪烁，泛着温暖的橙光。图像采用像素风格。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Qwen_Image} > {Z_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "A cheerful chef with a tall hat flips a sizzling pan, flying vegetables and steam clouds, busy kitchen backdrop. The style of the photo is pixel.",
+    "Prompt_zh": "一位戴着高帽的快乐厨师正在翻动嘶嘶作响的平底锅，蔬菜飞起，蒸汽云缭绕，背景是忙碌的厨房。图像风格为像素风格。",
+    "final_ranking": "{Banana_pro, GPT} > {Z_Image, Banana} > {Qwen_Image, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "A street racer with a red helmet leans on a futuristic motorcycle, neon signage and speed lines behind them, confident stance. The image is depicted as the pixel style.",
+    "Prompt_zh": "一名戴着红色头盔的街头赛车手靠在未来主义摩托车上，身后是霓虹招牌和速度线，姿态自信。图像以像素风格描绘。",
+    "final_ranking": "{GPT, Banana, Qwen_Image} > {Z_Image, Banana_pro, SD3} >  {SDXL, Flux}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "A mermaid with turquoise hair and golden fins holds a pearl, bubbles rising in a coral reef scene. The image is in pixel style.",
+    "Prompt_zh": "一个拥有青绿色头发和金色鱼鳍的美人鱼拿着一颗珍珠，珊瑚礁场景中气泡上升。图像采用像素风格。",
+    "final_ranking": "{GPT, Qwen_Image, Banana} > { Banana_pro, Z_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "A samurai with a broken horned helmet draws a katana, falling cherry blossom petals around, intense glowing eyes. The style of the photo is pixel.",
+    "Prompt_zh": "一名戴着破损角状头盔的武士正在拔出武士刀，周围樱花瓣飘落，眼神犀利发光。图像风格为像素风格。",
+    "final_ranking": "{Banana_pro} > {Banana, GPT,Z_Image} > { Qwen_Image, SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "A forest ranger with a green hood aims a wooden bow, a small owl perched on their shoulder, misty trees behind. The image is depicted as the pixel style.",
+    "Prompt_zh": "一名戴着绿色兜帽的森林巡逻员正举起木弓瞄准，肩膀上栖息着一只小猫头鹰，背后是雾气蒙蒙的树林。图像以像素风格描绘。",
+    "final_ranking": "{Banana_pro,  GPT, Banana} > {Qwen_Image,Z_Image} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a young man with glasses sits comfortably in a cozy indoor setting. He holds a fluffy gray cat in his arms, surrounded by an array of colorful flowers and a variety of playful toys scattered around his feet.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个戴眼镜的年轻人舒适地坐在温馨的室内环境中。他怀里抱着一只毛茸茸的灰色猫，周围簇拥着五颜六色的鲜花，脚边散落着各种好玩的玩具。",
+    "final_ranking": "{Qwen_Image, Flux,GPT, SD3} > {Banana, Z_Image} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "The serene winter scene is depicted in LEGO: two fox characters stand amid trees-blonde boy with fox ears raises his arm, while a girl with short hair, fox ears, smiles leaning against him. Their fox tails are adorned with ribbons, and they're warmly dressed.",
+    "Prompt_zh": "宁静的冬季场景以乐高风格描绘：两个狐狸角色站在树林间——长着狐狸耳朵的金发男孩举起手臂，而一个短发狐狸耳朵女孩微笑着靠在他身上。他们的狐狸尾巴系着丝带，穿着暖和。",
+    "final_ranking": "{GPT, Banana_pro,Banana, Z_Image} > {Qwen_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "This entire scene is depicted in a colorful LEGO style. Four characters are grouped together. In the foreground, one with blue hair and braids sits holding a drink and a paper with scribbled lines. Beside them, another holds a red megaphone. In the background, one stands with intricate tattoos near another sipping from a cup.",
+    "Prompt_zh": "整个场景以色彩丰富的乐高风格描绘。四个角色聚在一起。前景中，一个蓝发编辫子的角色坐着，拿着饮料和一张写满乱线的纸。在他们旁边，另一个拿着红色扩音器。背景中，一个身上有复杂纹身的人站在另一个正抿着杯子喝水的人旁边。",
+    "final_ranking": "{GPT, Banana_pro,Qwen_Image, Flux} > {Banana, Z_Image} > {SD3}>  {SDXL}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a brave firefighter minifigure stands beside a red fire truck, holding a hose spraying translucent blue water pieces. Smoke bricks rise from a small building, while a rescued kitten sits safely on a yellow crate.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个勇敢的消防员小人仔站在红色消防车旁，拿着喷洒半透明蓝色水滴零件的水龙带。烟雾积木从一栋小房子里升起，而一只获救的小猫安全地坐在黄色板条箱上。",
+    "final_ranking": "{Z_Image, Banana_pro} > {Banana, GPT, SD3, Qwen_Image} > {SDXL} > {Flux}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "This whole scene is depicted in a colorful LEGO style: a pirate captain minifigure with a tricorn hat and printed beard points toward a treasure map. Around him are a striped barrel, gold coin tiles, a parrot perched on his shoulder, and a tiny island with palm trees and bright blue ocean plates.",
+    "Prompt_zh": "整个场景以色彩丰富的乐高风格描绘：一个戴着三角帽、印有胡须的海盗船长小人仔指向一张藏宝图。他周围有一个条纹木桶、金币瓷砖、一只栖息在他肩膀上的鹦鹉，以及一个带有棕榈树和亮蓝色海洋底板的小岛。",
+    "final_ranking": "{Qwen_Image, Banana_pro,GPT, SD3, Banana} > {Z_Image, Flux} >  {SDXL}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "The scene is depicted in LEGO: a young scientist minifigure wearing goggles examines a glowing green “energy core” piece inside a futuristic lab. The background is packed with control panels, beakers, robotic arms, and blinking light tiles.",
+    "Prompt_zh": "场景以乐高风格描绘：一个戴着护目镜的年轻科学家小人仔在未来实验室里检查一个发光的绿色“能量核心”零件。背景挤满了控制面板、烧杯、机械臂和闪烁的灯光瓷砖。",
+    "final_ranking": "{Banana, GPT, Banana_pro, Z_Image, Qwen_Image} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a street musician minifigure plays a guitar on a lively city sidewalk. A small crowd of minifigures gathers, with a tip jar full of round studs, a nearby café table, and colorful signboards behind them.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个街头艺人小人仔在热闹的城市人行道上弹吉他。一小群小人仔聚拢过来，旁边有一个装满圆形颗粒的积满小费的罐子、一张咖啡馆桌子，身后是五颜六色的招牌。",
+    "final_ranking": "{Qwen_Image, GPT, Banana} > {Banana_pro, Flux,Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "The whole scene is depicted in LEGO-inspired style: a firefighter minifigure rescues a kitten from a small brick-built tree, bright plastic shine and visible studs everywhere.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个消防员小人仔从一棵积木搭建的小树上救下一只小猫，到处可见亮晶晶的塑料光泽和凸起的颗粒（studs）。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {Banana, GPT} > {Flux, SDXL, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "A cozy brick-built living room with a minifigure making hot cocoa, tiny accessories on shelves, scattered colorful bricks and a warm lamp glow. LEGO-inspired style.",
+    "Prompt_zh": "一间由积木搭建的温馨客厅，一个小人仔正在冲热可可，架子上有微型配件，地上散落着彩色积木，还有温暖的灯光效果。乐高启发风格。",
+    "final_ranking": "{GPT,Qwen_Image, Banana_pro, Z_Image} > {Flux, SD3} > {Banana, SDXL}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "A bustling space hangar made of toy bricks, a pilot minifigure inspecting a small starship, tool carts and warning stripes rendered as brick tiles. LEGO-inspired style.",
+    "Prompt_zh": "一个由玩具积木组成的繁忙太空机库，一个飞行员小人仔正在检查一艘小型星际飞船，工具车和警告条纹都渲染成积木瓷砖。乐高启发风格。",
+    "final_ranking": "{GPT, Qwen_Image,Banana_pro} > {Z_Image, SD3, Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "A seaside boardwalk built from bricks, a minifigure holding an ice cream while seagulls sit on brick railings, playful and clean composition. LEGO-inspired style.",
+    "Prompt_zh": "积木搭建的海滨木栈道，一个小人仔拿着冰淇淋，海鸥停在积木栏杆上，构图活泼简洁。乐高启发风格。",
+    "final_ranking": "{Flux, Z_Image, Banana_pro, Qwen_Image, GPT, Banana} > {SD3}  >{ SDXL}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "This serene outdoor scene is depicted in LEGO: two hikers minifigures stand on a rocky mountain trail made of stacked slopes. One holds binoculars, the other carries a backpack, while a small eagle figure circles above and a waterfall of clear-blue bricks cascades in the distance.",
+    "Prompt_zh": "这幅宁静的户外场景以乐高风格描绘：两个徒步者小人仔站在由斜坡零件堆叠而成的岩石山路上。一个拿着望远镜，另一个背着背包，上方有一只小鹰模型在盘旋，远处的透明蓝色积木瀑布倾泻而下。",
+    "final_ranking": "{Z_Image,  Banana_pro} > {GPT,Qwen_Image} > {Banana, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a fantasy knight minifigure in shiny armor holds a glowing sword, facing a friendly dragon built from bright green bricks. Behind them are a castle gate, banners, and scattered “gem” pieces on the ground.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个穿着闪亮盔甲的奇幻骑士小人仔手持发光长剑，面对着一只由亮绿色积木搭建的友好巨龙。他们身后是城堡大门、旗帜，地上散落着“宝石”零件。",
+    "final_ranking": "{Qwen_Image, Banana} > {GPT, Banana_pro} > {Flux, SD3, Z_Image,SDXL}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "The image is created in Chinese ink painting style. A character in a playful pose stands on one leg, waving with a cheerful smile. He wears a light pink hoodie with contrasting blue pants. His hair is short and tousled, adding a mischievous touch. Friendly eyes gaze at the viewer, giving a warm, inviting feel to the scene.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一个做着调皮姿态的角色单腿站立，带着灿烂的笑容挥手。他穿着一件浅粉色连帽衫，搭配对比鲜明的蓝色裤子。他的短发乱糟糟的，增添了一抹淘气感。友善的目光注视着观众，为场景带来温暖、亲切的感觉。",
+    "final_ranking": "{GPT,Banana_pro} > {Z_Image, Qwen_Image, Banana} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "The scene is vividly Chinese ink painting, showcasing a figure with long, flowing green hair styled in high twin buns, loose strands cascading down her back. She wears a sleeveless, form-fitting dress adorned with roses. Dangling earrings frame her face, while sharp eyeliner and red lipstick accentuate her features. Bold red and black background patterns emphasize her commanding presence.",
+    "Prompt_zh": "场景是生动的水墨画，展示了一个长着飘逸绿发、扎着高双丸子头的形象，散落的发丝垂在背后。她穿着一件饰有玫瑰的无袖修身连衣裙。耳坠修饰着脸庞，犀利的眼线和红唇凸显了她的五官。大胆的红黑背景图案强调了她强大的气场。",
+    "final_ranking": "{GPT, Z_Image} > {Banana, Banana_pro} > {SDXL, Qwen_Image} > {SD3, Flux}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "The entire scene is depicted in Chinese ink painting, showcasing a character with long, flowing hair and expressive eyes standing confidently. She wears a form-fitting outfit adorned with a large star design on the chest. Her attire features a high collar and long sleeves, with visible zippers emphasizing its sleek design. Stars fill the background.",
+    "Prompt_zh": "整个场景以中国水墨画描绘，展示了一个留着飘逸长发、双眼有神的角色自信地站立。她穿着一套合身的服装，胸前饰有巨大的星星图案。她的服装有高领和长袖，明显的拉链强调了其利落的设计。背景布满了星星。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Qwen_Image} > {Z_Image, Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "The image is created in Chinese ink painting style. A calm swordsman stands by a bamboo grove, one hand resting on the hilt, the other holding a folded paper fan. Flowing robe hems blend into soft ink washes, with strong brush strokes defining the bamboo leaves and generous negative space around him.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一位冷静的剑客站在竹林旁，一手按在剑柄上，另一手拿着一把折扇。飘动的袍边融入柔和的水墨晕染中，苍劲的笔触勾勒出竹叶，周围留有大量的留白。",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image, GPT} > {SD3} > {SDXL, Flux, Z_Image}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "The entire scene is depicted in Chinese ink painting. A young woman with long black hair tied with a ribbon sits on a stone step, cradling a small white rabbit. Light ink gradients shape her sleeves, while a single red seal stamp in the corner balances the composition with elegant emptiness.",
+    "Prompt_zh": "整个场景以中国水墨画描绘。一名用丝带扎着黑长发的年轻女子坐在石阶上，怀抱着一只小白兔。淡墨渐变勾勒出她的衣袖，角落里的一枚红印章以优雅的虚实结合平衡了构图。",
+    "final_ranking": "{Banana_pro, GPT, Banana, Qwen_Image, Z_Image} > {Flux,SDXL} > { SD3}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "The scene is vividly Chinese ink painting, portraying a warrior in layered armor riding a dark horse through misty mountains. The peaks fade into pale ink haze, splattered ink suggests drifting fog, and the rider’s determined eyes are emphasized with a few sharp, decisive strokes.",
+    "Prompt_zh": "场景是生动的水墨画，描绘了一名穿着层叠盔甲的武士骑着黑马穿行在云雾缭绕的山间。山峰没入淡墨烟霭中，泼墨点缀出流动的雾气，骑手坚毅的双眼用几笔锐利果断的线条着重刻画。",
+    "final_ranking": "{GPT, Banana, SDXL, Banana_pro} > {Qwen_Image, Z_Image} > {SD3, Flux}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "The image is created in Chinese ink painting style. A playful child runs with a kite shaped like a goldfish, sleeves fluttering like ink clouds. The kite string is a thin calligraphic line, and light vermilion accents dot the fish kite against a vast white sky.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一个爱玩的孩子举着金鱼形状的纸鸢奔跑，衣袖像墨云一样飘动。风筝线是一条纤细的草书线条，淡朱砂色的点缀衬托出白色苍穹下的鱼形纸鸢。",
+    "final_ranking": "{Qwen_Image, Banana} > {Banana_pro, Z_Image} > {GPT, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "The entire scene is depicted in Chinese ink painting. A graceful dancer mid-spin holds long silk ribbons that trail into abstract ink swirls. Her posture is captured with minimal lines, while the ribbons dissolve into expressive brushwork and subtle gray washes.",
+    "Prompt_zh": "整个场景以中国水墨画描绘。一位优雅的舞者在旋转中挥舞着长长的丝绸缎带，缎带延伸成抽象的水墨旋涡。她的姿态用极简的线条捕捉，而缎带则消解在极具表现力的笔触和微妙的灰色晕染中。",
+    "final_ranking": "{GPT, Banana_pro, Banana, Qwen_Image} > {Z_Image, SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "The scene is rendered as Chinese ink painting: a scholar wearing a simple hanfu leans over a wooden desk, writing with a brush. Ink stones, scrolls, and a small teacup sit nearby, with gentle ink shading and controlled brush lines defining the quiet indoor atmosphere.",
+    "Prompt_zh": "场景渲染为中国水墨画：一位身穿素雅汉服的学者伏在木桌上，挥毫书写。砚台、卷轴和一只小茶杯摆放在一旁，柔和的墨色阴影和克制的线条勾勒出安静的室内氛围。",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image} > { Banana, SDXL} > {Flux, Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "A character stands confidently with hands on hips, having bright blue eyes and light brown hair styled in soft curls. Her outfit mixes sky-blue hues with crisp white accents, resembling futuristic attire. Neon lights glow in the background, towering skyscrapers and bustling streets below, depicting a vivid Cyberpunk world with an anime-inspired style filled with detail.",
+    "Prompt_zh": "一名角色自信地叉腰站立，拥有明亮的蓝眼睛和浅棕色卷发。她的服装融合了天蓝色调和利落的白色点缀，看起来像未来主义服饰。背景中霓虹灯闪烁，高楼林立，下方是熙熙攘攘的街道，以充满细节的动漫风格描绘了一个生动的赛博朋克世界。",
+    "final_ranking": "{GPT, Flux, Banana_pro, Qwen_Image} > {Banana, Z_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "A blonde woman with long, flowing hair and a bandaged eye is trapped within the confines of a glowing light bulb. Surrounded by fluttering moths and drifting leaf-like debris, her legs are shackled, emphasizing her captivity. The scene evokes a dreamy atmosphere. This striking image is created in a fusion of Cyberpunk and anime styles.",
+    "Prompt_zh": "一个长发飘飘的金发女性被困在一个发光的灯泡里，一只眼睛蒙着绷带。周围环绕着飞舞的飞蛾和漂浮的叶状碎屑，她的双腿戴着枷锁，强调了她的囚禁状态。场景唤起一种梦幻感。这幅极具冲击力的图像是赛博朋克与动漫风格的融合。",
+    "final_ranking": "{Banana_pro, Banana} > {Z_Image, Qwen_Image} > {GPT, Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "A cheerful anime character with bright blonde hair tied in a side ponytail and ahoge joyfully sits barefoot outdoors, likely on a sandy beach. She's dressed in a traditional school uniform with a crisp white shirt and a vibrant blue pleated skirt. Her wide grin complements her closed eyes, raising an index finger in playful amusement. This entire scene is depicted in Cyberpunk style.",
+    "Prompt_zh": "一个开朗的动漫角色，金发扎成侧马尾并有一根呆毛，开心地光脚坐在户外（可能是沙滩上）。她穿着传统的校服，包括整洁的白衬衫和亮蓝色百褶裙。她闭着眼灿烂地笑着，举起食指做出调皮有趣的动作。整个场景以赛博朋克风格呈现。",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {Qwen_Image, Z_Image} > {Flux} > { SDXL} > {SD3}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "A vibrant scene unfolds at a bustling train station platform, where energetic young people engage with a sleek, high-tech train. Some enthusiastically wave to someone leaning out a window, while others point excitedly or look intently at their holographic phones. The entire scene is depicted in Cyberpunk, creating a dynamic and futuristic atmosphere full of life.",
+    "Prompt_zh": "在繁忙的火车站站台上，一幕充满活力的场景正在展开，精力充沛的年轻人正围着一辆流线型的高科技火车。有些人向从窗口探身的人热情挥手，有些人兴奋地指点，或者专注地看着全息手机。整个场景以赛博朋克风格描绘，营造出充满生机的动感未来氛围。",
+    "final_ranking": "{GPT, Banana_pro} > {Banana, Qwen_Image} > {SD3, Flux} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "Let's create the chemical principle diagram of a potato battery in a cyberpunk style. Tips: potato ba  ttery, cyberpunk style.",
+    "Prompt_zh": "让我们以赛博朋克风格创作一张土豆电池的化学原理图。提示词：土豆电池，赛博朋克风格。",
+    "final_ranking": "{GPT} > {Flux, Banana_pro, Banana} > {SDXL, Z_Image, Qwen_Image} > {SD3}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "a young hacker with short silver hair and glowing cyan cybernetic eyes crouches beside an open access panel, wires and holographic code floating in the air. Rain beads on a reflective jacket, while towering billboards and drones hover above. The entire scene is depicted in Cyberpunk and anime style with high detail.",
+    "Prompt_zh": "一个留着银色短发、拥有青色发光电子义眼的年轻黑客蹲在一个打开的检修面板旁，电线和全息代码悬浮在空中。雨滴落在反光夹克上，上方是高耸的公告牌和无人机。整个场景以充满细节的赛博朋克动漫风格描绘。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Qwen_Image, Z_Image} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "A stylish street medic with a translucent visor and lime-green highlights in their hair runs through a crowded night market, carrying a compact medical drone that emits soft blue light. Vendors, neon signage, and steam from food stalls fill the background, creating a vivid Cyberpunk world in anime style.",
+    "Prompt_zh": "一位时尚的街头医生，戴着半透明护目镜，头发上有柠檬绿色的挑染，正穿过拥挤的夜市，手里拎着一个发出柔和蓝光的小型医疗无人机。摊贩、霓虹招牌和路边摊的蒸汽填满了背景，构成了动漫风格的生动赛博朋克世界。",
+    "final_ranking": "{Qwen_Image, GPT, Banana} > {Z_Image, Banana_pro ,SD3} > {SDXL, Flux}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "A calm bounty hunter with a long black coat and red LED-lined gloves sits on a rooftop edge, holding a futuristic sniper rifle. Below, the city glows with magenta and teal lights, air traffic streams between skyscrapers, and distant sirens blur into the haze. Rendered in a detailed Cyberpunk anime style.",
+    "Prompt_zh": "一名神情冷峻的赏金猎人，穿着黑色长风衣，戴着红色 LED 条纹手套，坐在屋顶边缘，手持一把未来感十足的狙击步枪。下方城市闪烁着洋红和青绿色的灯光，飞行器在摩天大楼间穿梭，远处的警笛声消失在烟霭中。以精致的赛博朋克动漫风格渲染。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana_pro, Banana,Z_Image} > {SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "A mechanic girl with twin braids and oil-smudged cheeks repairs a small robot companion on a workbench crowded with tools, circuit boards, and glowing tubes. A giant window reveals neon highways and floating advertisements outside. This entire scene is depicted in Cyberpunk and anime style.",
+    "Prompt_zh": "一个梳着双辫子、脸颊沾着油污的机械师少女，正在堆满工具、电路板和发光管的工作台上修理一个小机器人同伴。巨大的窗外可以看见霓虹交织的高速公路和漂浮广告。整个场景以赛博朋克和动漫风格描绘。",
+    "final_ranking": "{GPT, Banana, Banana_pro, Z_Image} > {Qwen_Image} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "Inside a high-tech subway car, diverse passengers scroll through holographic phones and augmented-reality menus. A child presses a hand to the window, watching neon tunnels streak by, while security drones patrol the aisle. The entire scene is depicted in Cyberpunk anime style, dynamic and futuristic.",
+    "Prompt_zh": "在高科技地铁车厢内，各式各样的乘客正在翻阅全息手机和增强现实菜单。一个小孩子把手贴在窗户上，看着霓虹隧道飞速掠过，安全无人机在过道巡逻。整个场景以赛博朋克动漫风格描绘，具有动感且充满未来感。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Banana} > {SDXL, Flux, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "A cozy cottage in autumn surrounded by vibrant orange and red trees, smoke gently rising from the chimney into a pale sky. Soft edges and bleeding colors create a nostalgic atmosphere. Rendered entirely in a watercolor style.",
+    "Prompt_zh": "秋天被充满活力的橙红树木环绕的温馨小屋，烟雾从烟囱轻轻升入淡白的天空。柔和的边缘和色彩晕染营造出怀旧的氛围。完全以水彩风格渲染。",
+    "final_ranking": "{Z_Image, Banana, GPT, Banana_pro} > { SD3,Qwen_Image, SDXL} > {Flux}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "A ballerina tying her satin shoes in a sunlit studio, soft pinks and creams, light filtering through a dusty window creating a dreamy wash. This scene is conveyed through a watercolor style.",
+    "Prompt_zh": "一名芭蕾舞者在阳光充足的工作室里系着缎面舞鞋，柔和的粉色和奶油色，光线透过积尘的窗户营造出梦幻的晕染效果。这一场景以水彩风格呈现。",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image, Banana} > {Z_Image,SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "A majestic sailing ship battling a stormy sea, crashing waves rendered in deep blues and greys with white gouache highlights for sea spray. The image is in watercolor style.",
+    "Prompt_zh": "一艘雄伟的帆船在风暴海中搏击，深蓝和灰色的巨浪，白色水粉高光表现海浪飞溅。图像采用水彩风格。",
+    "final_ranking": "{Banana, SDXL, Z_Image, GPT} > {Banana_pro, SD3} > {Qwen_Image, Flux}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "A close-up of a blooming peony flower, delicate translucent petals in shades of blush and magenta, wet-on-wet technique for the leaves. Rendered in a watercolor style.",
+    "Prompt_zh": "盛开牡丹花的特写，精致的半透明花瓣呈现出腮红和洋红色调，叶子采用湿画法。以水彩风格渲染。",
+    "final_ranking": "{GPT, Banana_pro, Z_Image} > {Qwen_Image, SD3, Banana} > {SDXL} > {Flux}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "A street musician playing a guitar on a cobblestone corner, the background crowd blurred into colorful abstract shapes. Warm tones and loose brushwork. This illustration is conveyed through a watercolor style.",
+    "Prompt_zh": "一名街头艺人在鹅卵石街角弹吉他，背景人群模糊成多彩的抽象形状。暖色调和松散的笔触。插图以水彩风格呈现。",
+    "final_ranking": "{Banana, GPT, Qwen_Image, Banana_pro} > {Z_Image, SDXL} > {SD3, Flux}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "A spooky haunted house on a hill at night, lightning striking behind it, bats flying, using a purple and black limited palette. The image is in pixel style.",
+    "Prompt_zh": "夜晚山丘上的一座阴森鬼屋，身后雷电交加，蝙蝠飞舞，使用紫色和黑色的有限调色板。图像采用像素风格。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Qwen_Image} > {Banana, Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "View from a spaceship cockpit, planets and stars visible outside the window, control panel lights blinking in sequence. The style of the photo is pixel.",
+    "Prompt_zh": "飞船驾驶舱视角，窗外可见行星和星星，控制面板的灯光依次闪烁。图像风格为像素风格。",
+    "final_ranking": "{GPT, Z_Image, Banana, Banana_pro, SD3, Qwen_Image} > {SDXL, Flux}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "A cozy bedroom with a computer desk, rain falling outside the window, lo-fi aesthetic with dithering effects on the shadows. The image is depicted as the pixel style.",
+    "Prompt_zh": "一间带有电脑桌的温馨卧室，窗外下着雨，Lo-fi 美学，阴影处有抖动效果。图像以像素风格描绘。",
+    "final_ranking": "{ Banana_pro, Qwen_Image, SD3} > {Banana,Z_Image, GPT,SDXL} > {Flux}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "A red dragon guarding a golden treasure chest in a dark cave, coins sparkling with single white pixels. The image is in pixel style.",
+    "Prompt_zh": "一条红龙在黑暗洞穴中守护着金宝箱，金币闪烁着单像素的白光。图像采用像素风格。",
+    "final_ranking": "{Qwen_Image, Banana, Banana_pro,Z_Image} > {GPT,SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "A city skyline silhouette against a gradient sunset, reflections shimmering in the water below, retro arcade vibe. Pixel style.",
+    "Prompt_zh": "渐变日落背景下的城市天际线剪影，倒影在下方水中闪烁，复古街机氛围。像素风格。",
+    "final_ranking": "{Banana, Flux, Qwen_Image, Banana_pro, SDXL} > {GPT, SD3} > {Z_Image}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "The scene is depicted in LEGO: a busy construction site with a crane minifigure lifting a beam, a cement mixer truck nearby, and orange cone pieces scattered around.",
+    "Prompt_zh": "场景以乐高风格描绘：一个繁忙的建筑工地，起重机小人仔正在吊起一根梁，旁边有一辆水泥搅拌车，周围散落着橙色锥形零件。",
+    "final_ranking": "{GPT, Qwen_Image, Banana, Banana_pro} > {Z_Image} > {SDXL, SD3} > {Flux}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a magical forest with brick-built giant mushrooms and a fairy minifigure holding a star wand, translucent studs representing magic dust.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：一个拥有积木搭建的巨型蘑菇的魔法森林，以及一个手持星星魔杖的仙子小人仔，半透明颗粒代表魔法粉尘。",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT} > {Banana_pro, Banana} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "This whole scene is depicted in a colorful LEGO style: a classic castle siege, knights on horses made of bricks charging towards a grey wall with battlements.",
+    "Prompt_zh": "整个场景以色彩丰富的乐高风格描绘：经典的城堡围攻战，骑着积木马的骑士冲向带有垛口的灰色城墙。",
+    "final_ranking": "{Qwen_Image, Banana_pro} > {Banana, GPT} > {Z_Image, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "A deep-sea exploration scene made of toy bricks, a diver minifigure discovering a treasure chest next to a coral reef built from colorful slopes and clips. LEGO-inspired style.",
+    "Prompt_zh": "由玩具积木组成的深海探险场景，一个潜水员小人仔在由彩色斜坡和夹子零件搭建的珊瑚礁旁发现宝箱。乐高启发风格。",
+    "final_ranking": "{Z_Image, GPT,  Qwen_Image} > {Banana_pro,Banana,  Flux} > {SD3,SDXL}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "The scene is depicted in LEGO: a rock concert stage with band minifigures playing instruments, flashing light bricks, and a crowd made of round colorful studs.",
+    "Prompt_zh": "场景以乐高风格描绘：摇滚音乐会舞台，乐队小人仔演奏乐器，闪烁的灯光积木，以及由彩色圆形颗粒组成的人群。",
+    "final_ranking": "{SD3, Qwen_Image} > {GPT, Flux} > { Banana, Banana_pro} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "The entire scene is depicted in LEGO-inspired style: a zoo enclosure with brick-built giraffes reaching for leaves on a tree, a zookeeper minifigure holding a bucket.",
+    "Prompt_zh": "整个场景以乐高启发风格描绘：动物园围栏，积木长颈鹿正在吃树上的叶子，一个饲养员小人仔提着水桶。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {SD3,Z_Image, Banana} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "A Formula racing pit stop scene made of bricks, mechanics minifigures changing tires and refueling a red race car, checkered flag tiles. LEGO-inspired style.",
+    "Prompt_zh": "积木组成的方程式赛车进站场景，机械师小人仔正在给红色赛车换轮胎和加油，黑白格旗帜瓷砖。乐高启发风格。",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro, Banana} > {SDXL, SD3, Z_Image,Flux}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "The image is created in Chinese ink painting style. A solitary pine tree growing on a steep cliff, surrounded by swirling clouds and mist, strong black strokes for the trunk.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一棵孤独的松树生长在陡峭的悬崖上，周围云雾缭绕，树干笔触苍劲有力。",
+    "final_ranking": "{GPT, Banana_pro, Flux} > {Banana, Qwen_Image, SDXL} > {SD3, Z_Image}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "The scene is vividly Chinese ink painting, depicting two red-crowned cranes dancing in a shallow pond, with lotus leaves sketched in broad, wet ink washes.",
+    "Prompt_zh": "场景是生动的水墨画，描绘了两只丹顶鹤在浅池中起舞，荷叶用宽阔湿润的墨色晕染勾勒。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Qwen_Image} > {Flux, Banana} >  {SD3, SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "The entire scene is depicted in Chinese ink painting. A lone fisherman on a small boat in a vast river, distant mountains fading into the white background, conveying solitude.",
+    "Prompt_zh": "整个场景以中国水墨画描绘。广阔江面上的一叶扁舟和孤独渔翁，远山淡入白色背景，传达出孤寂感。",
+    "final_ranking": "{Banana_pro, GPT, Qwen_Image} > {Flux, Banana, SD3, Z_Image,SDXL}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "The image is created in Chinese ink painting style. A scholar sitting under the moonlight playing the guqin, bamboo shadows cast on the ground, elegant and quiet.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一位学者月下抚琴，竹影投射在地面上，优雅而宁静。",
+    "final_ranking": "{GPT, Banana_pro} > { Z_Image, Qwen_Image, Banana} > {SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "The scene is rendered as Chinese ink painting: a majestic tiger descending a mountain, intense gaze captured with detailed fine brushwork, while the rocks are done in heavy ink.",
+    "Prompt_zh": "场景渲染为中国水墨画：一只猛虎下山，细腻的工笔画法捕捉其犀利的目光，而岩石则用重墨描绘。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {SDXL, Z_Image, Banana} > {GPT} > {SD3} > {Flux}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "The entire scene is depicted in Chinese ink painting. A small village nestled in a valley, smoke rising from simple houses, misty morning atmosphere created with water washes.",
+    "Prompt_zh": "整个场景以中国水墨画描绘。坐落在山谷中的小村庄，简朴的房屋升起炊烟，水洗技法营造出雾蒙蒙的清晨氛围。",
+    "final_ranking": "{Banana} > {SDXL, GPT, Qwen_Image, Banana_pro, SD3} > {Flux, Z_Image}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "The image is created in Chinese ink painting style. A branch of plum blossoms braving the winter snow, bright red flowers contrasting with the black branch and white snow.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一枝梅花傲立雪中，鲜红的花朵与黑色的树枝和白雪形成对比。",
+    "final_ranking": "{Z_Image, Qwen_Image} > {GPT, SDXL, Banana_pro, Flux, Banana} > {SD3}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "The scene is vividly Chinese ink painting, showcasing a waterfall cascading down jagged rocks, splashing water rendered with dots of ink and negative space.",
+    "Prompt_zh": "场景是生动的水墨画，展示了瀑布顺着嶙峋怪石倾泻而下，飞溅的水花通过墨点和留白来表现。",
+    "final_ranking": "{Z_Image, Qwen_Image,Banana,GPT} > { Banana_pro, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "The entire scene is depicted in Chinese ink painting. A giant panda eating bamboo, using simple black patches for the fur and fine lines for the bamboo leaves.",
+    "Prompt_zh": "整个场景以中国水墨画描绘。一只正在吃竹子的大熊猫，皮毛使用简单的黑色色块，竹叶使用细线条勾勒。",
+    "final_ranking": "{Banana_pro, GPT, Banana, Z_Image, Qwen_Image} > {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "The scene is rendered as Chinese ink painting: the Yellow Mountains with a sea of clouds, jagged peaks jutting out, capturing the ethereal beauty of the landscape.",
+    "Prompt_zh": "场景渲染为中国水墨画：黄山云海，奇峰突起，捕捉山水景色的空灵之美。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image, Banana} > {Flux,Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "The image is created in Chinese ink painting style. A dragonfly perched on a lotus bud, delicate lines for the wings, vast negative space surrounding the subject.",
+    "Prompt_zh": "图像以中国水墨画风格创作。一只蜻蜓停在荷花苞上，翅膀线条细腻，主体周围有大面积留白。",
+    "final_ranking": "{Banana,Banana_pro} > {Flux, Z_Image} > {Qwen_Image, GPT, SD3, SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "A young hacker sitting in a dark server room, surrounded by multiple glowing blue screens and cables. Reflections on their glasses, messy room. Rendered in a detailed anime style.",
+    "Prompt_zh": "一名年轻黑客坐在黑暗的服务器机房里，周围环绕着多个发光的蓝色屏幕和电缆。眼镜上有反光，房间杂乱。以精致的动漫风格渲染。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image, Banana} > {SDXL,Flux, Qwen_Image} > {SD3}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "A detective standing in the rain under a neon sign, water dripping from a trench coat, robotic arm exposed. The scene creates a moody atmosphere. This entire scene is depicted in anime style.",
+    "Prompt_zh": "一名赛博格侦探站在霓虹灯下的雨中，水从风衣上滴落，露出机械臂。场景营造出一种阴郁的氛围。整个场景以动漫风格描绘。",
+    "final_ranking": "{Qwen_Image, Banana, GPT} > {Banana_pro} > {Z_Image, SD3} > {SDXL, Flux}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "A high-speed flying car chase through a futuristic city, motion blur, laser blasts illuminating the sleek vehicles and towering skyscrapers. Rendered in anime style.",
+    "Prompt_zh": "未来城市中的高速飞行汽车追逐战，运动模糊，激光爆炸照亮了流线型的车辆和高耸的摩天大楼。以动漫风格渲染。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana} > {Z_Image, Banana_pro} > {SDXL} > {SD3, Flux}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "A street food vendor selling glowing noodles from a floating stall, steam rising, diverse alien and cyborg customers waiting. Vivid colors and detail. The entire scene is depicted in Cyberpunk style.",
+    "Prompt_zh": "一名街头食品摊贩在漂浮的摊位上卖发光的面条，蒸汽升腾，各种外星人和赛博格顾客在等待。色彩生动，细节丰富。整个场景以赛博朋克风格描绘。",
+    "final_ranking": "{GPT} > {Banana, Z_Image,Banana_pro,Qwen_Image} > {Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "A panoramic view of a mega-city at night, towering skyscrapers connected by skybridges, holographic advertisements projecting into the sky. Rendered in a detailed anime style.",
+    "Prompt_zh": "夜晚巨型城市的全景图，高耸的摩天大楼由天桥连接，全息广告投射到空中。以精致的赛博朋克风格渲染。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, SD3, Qwen_Image} > {SDXL,Flux}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "A robot mechanic fixing a complex cybernetic arm in a gritty workshop, sparks flying, oil stains on the floor, tools scattered. The image is depicted as the Cyberpunk style.",
+    "Prompt_zh": "一名机器人机械师在肮脏的车间里修理复杂的电子义肢，火花飞溅，地板上有油渍，工具散落。图像以赛博朋克风格描绘。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image} > {SD3, Z_Image} > {SDXL, Flux}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "A group of rebel teenagers standing on a rooftop edge looking over the city, vibrant hair colors, futuristic streetwear, confident poses. This entire scene is depicted in Cyberpunk style.",
+    "Prompt_zh": "一群叛逆的青少年站在屋顶边缘俯瞰城市，发色鲜艳，穿着未来主义街头服饰，姿态自信。整个场景以赛博朋克风格描绘。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image, Qwen_Image, Banana} > {SDXL, Flux, SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "A gamer wearing a sleek VR headset in a dimly lit room, digital particles and interface elements floating around them. Rendered in Cyberpunk style.",
+    "Prompt_zh": "一名玩家在昏暗的房间里戴着时尚的 VR 头显，数字粒子和界面元素在周围漂浮。以赛博朋克风格渲染。",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image} > {SDXL, SD3, Z_Image, GPT} > {Flux}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "A futuristic samurai duel in a neon-lit dojo, energy swords clashing with bright sparks, dynamic action poses. The image is depicted as the Cyberpunk style.",
+    "Prompt_zh": "霓虹灯照耀的道场中进行的未来武士对决，能量剑碰撞出明亮的火花，动作姿态动感十足。图像以赛博朋克风格描绘。",
+    "final_ranking": "{Banana, Banana_pro, GPT} > {Qwen_Image} > {Z_Image, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "A quiet moment in a capsule hotel, a character looking out a small circular window at the rainy city lights, melancholic vibe. Rendered in a detailed anime style.",
+    "Prompt_zh": "胶囊旅馆里的安静时刻，一名角色透过圆形小窗看着雨中的城市灯光，带有忧郁的氛围。以精致的动漫风格渲染。",
+    "final_ranking": "{Banana, SD3, Flux, Z_Image, GPT, Qwen_Image, Banana_pro} > {SDXL}"
+  }
+]

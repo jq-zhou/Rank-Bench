@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "A portrait of two women with purple hair flying in different directions against a dark background.",
+    "Prompt_zh": "一张深色背景下的两个女人的肖像，她们的紫色头发向不同的方向飞扬。",
+    "final_ranking": "{Qwen_Image, Banana} > {Banana_pro, GPT} > {Flux} > {SD3, Z_Image, SDXL}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "A girl with pink pigtails and face tattoos.",
+    "Prompt_zh": "一个梳着粉色双马尾、脸上有纹身的女孩。",
+    "final_ranking": "{Z_Image} > {Banana_pro, SDXL, GPT, Qwen_Image, SD3, Flux, Banana}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "Wicked witch casting fireball dressed in green with screaming expression.",
+    "Prompt_zh": "身穿绿衣、表情尖叫的邪恶女巫正在施放火球。",
+    "final_ranking": "{Z_Image, GPT, Banana_pro, Banana, Qwen_Image} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "16-year-old teenager wearing a white bear-ear hat with a smirk on their face.",
+    "Prompt_zh": "一名16岁的少年戴着白色的熊耳帽子，脸上带着一丝坏笑。",
+    "final_ranking": "{GPT, Banana_pro, Banana, Z_Image} > {SDXL, Qwen_Image, Flux, SD3}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "Totem pole made out of cats.",
+    "Prompt_zh": "由猫组成的图腾柱。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, SD3, Qwen_Image} > {Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "A young woman witch cosplaying with a magic wand and broom, wearing boots, and posing in a full body shot with a detailed face.",
+    "Prompt_zh": "一名年轻女性女巫 Cosplay，手持魔杖和扫帚，穿着靴子，全身照，面部细节丰富。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT} > {Banana, SD3} > {SDXL, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "A small green dinosaur toy with orange spots standing on its hind legs and roaring with its mouth open.",
+    "Prompt_zh": "一个带有橙色斑点的小绿色恐龙玩具，以后腿站立，张着嘴咆哮。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Banana, Z_Image, GPT} > {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "Teenage boy wearing a skull mask and smoking.",
+    "Prompt_zh": "戴着骷髅面具抽烟的青少年男孩。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Qwen_Image, Z_Image} > {SD3, Flux, SDXL}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "A lemon with a McDonald's hat.",
+    "Prompt_zh": "一个戴着麦当劳帽子的柠檬。",
+    "final_ranking": "{SD3, GPT, Qwen_Image, Banana_pro, Banana, Flux, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "A kitten with a panda coloring eating bamboo.",
+    "Prompt_zh": "一只长着熊猫花纹的小猫正在吃竹子。",
+    "final_ranking": "{GPT, Banana, SDXL, Qwen_Image} > {SD3, Z_Image, Banana_pro, Flux}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "A white polar bear cub wearing sunglasses sits in a meadow with flowers.",
+    "Prompt_zh": "一只戴着太阳镜的白色北极熊幼崽坐在开满鲜花的草地上。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {GPT, Banana} > {SDXL, Z_Image, SD3} > {Flux}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "An image of an aircraft carrier made of cheese.",
+    "Prompt_zh": "一张由奶酪制成的航空母舰图像。",
+    "final_ranking": "{GPT, Z_Image, Banana, Qwen_Image} > {SDXL, Banana_pro, Flux} > {SD3}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "Family assembling missile in living room.",
+    "Prompt_zh": "一家人在客厅里组装导弹。",
+    "final_ranking": "{Qwen_Image, GPT, Banana} > {Banana_pro, SDXL} > {Z_Image, SD3, Flux}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "A lemon wearing a suit and tie, full body portrait.",
+    "Prompt_zh": "一个穿着西装打着领带的柠檬，全身肖像。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Flux} > {Z_Image, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "A spaceship in an empty landscape.",
+    "Prompt_zh": "荒芜景观中的宇宙飞船。",
+    "final_ranking": "{GPT, Banana_pro, SD3} > {SDXL, Flux, Banana, Qwen_Image} > {Z_Image}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "A person wearing a lab coat holding a green apple and standing in front of a whiteboard filled with equations and diagrams.",
+    "Prompt_zh": "一个穿着实验服的人拿着一个青苹果，站在写满公式和图表的白板前。",
+    "final_ranking": "{Banana, Flux, Banana_pro, Qwen_Image, GPT, SDXL} > {SD3, Z_Image}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "The image depicts a concept car resembling a supercar or hypercar with a chrome reflection and global illumination.",
+    "Prompt_zh": "图像描绘了一辆类似于超级跑车的概念车，具有铬合金反射和全局照明效果。",
+    "final_ranking": "{SD3, SDXL, Qwen_Image, Flux} > {GPT} > {Banana_pro, Z_Image} > {Banana}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "Lava falls upon a crumbling stadium as crowds panic.",
+    "Prompt_zh": "岩浆落在崩塌的体育馆上，人群惊慌失措。",
+    "final_ranking": "{Qwen_Image} > {Banana, GPT, Banana_pro} > {Flux} > {SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "A dragon standing in a forest, drinking river water.",
+    "Prompt_zh": "一只站在森林里喝河水的巨龙。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Z_Image} > {Qwen_Image, SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "A red-haired female knight with a golden prosthetic arm wields a long golden blade.",
+    "Prompt_zh": "一位有着金色义手的红发女骑士，挥舞着一把金色长剑。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Banana, Flux, Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "one orange tabby lying on a wooden table, two black cats on the floor, placed symmetrically left and right. Afternoon indoor light, sharp fur detail.",
+    "Prompt_zh": "一只橘色斑纹猫躺在木桌上，两只黑猫在地板上左右对称放置。午后的室内光线，毛发细节清晰。",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro, Banana} > {Flux, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "a red apple to the left of a blue mug, a yellow banana to the right of the mug.",
+    "Prompt_zh": "蓝色马克杯左边是一个红苹果，右边是一个黄香蕉。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Banana, SD3, GPT} > {Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "a bicycle leaning against a wall, the front wheel partially occluded by a potted plant, but the wheel rim and spokes remain clearly identifiable.",
+    "Prompt_zh": "一辆靠墙的自行车，前轮被盆栽植物部分遮挡，但轮毂和辐条仍然清晰可辨。",
+    "final_ranking": "{GPT} > {Flux, Qwen_Image, Banana_pro} > {Z_Image, Banana, SDXL} > {SD3}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "Macro ramen bowl: glossy noodles, visible oil droplets on the broth, chopped scallions, subtle rising steam that does not obscure the subject.",
+    "Prompt_zh": "拉面碗微距：油亮的线条，汤面上清晰可见的油滴，碎青葱，淡淡升起且不遮挡主体的蒸汽。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Banana, Z_Image, GPT} > {SD3, Flux, SDXL}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "Fresh croissant close-up: crispy layered flakes, golden-brown crust, natural crumbs on a wooden board, warm side lighting, crisp texture.",
+    "Prompt_zh": "新鲜牛角包特写：酥脆的分层，金褐色的酥皮，木板上的自然碎屑，温暖的侧光，酥脆的质感。",
+    "final_ranking": "{Banana, Banana_pro, GPT} > {SD3, Flux, SDXL, Z_Image} > {Qwen_Image}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "Strawberry cake slice macro: airy whipped cream (not plastic-looking), strawberry seeds visible, clean plate edge, soft background blur.",
+    "Prompt_zh": "草莓蛋糕切片微距：蓬松的鲜奶油（无塑料感），可见的草莓籽，干净的盘子边缘，柔和的背景虚化。",
+    "final_ranking": "{GPT, Flux, Banana, Z_Image} > {Banana_pro, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "Melting ice cream: a scoop of vanilla ice cream starting to melt, realistic glossy drips and softening edges, clean minimal background, soft light.",
+    "Prompt_zh": "融化的冰激凌：一个开始融化的香草冰激凌球，写实的油亮滴落感和软化边缘，简洁的背景，柔光。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image} > {Z_Image} > {Banana, SDXL, Flux, SD3}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "Hard sunlight, sharp dune shadows, clean blue sky, subtle heat-haze distortion in the far distance.",
+    "Prompt_zh": "强烈的阳光，锐利的沙丘阴影，纯净的蓝天，远方微弱的热浪扭曲。",
+    "final_ranking": "{SDXL, Banana} > {Qwen_Image, GPT, SD3, Banana_pro} > {Z_Image, Flux}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "Red/yellow maple leaves, mirror-like lake reflection with gentle ripples, strong atmospheric perspective, calm mood.",
+    "Prompt_zh": "红黄相间的枫叶，带有微弱波纹的镜像湖面反射，强烈的空气透视感，宁静的氛围。",
+    "final_ranking": "{Banana, SD3, GPT, Qwen_Image} > {Banana_pro, Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "Misty forest morning: volumetric sun rays through tall trees, thin fog layers, dew sparkle on leaves, natural color (no HDR look), deep but soft atmosphere.",
+    "Prompt_zh": "薄雾森林之晨：阳光透过高大树木形成的体积光，薄雾层，叶片上闪烁的露珠，自然色彩（无HDR感），深邃且柔和的氛围。",
+    "final_ranking": "{GPT} > {Banana_pro} > {Z_Image} > {SD3, Flux} > {Banana, Qwen_Image, SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "Ocean sunset: sun near the horizon, a bright golden reflection path on the water, wet sand foreground reflecting the sky, crisp wave foam detail.",
+    "Prompt_zh": "海上落日：太阳靠近地平线，水面上有一条明亮的金色反射路径，前景湿润的沙滩反射着天空，清晰的海浪泡沫细节。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Flux, GPT} > {Banana, SD3, SDXL, Z_Image}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "Snowy street scene: falling snow with depth (larger flakes near camera, smaller in distance), a person holding an umbrella walking, visible footprints, cold color temperature.",
+    "Prompt_zh": "雪天街道：有深度的落雪（近大远小），一个撑伞行走的人，清晰可见的脚印，冷色调。",
+    "final_ranking": "{GPT, Banana, Z_Image} > {Banana_pro, SDXL, Qwen_Image} > {Flux, SD3}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "Thunderstorm approaching: layered dark clouds with rich structure, one lightning bolt illuminating part of the cloud bank, ground slightly underexposed but detailed.",
+    "Prompt_zh": "风暴降至：结构丰富的层状乌云，一道闪电照亮了部分云层，地面略微欠曝但细节丰富。",
+    "final_ranking": "{Banana_pro, SD3, Qwen_Image, Z_Image, GPT, Banana} > {Flux, SDXL}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "Rain on window from indoors: sharply focused raindrops on glass, city lights outside blurred into bokeh, strong depth separation, realistic reflections.",
+    "Prompt_zh": "室内看窗外的雨：玻璃上的雨滴焦点清晰，窗外城市灯光虚化成散景，强烈的深度感，真实的反射。",
+    "final_ranking": "{Banana, Z_Image, GPT, SD3, Banana_pro, Qwen_Image, Flux, SDXL}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "On a kitchen counter, a red tomato sits in front of a green bowl, while a yellow lemon sits behind the bowl, and all three objects are fully visible with correct perspective.",
+    "Prompt_zh": "厨房台面上，一个红番茄放在绿碗前，一个黄柠檬放在碗后，三个物体都清晰可见且透视正确。",
+    "final_ranking": "{Banana_pro} > {GPT} > {Z_Image, SD3, Qwen_Image, Banana} > {Flux, SDXL}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "A small white cat is on the left side of a sofa and a brown dog is on the right side, with a folded blanket placed between them, shot in natural window light.",
+    "Prompt_zh": "沙发左侧有一只小白猫，右侧有一只棕色狗，中间放着一条折叠的毯子，拍摄于自然窗光下。",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image, SD3, Banana_pro} > {Banana, Flux, SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "A macro photo of a steaming bowl of dumplings shows glossy wrappers, tiny condensation droplets, and shallow depth of field with a softly blurred background.",
+    "Prompt_zh": "一碗冒着蒸汽的饺子的微距照片，显示出油亮的面皮、细小的冷凝水滴，以及带有柔和背景虚化的浅景深。",
+    "final_ranking": "{Banana, Z_Image, Banana_pro, GPT, Qwen_Image} > {SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "A close-up of freshly fried chicken shows crisp textured batter with realistic oil sheen and a few crumbs on a paper-lined tray under warm light.",
+    "Prompt_zh": "新鲜炸鸡的特写，显示出酥脆有质感的面衣，带有真实的油光，垫纸盘里有少许碎屑，暖色调光线。",
+    "final_ranking": "{Banana_pro, Flux, Banana} > {SDXL, SD3, GPT, Qwen_Image, Z_Image}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "A macro shot of sliced avocado on toast shows visible salt flakes and pepper granules, with sharp focus on the front edge and smooth bokeh behind.",
+    "Prompt_zh": "吐司切片鳄梨的微距拍摄，显示出可见的盐粒和胡椒粉，焦点集中在前端边缘，后方是平滑的散景。",
+    "final_ranking": "{GPT, Banana_pro, Z_Image} > {Qwen_Image, Flux, Banana, SDXL} > {SD3}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "A macro photo of a chocolate chip cookie broken in half shows melted chips, crumb structure, and shallow depth of field on a wooden board.",
+    "Prompt_zh": "一块掰成两半的巧克力曲奇的微距照片，木板上显示出融化的巧克力片、碎屑结构和浅景深。",
+    "final_ranking": "{GPT, Banana_pro} > {Banana, Qwen_Image} > {Z_Image, Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "A close-up of sushi shows distinct rice grains, subtle fish translucency, and a slight gloss highlight, photographed with soft side lighting.",
+    "Prompt_zh": "寿司的特写，显示出颗颗分明的米粒、鱼肉微妙的半透明感和轻微的光泽高光，拍摄于柔和的侧光下。",
+    "final_ranking": "{SD3, Banana, Flux} > {GPT, Banana_pro, SDXL, Qwen_Image} > {Z_Image}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "A macro shot of iced coffee shows clear ice cubes, condensation on the glass, and a sharp meniscus line with blurred café background lights.",
+    "Prompt_zh": "冰咖啡的微距拍摄，显示出剔透的冰块、玻璃杯上的冷凝水、清晰的水面边缘，背景是虚化的咖啡馆灯光。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Z_Image, Banana} > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "A macro shot of ramen egg shows a jammy yolk center, fine surface texture, and soft steam in warm indoor lighting.",
+    "Prompt_zh": "拉面蛋的微距拍摄，显示出糖心蛋黄中心、细腻的表面质感，暖色室内灯光下伴有轻微蒸汽。",
+    "final_ranking": "{GPT, Qwen_Image} > {Z_Image, Banana_pro} > {Banana} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "A close-up of a scoop of vanilla ice cream beginning to melt shows realistic glossy drips and softening edges against a simple background.",
+    "Prompt_zh": "香草冰激凌球开始融化的特写，简洁背景下显示出真实的油亮滴落感和软化的边缘。",
+    "final_ranking": "{GPT, Banana, Z_Image, Qwen_Image} > {Banana_pro, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "A foggy morning city park scene shows layered mist, soft volumetric sunlight through trees, and clear depth cues from near to far.",
+    "Prompt_zh": "薄雾清晨的城市公园，显示出层层迷雾、穿过树木的柔和体积光，以及从近到远清晰的深度线索。",
+    "final_ranking": "{Banana_pro, GPT, Banana, Z_Image} > {Qwen_Image, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "A winter street at night shows falling snow with depth, streetlights creating glowing halos, and wet pavement reflecting the lights.",
+    "Prompt_zh": "冬季夜晚的街道，显示出有深度的落雪，路灯营造出的发光光晕，以及反射着灯光的湿润路面。",
+    "final_ranking": "{SDXL, GPT, Flux} > {Banana_pro, Banana, Z_Image} > {SD3} > {Qwen_Image}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "A sunrise over a lake shows calm water reflecting the sky, subtle ripples, and backlit reeds in the foreground with clean silhouettes.",
+    "Prompt_zh": "湖面日出，显示出倒映天空的平静湖面、微弱的波纹，以及前景中轮廓清晰的逆光芦苇。",
+    "final_ranking": "{GPT, Flux, SD3, Banana_pro, Qwen_Image, Banana} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "A rainy evening street scene shows puddles reflecting neon signs, raindrops creating ripples, and headlights diffused by light rain.",
+    "Prompt_zh": "雨天傍晚的街景，显示出倒映着霓虹灯招牌的水洼、雨滴产生的波纹，以及被小雨扩散的车灯光。",
+    "final_ranking": "{GPT} > {Z_Image, Qwen_Image, Banana_pro} > {Banana, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "A coastal scene at sunset shows a bright reflection path on the ocean, crisp foam on small waves, and wet sand reflecting the sky.",
+    "Prompt_zh": "落日下的海岸场景，显示出大海上明亮的反射路径、小浪上清脆的泡沫，以及反射着天空的湿沙。",
+    "final_ranking": "{GPT, Banana_pro} > {Flux, Qwen_Image, Banana, SD3} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "A desert scene at noon shows hard sunlight, sharp dune shadows, and subtle heat-haze distortion in the far distance.",
+    "Prompt_zh": "正午的沙漠场景，显示出强烈的阳光、锐利的沙丘阴影，以及远方微妙的热浪扭曲。",
+    "final_ranking": "{GPT, Qwen_Image, Flux, SDXL} > {Z_Image, SD3, Banana} > {Banana_pro}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "A rain-on-window indoor shot shows sharply focused raindrops on the glass while city lights outside blur into soft bokeh circles.",
+    "Prompt_zh": "雨水打在窗户上的室内拍摄，玻璃上的雨滴焦点锐利，而窗外的城市灯光虚化成柔和的散景圆圈。",
+    "final_ranking": "{Banana, GPT, Qwen_Image, SD3} > {Z_Image, Banana_pro, SDXL, Flux}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "An autumn riverside scene shows red and yellow leaves, water reflections with gentle ripples, and strong atmospheric perspective.",
+    "Prompt_zh": "秋季河畔场景，显示出红黄相间的叶子、带有轻微波纹的水面反射，以及强烈的空气透视感。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Z_Image, Qwen_Image} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "A bus stop scene shows three people, where the person in the middle holds an umbrella that partially covers the person on the right.",
+    "Prompt_zh": "公交站场景中有三个人，中间的人撑着伞，伞遮住了右边人的部分身体。",
+    "final_ranking": "{Z_Image} > {GPT} > {Banana, Qwen_Image, Banana_pro, Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "A rainy evening street with wet pavement, streetlights just turning on, people walking slowly under umbrellas, soft reflections everywhere.",
+    "Prompt_zh": "雨天傍晚的街道，路面湿润，路灯刚刚开启，人们在雨伞下缓慢行走，到处都是柔和的倒影。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Banana, Flux, SDXL} > {SD3, Qwen_Image}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "A small coastal town at noon: white walls, blue doors, laundry fluttering in the wind, bright sun and distant chatter.",
+    "Prompt_zh": "正午的海滨小镇：白墙、蓝门、随风飘动的晾晒衣服、明亮的阳光和远处的嘈杂声。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image} > {Z_Image, Flux} > {SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "A quiet morning kitchen with warm window light, a cup of coffee steaming on the table, fruit cut open, everything calm and lived-in.",
+    "Prompt_zh": "安静的清晨厨房，窗外射入温暖的光线，桌上一杯冒烟的咖啡，切开的水果，一切显得宁静且有生活气息。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Flux} > {Banana, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "A summer convenience store entrance at dusk, the hum of a freezer, someone sitting on the steps with a soda, orange light on the horizon.",
+    "Prompt_zh": "盛夏黄昏时的便利店门口，冰柜的嗡嗡声，有人拿着汽水坐在台阶上，地平线上泛着橘光。",
+    "final_ranking": "{GPT} > {Banana_pro, Banana} > {Flux, Qwen_Image, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "A fresh snow morning in a quiet neighborhood, thick snow on branches, a line of footprints, someone shoveling in the distance.",
+    "Prompt_zh": "宁静社区的落雪清晨，枝头积雪深厚，一行脚印，远处有人在铲雪。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image} > {Banana, Qwen_Image, SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "A lonely gas station on a mountain road, heat shimmer in the distance, a flag snapping in the wind, endless blue sky.",
+    "Prompt_zh": "山路上的一家孤独加油站，远处的地气升腾扭曲，旗帜在风中猎猎作响，无垠的蓝天。",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image, GPT, SD3} > {Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "The sky right before a storm, heavy clouds rolling in, trees bending in gusts, a low distant rumble of thunder.",
+    "Prompt_zh": "暴风雨前夕的天空，浓云滚滚而来，树木在阵风中弯曲，远处传来低沉的雷声。",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image} > {Banana} > {Banana_pro, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "A close-up of a vintage leather-bound book on a dark wood desk, realistic worn textures on the cover, gold leaf lettering, soft lamp light with deep shadows.",
+    "Prompt_zh": "深色木书桌上一本复古皮革封面书的特写，封面有真实的磨损质感，金箔刻字，柔和的灯光伴有深邃的阴影。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Banana} > {Z_Image, GPT} > {SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "Macro shot of a butterfly on a vibrant flower: visible wing scales, tiny pollen grains, translucent petal edges, and creamy background bokeh.",
+    "Prompt_zh": "鲜花上蝴蝶的微距拍摄：可见的翅膀鳞片、细小的花粉颗粒、半透明的花瓣边缘，以及奶油般柔滑的背景虚化。",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT} > {SD3, Banana_pro, Banana} > {SDXL, Flux}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "A futuristic city skyline at blue hour: glowing holographic advertisements, smooth glass and steel textures, flying vehicles with motion blur, sharp architectural details.",
+    "Prompt_zh": "蓝色时刻的未来城市天际线：发光的全息广告、光滑的玻璃和钢铁质感、带有运动模糊的飞行器，建筑细节清晰。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image, Flux, SD3, Z_Image, SDXL}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "A majestic stag in a sun-dappled forest: realistic fur texture, volumetric light rays (Tyndall effect) filtering through leaves, crisp forest floor details.",
+    "Prompt_zh": "阳光斑驳的森林里一只雄伟的雄鹿：真实的皮毛质感，透过叶片过滤的体积光（丁达尔效应），清晰的林地地面细节。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image} > {SD3, Qwen_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "A steaming cup of matcha latte on a stone coaster: fine foam art, ceramic glaze texture, tiny bubbles on the surface, soft natural morning light.",
+    "Prompt_zh": "石质杯垫上一杯热气腾腾的抹茶拿铁：细腻的拉花，陶瓷釉面质感，表面细小的气泡，柔和的清晨自然光。",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT} > {Flux, Banana_pro, Banana, SDXL} > {SD3}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "An astronaut walking on a rocky planetary surface: realistic suit fabric, reflections of the cosmos on the visor, sharp jagged rocks, high contrast shadows.",
+    "Prompt_zh": "宇航员在多岩石的行星表面行走：真实的宇航服面料，面罩上反射的宇宙景象，锐利参差的岩石，高对比度阴影。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT} > {Qwen_Image} > {Banana, SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "A portrait of an elderly artisan: detailed skin wrinkles, focus on weathered hands working with wood, natural skin tones, soft studio lighting.",
+    "Prompt_zh": "一位老工匠的肖像：细腻的皮肤皱纹，焦点在木工劳作的沧桑双手，自然的肤色，柔和的影棚光。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT} > {Z_Image, SD3, SDXL} > {Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "Fresh berries in a silver bowl: metallic luster and reflections, water droplets on the fruit, realistic textures of raspberries and blueberries, sharp focus.",
+    "Prompt_zh": "银碗里的新鲜浆果：金属光泽和反射，水果上的水滴，覆盆子和蓝莓的真实质感，焦点清晰。",
+    "final_ranking": "{SD3, Qwen_Image, GPT, Z_Image, Banana_pro} > {Flux, Banana} > {SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "A classic sports car in a modern garage: polished chrome highlights, realistic tire tread, sleek body reflections, clean concrete floor, cinematic overhead light.",
+    "Prompt_zh": "现代车库里的一辆经典跑车：抛光的镀铬高光，真实的轮胎胎面，流畅的车身反射，干净的水泥地面，电影感的顶光。",
+    "final_ranking": "{Qwen_Image} > {Z_Image, SDXL, Flux, GPT, Banana, Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "A cozy mountain cabin interior: glowing fireplace with realistic sparks, knit wool blankets, wood grain textures, warm atmosphere with soft amber lighting.",
+    "Prompt_zh": "舒适的高山木屋内部：带有真实火星的发光壁炉，针织羊毛毯，木纹质感，带有柔和琥珀色灯光的温暖氛围。",
+    "final_ranking": "{Banana_pro, Banana} > {Z_Image, SDXL, GPT} > {Flux, Qwen_Image, SD3}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "Macro of a circuit board: metallic soldering points, tiny transistors, etched copper lines, shallow depth of field with tech-inspired bokeh.",
+    "Prompt_zh": "电路板微距：金属焊点、细小的晶体管、蚀刻的铜线，带有科技感虚化的浅景深。",
+    "final_ranking": "{Banana_pro, Qwen_Image, SD3} > {Z_Image} > {Banana, Flux} > {SDXL, GPT}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "Underwater coral reef: clear blue water caustics, vibrant coral textures, small tropical fish with sharp scales, bubbles rising to the surface.",
+    "Prompt_zh": "水下珊瑚礁：清澈的蓝光折射水纹，鲜艳的珊瑚质感，鱼鳞清晰的热带小鱼，升向水面的气泡。",
+    "final_ranking": "{Banana, SD3} > {Banana_pro, GPT, Z_Image, Qwen_Image} > {Flux, SDXL}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "A minimalist white ceramic vase with a single dried branch, casting a long elegant shadow against a textured plaster wall, clean aesthetic.",
+    "Prompt_zh": "极简白色陶瓷花瓶，插着一根枯枝，在质感细腻的灰泥墙上投下优雅的长影，纯净的美感。",
+    "final_ranking": "{Z_Image, Banana_pro, SDXL} > {SD3, Qwen_Image} > {Banana, GPT} > {Flux}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "A cinematic portrait of a girl with freckles standing in a field of lavender at sunset, hair strands blowing in the wind, wearing a vintage white linen dress with intricate embroidery.",
+    "Prompt_zh": "夕阳下站在薰衣草田里的女孩电影感肖像：随风飘动的发丝，穿着一件带有精致刺绣的复古白色亚麻连衣裙。",
+    "final_ranking": "{SDXL, Flux, Banana} > {GPT, Qwen_Image, Banana_pro} > {Z_Image, SD3}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "A slice of artisan sourdough bread: crispy crust with realistic air pockets, flour dust, visible seeds, warm backlighting emphasizing texture.",
+    "Prompt_zh": "一片手工酸种面包：酥脆的表皮带有真实的孔洞，面粉粉末，可见的种子，强调质感的温暖逆光。",
+    "final_ranking": "{Banana, Qwen_Image} > {Z_Image, SDXL, SD3, Banana_pro, GPT} > {Flux}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "A bustling street market in Southeast Asia: colorful spices in sacks, textures of woven baskets, steam from street food, vibrant crowds in soft daylight.",
+    "Prompt_zh": "东南亚繁忙的街头市场：麻袋里五颜六色的香料，编织篮的质感，街头美食的蒸汽，柔和日光下活跃的人群。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Z_Image} > {Banana} > {GPT, SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "A high-end mechanical watch: visible gears and balance wheel, sapphire glass reflection, metallic brushed finish, extreme detail on the dial.",
+    "Prompt_zh": "一款高端机械表：可见的齿轮和摆轮，蓝宝石玻璃反射，金属拉丝工艺，表盘细节极致。",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image} > {SD3, Flux, GPT} > {SDXL, Z_Image}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "Morning dew on a spider web: crystal clear droplets, thin silk lines against a blurred green meadow, sharp focus on the water beads.",
+    "Prompt_zh": "蛛网上的晨露：晶莹剔透的水滴，在模糊的绿色草地背景下纤细的丝线，焦点在水珠上。",
+    "final_ranking": "{Flux, GPT, Banana_pro, SD3, Qwen_Image} > {Banana, SDXL, Z_Image}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "A sleek modern kitchen: marble countertops with realistic veining, stainless steel appliances, clean reflections, indirect LED lighting, high-end feel.",
+    "Prompt_zh": "时尚的现代厨房：带有真实纹理的大理石台面，不锈钢厨具，清晰的反射，LED间接照明，高端感。",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana_pro, SDXL, SD3} > {Banana, GPT, Flux}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "A weathered wooden boat on a pebble beach: peeling paint texture, rusted metal ring, wet stones reflecting the overcast sky, calm mood.",
+    "Prompt_zh": "卵石滩上一艘破旧的木船：剥落的油漆质感，生锈的金属环，反射着阴天的湿润石块，宁静的氛围。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Z_Image, Flux, SD3} > {SDXL, Banana}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "Macro of a wet green leaf: distinct vein structure, transparent raindrops, tiny serrated edges, soft natural light.",
+    "Prompt_zh": "湿润绿叶微距：清晰的脉络结构，透明的雨滴，细小的锯齿状边缘，柔和的自然光。",
+    "final_ranking": "{Banana_pro, Banana, GPT, Qwen_Image} > {Flux, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "A cozy reading nook: a soft velvet armchair, a pile of thick wool blankets, a glowing floor lamp, warm shadows and high comfort.",
+    "Prompt_zh": "舒适的阅读角：一张柔软的天鹅绒单人沙发，一堆厚厚的羊毛毯，一盏发光的落地灯，温暖的阴影和高度的舒适感。",
+    "final_ranking": "{Z_Image, GPT} > {Qwen_Image, Banana_pro, SD3} > {Banana, Flux} > {SDXL}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "A glass of sparkling water with ice and lemon: realistic carbonation bubbles, condensation on the glass, refraction through ice cubes, bright studio light.",
+    "Prompt_zh": "一杯带冰块和柠檬的气泡水：真实的碳酸气泡，玻璃杯上的冷凝水，透过冰块的折射，明亮的影棚光。",
+    "final_ranking": "{Banana_pro, Banana, Z_Image, GPT} > {Qwen_Image, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "A cyberpunk alleyway: glowing neon signs in pink and blue, wet pavement with colorful reflections, steam rising from pipes, high contrast.",
+    "Prompt_zh": "赛博朋克小巷：粉蓝色调的发光霓虹灯，带有彩色倒影的湿润路面，管道升起的蒸汽，高对比度。",
+    "final_ranking": "{Banana_pro, Banana, Z_Image} > {Qwen_Image, GPT} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "A freshly baked pizza: melting mozzarella with realistic oil sheen, charred crust bubbles, fresh basil leaves, warm overhead lighting.",
+    "Prompt_zh": "刚出炉的比萨：带有真实油光的融化马苏里拉奶酪，焦黄的面皮气泡，新鲜罗勒叶，暖色调顶光。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Flux} > {Banana, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "An ancient temple ruins in the jungle: mossy stone textures, vines wrapping around pillars, dappled sunlight, deep atmospheric perspective.",
+    "Prompt_zh": "丛林中远古神庙遗址：长满青苔的石头质感，缠绕在柱子上的藤蔓，斑驳的阳光，深邃的空气透视。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, Qwen_Image} > {SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "Close-up of a cat's paw: soft fur texture, tiny claws slightly visible, realistic pink pads, shallow depth of field on a carpet.",
+    "Prompt_zh": "猫爪特写：柔软的毛发质感，微露的细小爪子，真实的粉色肉垫，地毯上的浅景深。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image} > {Qwen_Image, Flux} > {Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "A snowy mountain peak at sunrise: crisp snow textures, golden light on the slopes, deep blue shadows, high clarity and vast scale.",
+    "Prompt_zh": "日出时分的雪山顶：清晰的雪面质感，坡面上的金色光芒，深蓝色的阴影，极高的清晰度和宏大的规模。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image} > {SD3} > {Z_Image, Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "Macro of a coffee bean being ground: dark oily surface, tiny fragments, dusty texture, warm industrial lighting.",
+    "Prompt_zh": "研磨中的咖啡豆微距：深色油亮的表面，细小的碎片，粉尘质感，温暖的工业光照。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {SD3, Banana, Flux, GPT} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "A rainy window overlook: city lights blurred into bokeh, realistic droplets on the exterior, subtle indoor reflections, moody atmosphere.",
+    "Prompt_zh": "雨窗远眺：城市灯光虚化成散景，外窗真实的雨滴，微妙的室内反射，忧郁的氛围。",
+    "final_ranking": "{Banana} > {Banana_pro, SD3} > {GPT, Z_Image, SDXL, Qwen_Image, Flux}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "A silk dress flowing in the wind: realistic fabric folds and sheen, sunlight passing through thin layers, elegant movement, soft focus background.",
+    "Prompt_zh": "随风飘动的丝绸长裙：真实的织物折痕和光泽，阳光穿过薄层的质感，优雅的律动感，背景柔焦。",
+    "final_ranking": "{Qwen_Image, Banana} > {Flux} > {GPT, Z_Image, SD3} > {SDXL} > {Banana_pro}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "A professional DSLR camera on a table: textured grip, glass lens reflections showing internal elements, sharp metal buttons, realistic industrial design.",
+    "Prompt_zh": "桌上的专业单反相机：有纹理的握把，显示内部镜片的玻璃反射，锐利的金属按钮，真实的工业设计。",
+    "final_ranking": "{Qwen_Image, Banana, Flux, SD3, Z_Image} > {Banana_pro, GPT, SDXL}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "A field of lavender at dusk: deep purple textures, soft orange sky, a winding path, calm atmospheric lighting.",
+    "Prompt_zh": "黄昏时的薰衣草田：深紫色质感，柔和的橙色天空，一条蜿蜒的小路，宁静的氛围灯光。",
+    "final_ranking": "{GPT, Banana_pro} > {Flux, Banana, Z_Image, SD3, SDXL, Qwen_Image}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "A close-up of a honeycomb: hexagonal structures, realistic glossy honey, visible wax textures, backlit to show amber translucency.",
+    "Prompt_zh": "蜂巢特写：六边形结构，真实的油亮蜂蜜，可见的蜡质感，逆光显示琥珀色的半透明感。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Flux} > {SDXL, Z_Image, Banana} > {SD3}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "A modern minimalist living room: gray linen sofa, concrete wall texture, one green plant, sharp shadows from a window, clean architectural lines.",
+    "Prompt_zh": "现代极简客厅：灰色亚麻沙发，水泥墙纹理，一株绿植，窗户投下的锐利阴影，洁净的建筑线条。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT} > {Flux, Qwen_Image, Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "A small wooden jewelry box: velvet lining, gold hinges, intricate carvings, soft lighting highlighting the wood grain.",
+    "Prompt_zh": "一个小木质首饰盒：天鹅绒内衬，金色合页，精细的雕刻，强调木纹的柔和灯光。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Flux, SD3} > {Z_Image, SDXL} > {GPT, Banana}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "A path through a bamboo forest: tall green stalks, soft light filtering through the top, realistic dirt path texture, peaceful atmosphere.",
+    "Prompt_zh": "穿过竹林的小径：高大的绿竹，顶部漏下的柔光，真实的土径质感，和平的氛围。",
+    "final_ranking": "{Banana_pro} > {Banana, Qwen_Image, Flux, SDXL, Z_Image, GPT} > {SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "Macro of a burning match: realistic flame colors, curling black carbonized wood, thin wisp of smoke, dark background.",
+    "Prompt_zh": "燃着的火柴微距：真实的火焰色彩，卷曲的发黑碳化木材，一丝细烟，暗景。",
+    "final_ranking": "{Banana_pro, GPT, Qwen_Image} > {Z_Image, Banana, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "A coastal lighthouse during a storm: massive white waves, spray and mist, dark turbulent sky, sharp textures on the stone tower.",
+    "Prompt_zh": "暴风雨中的海岸灯塔：巨大的白浪，水雾和海浪喷溅，阴郁动荡的天空，石塔锐利的质感。",
+    "final_ranking": "{Banana_pro} > {Banana, GPT, SD3, Qwen_Image, Z_Image} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "A traditional Japanese tea room: tatami mat texture, shoji screen paper, shadows of bamboo outside, soft indirect light, zen mood.",
+    "Prompt_zh": "传统和室：榻榻米质感，障子纸，窗外竹子的影子，柔和的间接光，禅意氛围。",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image, Banana, Z_Image, Flux} > {SDXL, SD3}"
+  }
+]

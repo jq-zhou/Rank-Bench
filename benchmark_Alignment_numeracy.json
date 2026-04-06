@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "six fish swam in the aquarium",
+    "Prompt_zh": "六条鱼在水族箱里游泳",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image} > {SD3}  > {Flux, Banana_pro} > {SDXL, Banana}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "five sheep grazed in the pasture",
+    "Prompt_zh": "五只绵羊在牧场上吃草",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Qwen_Image} > {SDXL} > {Banana, Flux}  > {SD3}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "four balloons floated in the sky",
+    "Prompt_zh": "四个气球在天空中飘浮",
+    "final_ranking": "{Z_Image, GPT, Flux, Qwen_Image} > {SD3, Banana, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "eight sofas provided comfortable seating",
+    "Prompt_zh": "八张沙发提供了舒适的座位",
+    "final_ranking": "{Flux, Banana} > {SD3, Banana_pro} > {SDXL, Z_Image, Qwen_Image}  > {GPT}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "seven strawberries were ripe for picking",
+    "Prompt_zh": "七颗草莓成熟了，可以采摘了",
+    "final_ranking": "{Banana_pro} > {GPT} > {SD3, Z_Image, Qwen_Image, Banana} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "three bees buzzed around the lavender",
+    "Prompt_zh": "三只蜜蜂在薰衣草周围嗡嗡作响",
+    "final_ranking": "{Banana, Flux, Z_Image, GPT, Banana_pro} > {Qwen_Image, SDXL}  > {SD3}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "three foxes prowled near the treeline",
+    "Prompt_zh": "三只狐狸在树林线附近徘徊",
+    "final_ranking": "{Banana, Banana_pro, Qwen_Image, GPT, Flux, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "two owls hooted in the dark forest",
+    "Prompt_zh": "两只猫头鹰在黑暗的森林里鸣叫",
+    "final_ranking": "{GPT, Banana} > {Flux, Z_Image, Banana_pro, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "six crabs scuttled along the shore",
+    "Prompt_zh": "六只螃蟹在岸边横行",
+    "final_ranking": "{SD3, GPT, Qwen_Image} > {Banana_pro }  > {SDXL , Z_Image} >  {Flux}  > {Banana}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "seven horses trotted down the dirt road",
+    "Prompt_zh": "七匹马在土路上小跑",
+    "final_ranking": "{GPT} > {SD3, Flux, Banana, Z_Image, Qwen_Image} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "four turtles rested on a sunny rock",
+    "Prompt_zh": "四只乌龟在阳光充足的岩石上休息",
+    "final_ranking": "{Banana_pro, Z_Image, GPT, SD3} > { SDXL,Banana} > {Flux, Qwen_Image}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "eight dolphins leapt beside the boat",
+    "Prompt_zh": "八只海豚在船边跃起",
+    "final_ranking": "{GPT} > {Z_Image}  >  {Banana_pro}  >  { Banana, Qwen_Image}  > {SDXL}   > {SD3, Flux}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "five frogs croaked in the marsh",
+    "Prompt_zh": "五只青蛙在沼泽中呱呱叫",
+    "final_ranking": "{Qwen_Image, Flux, Banana_pro} > {SD3} > {SDXL, Z_Image, Banana, GPT}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "six candles flickered on the table",
+    "Prompt_zh": "六支蜡烛在桌子上闪烁",
+    "final_ranking": "{GPT, Banana_pro, SD3} > {Qwen_Image, Banana, Flux, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "five umbrellas leaned in the corner",
+    "Prompt_zh": "五把雨伞靠在角落里",
+    "final_ranking": "{GPT, Banana } > {Qwen_Image,Banana_pro} > {Z_Image, Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "three mugs steamed on the counter",
+    "Prompt_zh": "吧台上冒着热气的三只马克杯",
+    "final_ranking": "{GPT, Z_Image, Banana, Flux, Banana_pro, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "four books stacked on the shelf",
+    "Prompt_zh": "书架上整齐堆放的四本书",
+    "final_ranking": "{Flux, Qwen_Image} > {Banana_pro, GPT} > {Banana,  Z_Image}  > { SD3} > {SDXL}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "two bicycles stood by the fence",
+    "Prompt_zh": "篱笆旁放着两辆自行车",
+    "final_ranking": "{Qwen_Image, GPT, Flux, Banana_pro} > {Z_Image, SD3, SDXL} > {Banana}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "seven apples ripened on the branch",
+    "Prompt_zh": "枝头成熟的七个苹果",
+    "final_ranking": "{GPT, Qwen_Image} > {Flux, Z_Image} > {Banana_pro, Banana}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "five lemons rolled across the floor",
+    "Prompt_zh": "五个柠檬在地板上滚动",
+    "final_ranking": "{Flux, GPT, Qwen_Image} > {SD3, Banana_pro, Z_Image, Banana} > {SDXL}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "six peaches were ready to harvest",
+    "Prompt_zh": "六个桃子可以采摘了",
+    "final_ranking": "{Banana, GPT, Banana_pro} > {Qwen_Image, SDXL, Z_Image, SD3}  > {Flux}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "four dumplings steamed in the basket",
+    "Prompt_zh": "笼屉里冒着热气的四个饺子",
+    "final_ranking": "{GPT, Banana, Banana_pro, Qwen_Image, SD3Flux} > { Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "two cars stuck on the road",
+    "Prompt_zh": "路上停着两辆被困的汽车",
+    "final_ranking": "{Banana, Qwen_Image, GPT} > {Flux, SDXL, SD3} > {Banana_pro} > {Z_Image}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "one violin and four pineapples sat on the stage",
+    "Prompt_zh": "舞台上放着一把小提琴和四个菠萝",
+    "final_ranking": "{Z_Image, Banana} > {Banana_pro} > {Flux, GPT, Qwen_Image}  > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "two candles and three lanterns lit the campsite",
+    "Prompt_zh": "两支蜡烛和三盏灯笼照亮了营地",
+    "final_ranking": "{Banana, Banana_pro} > {GPT, Qwen_Image, Z_Image, SD3} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "four books and two notebooks filled the backpack",
+    "Prompt_zh": "四本书和两个笔记本塞满了背包",
+    "final_ranking": "{Flux} >  {Banana, GPT} >  {Qwen_Image, Z_Image} > {Banana_pro, SDXL}  > {SD3}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "three cups and five plates sat on the dining table",
+    "Prompt_zh": "餐桌上放着三个杯子和五个盘子",
+    "final_ranking": "{Banana_pro} > {GPT} >  {Qwen_Image} >  {Z_Image, Flux} > {SDXL,Banana } >  {SD3}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "two bicycles and one scooter lined the sidewalk",
+    "Prompt_zh": "人行道上停放着两辆自行车和一辆滑板车",
+    "final_ranking": "{Banana, Flux}  > {GPT} > {Qwen_Image, Banana_pro}  > {SD3, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "six apples and four oranges rested in the fruit bowl",
+    "Prompt_zh": "果盘里放着六个苹果和四个橙子",
+    "final_ranking": "{Banana} > {GPT,  Banana_pro} >  {Flux,Qwen_Image, Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "five towels and two swimsuits hung by the pool",
+    "Prompt_zh": "泳池边挂着五条毛巾和两套泳衣",
+    "final_ranking": "{Banana} > {Banana_pro   } > {GPT, Z_Image}  > {Flux} > {Qwen_Image} > {SD3 }  > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "four kayaks and two canoes floated on the river",
+    "Prompt_zh": "河面上漂浮着四只皮划艇和两只独木舟",
+    "final_ranking": "{Banana_pro, Banana} > {Qwen_Image}  >  {GPT, Z_Image } > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "four puppies and two kittens played in the living room",
+    "Prompt_zh": "客厅里有四只小狗和两只小猫在玩耍",
+    "final_ranking": "{Banana_pro} > {GPT} > {Qwen_Image, SDXL} > {Banana} > {Flux, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "three buses and five cars waited at the intersection",
+    "Prompt_zh": "三辆巴士和五辆小车在交叉路口等候",
+    "final_ranking": "{Banana} > {Qwen_Image, GPT,Z_Image} > { SDXL, Flux} > {Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "five paintings and two sculptures filled the gallery",
+    "Prompt_zh": "画廊里陈列着五幅画作和两尊雕塑",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image,  Flux}  > {SDXL, Z_Image} > {SD3} > {Banana}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "four keys, three helmets and four lamps",
+    "Prompt_zh": "四把钥匙、三个头盔和四盏灯",
+    "final_ranking": "{Banana_pro} > {Banana, GPT} > { Qwen_Image, Z_Image} >  {SDXL}  > {Flux,SD3}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "four sinks, three backpacks and two pears",
+    "Prompt_zh": "四个水槽、三个背包和两个梨",
+    "final_ranking": "{Banana, GPT} > {Banana_pro,  Qwen_Image} > {Flux} > {Z_Image}  > {SD3}  >  {SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "one cup, one goldfish and two cameras",
+    "Prompt_zh": "一个杯子、一条金鱼和两台照相机",
+    "final_ranking": "{Banana, GPT, Qwen_Image} > {Banana_pro} > {Flux} >  { Z_Image } > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "three strawberries, one mouse and three sofas",
+    "Prompt_zh": "三颗草莓、一只老鼠和三张沙发",
+    "final_ranking": "{Z_Image, Banana}  > {Banana_pro} > {SD3}  > {Qwen_Image, GPT} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "one stool, four balloons and three bananas",
+    "Prompt_zh": "一个凳子、四个气球和三根香蕉",
+    "final_ranking": "{Banana_pro}  > {Flux, GPT} > {Banana,Z_Image} > {Qwen_Image}  > {SDXL, SD3 }"
+  },
+  {
+    "ID": 40,
+    "Prompt": "two clocks, one frog and two cups",
+    "Prompt_zh": "两口钟、一只青蛙和两个杯子",
+    "final_ranking": "{Qwen_Image, Z_Image, GPT, Banana} > {Banana_pro} > { Flux, SDXL}  > {SD3}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "three rabbits hopped through the meadow",
+    "Prompt_zh": "三只兔子在草地上跳跃",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image, GPT,Z_Image} >  {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "four robots stood in a row",
+    "Prompt_zh": "四个机器人站成一排",
+    "final_ranking": "{Qwen_Image, Z_Image, SD3, Banana_pro, GPT, Flux} > {Banana, SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "two guitars leaned against the wall",
+    "Prompt_zh": "两把吉他靠在墙上",
+    "final_ranking": "{Z_Image, SD3, Banana, SDXL, Qwen_Image, Flux, GPT} > {Banana_pro}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "eight chairs surrounded the table",
+    "Prompt_zh": "八把椅子围绕着桌子",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image, Banana, Flux} > {SD3, GPT} > {SDXL}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "five bowls sat in the cupboard",
+    "Prompt_zh": "橱柜里放着五个碗",
+    "final_ranking": "{GPT} > {Banana_pro} > {Banana, Qwen_Image} > {Flux}  > { Z_Image,  SD3}  > {SDXL}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "two helmets hung on the hook",
+    "Prompt_zh": "两个头盔挂在钩子上",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT, Flux} > {Banana} > {SDXL, SD3, Banana_pro}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "six umbrellas stood in the stand",
+    "Prompt_zh": "伞架里立着六把雨伞",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro} > {Banana,  Z_Image}  >  {Flux, SDXL}  > {SD3}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "one cat and three dogs ran in the yard",
+    "Prompt_zh": "一只猫和三只狗在院子里跑",
+    "final_ranking": "{Banana_pro, Banana}  > {Qwen_Image} > {GPT, Z_Image } > {Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "two frogs and three turtles rested by the pond",
+    "Prompt_zh": "池塘边休息着两只青蛙和三只乌龟",
+    "final_ranking": "{GPT, Banana_pro} > {Banana,  Z_Image}  > {Qwen_Image} > {Flux,SDXL} > {SD3}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "two apples and two bananas filled the fruit bowl",
+    "Prompt_zh": "果盘里放着两个苹果和两根香蕉",
+    "final_ranking": "{Banana_pro, Qwen_Image,Z_Image} > {Flux, GPT} > { Banana }  > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "three candles and two lanterns lit the porch",
+    "Prompt_zh": "三支蜡烛和两盏灯笼照亮了门廊",
+    "final_ranking": "{GPT,Z_Image} > { Banana} > {Banana_pro} > {SDXL, Qwen_Image} > {SD3, Flux}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "tow cups and two plates sat on the dining table",
+    "Prompt_zh": "餐桌上放着两个杯子和两个盘子",
+    "final_ranking": "{Z_Image, Banana_pro, Flux} > {GPT, Banana} > {Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "two pencils and two erasers lay in the pencil case",
+    "Prompt_zh": "铅笔盒里放着两支铅笔和两块橡皮",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Qwen_Image} > {Flux, Z_Image}  > {SDXL}  >  {SD3}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "two bicycles and two skateboards stood in the garage",
+    "Prompt_zh": "车库里放着两辆自行车和两个滑板",
+    "final_ranking": "{Banana_pro, Flux, Qwen_Image} > {GPT} > {Banana, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "one violin, two drums, and three flutes lay on the stage",
+    "Prompt_zh": "舞台上放着一把小提琴、两个鼓和三支长笛",
+    "final_ranking": "{GPT, Flux} > {Banana_pro, Qwen_Image} > {Banana, Z_Image}  >  {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "two buses, three cars, and two bicycles waited at the intersection",
+    "Prompt_zh": "两辆巴士、三辆车和两辆自行车在路口等候",
+    "final_ranking": "{GPT} > {Banana_pro} > {Banana, Qwen_Image} > {Flux, SD3, Z_Image}  > {SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "three penguins waddled across the ice",
+    "Prompt_zh": "三只企鹅在冰面上摇摇摆摆地行走",
+    "final_ranking": "{Banana, Qwen_Image, Banana_pro, SDXL, SD3, GPT, Flux} > {Z_Image}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "four kites fluttered above the beach",
+    "Prompt_zh": "四个风筝在沙滩上空飘动",
+    "final_ranking": "{ Flux, GPT, Qwen_Image} > {Banana_pro}  >  {Banana, SDXL, Z_Image, SD3}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "two suitcases waited by the door",
+    "Prompt_zh": "门口放着两个手提箱",
+    "final_ranking": "{Banana_pro} > {Z_Image, Qwen_Image, Flux, Banana, GPT} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "five candles glowed on the windowsill",
+    "Prompt_zh": "窗台上点着五支蜡烛",
+    "final_ranking": "{Flux, SD3, GPT, Qwen_Image, Banana,Banana_pro} > { SDXL} > {Z_Image}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "three squirrels gathered nuts in the park",
+    "Prompt_zh": "三只松鼠在公园里收集坚果",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Qwen_Image, Banana} > {Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "four cameras stood on tripods",
+    "Prompt_zh": "四台相机架在三脚架上",
+    "final_ranking": "{SD3, Qwen_Image, Flux, Z_Image, GPT} > {Banana_pro} > {Banana, SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "two pizzas sat on the delivery bike",
+    "Prompt_zh": "送餐自行车上放着两份比萨",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Z_Image, Flux} > {SDXL, SD3} > {Banana}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "five airplanes parked at the hangar",
+    "Prompt_zh": "五架飞机停在机库里",
+    "final_ranking": "{Banana} > {SDXL, Banana_pro} > {SD3, Qwen_Image, Z_Image, Flux}  > {GPT}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "seven stars glowed on the blue banner",
+    "Prompt_zh": "蓝色横幅上闪烁着七颗星星",
+    "final_ranking": "{Banana_pro, Z_Image} > {Banana, GPT, Flux}   > { Qwen_Image}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "three backpacks and one water bottle rested on the bench",
+    "Prompt_zh": "长椅上放着三个背包和一个水瓶",
+    "final_ranking": "{Banana_pro, Flux, GPT, Z_Image} > {SD3, Qwen_Image} > {SDXL, Banana}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "two cats and four birds occupied the garden",
+    "Prompt_zh": "花园里有两只猫和四只鸟",
+    "final_ranking": "{GPT, Qwen_Image, Banana} > {Banana_pro} > {SDXL, Flux, SD3, Z_Image}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "three donuts and three cakes filled the bakery box",
+    "Prompt_zh": "烘焙盒里装有三个甜甜圈和三个蛋糕",
+    "final_ranking": "{GPT} > {Qwen_Image} > {Banana, Banana_pro} > {SD3 , Z_Image}  >  {Flux} > {SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "one piano and two guitars sat on the rug",
+    "Prompt_zh": "地毯上放着一台钢琴和两把吉他",
+    "final_ranking": "{Z_Image, GPT, Banana_pro, Qwen_Image, Flux} > {Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "four cameras, two lenses lay on the table",
+    "Prompt_zh": "桌上放着四台相机、两个镜头",
+    "final_ranking": "{GPT} > {Banana_pro} > {Z_Image} > {Flux , Banana, Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "four soccer balls rolled across the field",
+    "Prompt_zh": "四个足球在球场上滚动",
+    "final_ranking": "{Flux, Banana_pro, GPT, Qwen_Image} > {SD3} > {Z_Image, Banana} >  {SDXL}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "three toasters lined the kitchen counter",
+    "Prompt_zh": "厨房台面上排着三台烤面包机",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image, Flux} > {Banana, SD3, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "two lions and one elephant roamed the savanna",
+    "Prompt_zh": "两头狮子和一头大象在热带草原上漫步",
+    "final_ranking": "{Qwen_Image, Banana, GPT, Flux} > {Banana_pro} > {SD3} > {Z_Image}  > {SDXL}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "two pillows and two blankets covered the bed",
+    "Prompt_zh": "床上铺着两个枕头和两条毯子",
+    "final_ranking": "{Qwen_Image} > {Banana, Banana_pro}  > {GPT, Flux, Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "four traffic lights hung over the intersection",
+    "Prompt_zh": "交叉路口上方挂着四盏红绿灯",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image} > {Z_Image} > {Banana} > {SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "four skateboards leaned against the brick wall",
+    "Prompt_zh": "四块滑板靠在砖墙上",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Qwen_Image, Banana, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "three helicopters flew over the city",
+    "Prompt_zh": "三架直升机在城市上空飞行",
+    "final_ranking": "{GPT, Z_Image, Flux, SD3, Qwen_Image} > {Banana, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "two pears and two watermelons sat in the wooden crate",
+    "Prompt_zh": "木箱里放着两个梨和两个西瓜",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana_pro, GPT} > {Banana} > {Flux} >  {SD3} > {SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "one laptop, three notebooks, and a pen filled the desk",
+    "Prompt_zh": "书桌上放着一台笔记本电脑、三个笔记本和一支笔",
+    "final_ranking": "{Z_Image} > {Flux} > {Banana, Qwen_Image, GPT, Banana_pro} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "two hammers and three nails lay on the workbench",
+    "Prompt_zh": "工作台上放着两把锤子和三颗钉子",
+    "final_ranking": "{Banana, GPT, Qwen_Image, Z_Image} > {Banana_pro} > {Flux} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "three ladybugs crawled on the leaf",
+    "Prompt_zh": "三只瓢虫在叶子上爬行",
+    "final_ranking": "{Banana_pro, SD3, GPT, Qwen_Image, Banana, Flux} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "three telescopes pointed toward the night sky",
+    "Prompt_zh": "三架望远镜指向夜空",
+    "final_ranking": "{Z_Image, Flux, GPT, Qwen_Image, SD3} > {Banana, SDXL} > {Banana_pro}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "four cupcakes with pink frosting sat on the tray",
+    "Prompt_zh": "托盘上放着四个粉色糖霜杯子蛋糕",
+    "final_ranking": "{Z_Image, Banana_pro, SD3, Banana, GPT} > {Qwen_Image, SDXL, Flux}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "five sailboats crossed the bay",
+    "Prompt_zh": "五艘帆船穿过海湾",
+    "final_ranking": "{Qwen_Image, SD3, Flux, Banana_pro, Z_Image,GPT} > {Banana, SDXL}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "two chairs and one round table stood in the patio",
+    "Prompt_zh": "露台上有两把椅子和一张圆桌",
+    "final_ranking": "{Z_Image, GPT, Banana, Qwen_Image, Flux, SDXL} > {Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "three ties and two belts hung in the closet",
+    "Prompt_zh": "衣柜里挂着三条领带和两条皮带",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image, Z_Image, Banana}  > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "five butterflies hovered over the roses",
+    "Prompt_zh": "五只蝴蝶在玫瑰花上空盘旋",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image} > {Flux} > {Banana, SD3, Banana_pro} >  {SDXL}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "two pizzas and three sodas prepared for the party",
+    "Prompt_zh": "为派对准备了两份比萨和三瓶苏打水",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Z_Image, Flux} >  {SD3} > {Banana, SDXL}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "four pencils stood in the ceramic jar",
+    "Prompt_zh": "陶瓷罐里立着四支铅笔",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Banana, Flux} > {Z_Image} > {SD3} >   {SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "two coats and three hats hung on the rack",
+    "Prompt_zh": "架子上挂着两件外套和三顶帽子",
+    "final_ranking": "{Qwen_Image, Banana_pro} > {Banana} > {Z_Image, GPT} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "two eagles perched on the high branch",
+    "Prompt_zh": "两只老鹰栖息在高高的树枝上",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image, Z_Image, GPT, SD3} > {SDXL, Flux}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "three candles and one mirror sat on the mantle",
+    "Prompt_zh": "壁炉架上放着三支蜡烛和一面镜子",
+    "final_ranking": "{Qwen_Image} > {Banana, GPT, Banana_pro, SD3} > {Flux, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "a truck and two motorcycles parked in the lot",
+    "Prompt_zh": "停车场停着一辆卡车和两辆摩托车",
+    "final_ranking": "{Banana, Flux, GPT, Banana_pro} >  {SD3} > {Qwen_Image, Z_Image}  > {SDXL}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "two brushes and two palettes lay in the studio",
+    "Prompt_zh": "画室里放着两把画笔和两个调色板",
+    "final_ranking": "{Qwen_Image, Z_Image} > { Banana_pro,GPT} > {Flux, SDXL}  > { SD3}  > {Banana}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "four goldfish and a snail lived in the tank",
+    "Prompt_zh": "鱼缸里养着四条金鱼和一只蜗牛",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image} > {Banana, Z_Image, Flux} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "three lamps and a clock decorated the room",
+    "Prompt_zh": "三盏灯和四口钟装饰着房间",
+    "final_ranking": "{Qwen_Image, Banana_pro} > {SDXL, GPT, Z_Image} > {Banana, Flux} > {SD3}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "two eggs and two pieces of toast sat on the breakfast plate",
+    "Prompt_zh": "早餐盘里放着两个鸡蛋和两片吐司",
+    "final_ranking": "{Flux, Banana, GPT, Banana_pro} > {Qwen_Image, SDXL, Z_Image}  > {SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "one dictionary and three crayons lay on the rug",
+    "Prompt_zh": "地毯上放着一本字典和三支蜡笔",
+    "final_ranking": "{GPT, Z_Image} > {Banana_pro, Banana} > {Qwen_Image} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "five pigeons  pecked at the breadcrumbs",
+    "Prompt_zh": "五只鸽子在啄食面包屑",
+    "final_ranking": "{Banana, Flux} > {SDXL, Banana_pro} > {SD3, GPT, Qwen_Image} >  {Z_Image}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "two monitors and two keyboards connected to the server",
+    "Prompt_zh": "两台显示器和两个键盘连接到服务器",
+    "final_ranking": "{Qwen_Image, Z_Image, GPT, Banana} > {Banana_pro} > {SDXL} > {Flux, SD3}"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "a yellow pyramid block on a desk",
+    "Prompt_zh": "书桌上的一个黄色金字塔积木",
+    "final_ranking": "{Qwen_Image, Z_Image, GPT, Banana_pro} > {SD3, Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "a black cone hat on a chair",
+    "Prompt_zh": "椅子上的一个黑色圆锥形帽子",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro, Banana, Flux} > {Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "a purple cylinder bottle on a nightstand",
+    "Prompt_zh": "床头柜上的一个紫色圆柱形瓶子",
+    "final_ranking": "{Z_Image, Banana_pro,GPT} > {Qwen_Image, Banana} > {Flux,SDXL} > {SD3}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "a gray sphere stone on a pathway",
+    "Prompt_zh": "小路上的一个灰色球形石头",
+    "final_ranking": "{Banana, GPT, SD3, Flux,Qwen_Image, Banana_pro} > {SDXL, Z_Image}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "a brown cylinder jar on a shelf",
+    "Prompt_zh": "架子上的一个棕色圆柱形罐子",
+    "final_ranking": "{Z_Image, SDXL, GPT} > {Banana_pro,  Flux} > {Qwen_Image, Banana} > {SD3}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "a silver cylinder can on a picnic table",
+    "Prompt_zh": "野餐桌上的一个银色圆柱形罐头",
+    "final_ranking": "{Banana_pro, Banana} > {GPT, SD3, Z_Image, Flux} > {SDXL, Qwen_Image}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "an olive sphere fruit on a plate",
+    "Prompt_zh": "盘子里的一个橄榄色球形水果",
+    "final_ranking": "{GPT, SD3, Qwen_Image,Banana, Z_Image, Banana_pro} > {SDXL} > {Flux}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "a mint pyramid block on a shelf",
+    "Prompt_zh": "架子上的一个薄荷绿金字塔积木",
+    "final_ranking": "{GPT, SD3, SDXL} > {Banana_pro, Z_Image, Qwen_Image, Flux} > {Banana}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "a peach cube sponge by the sink",
+    "Prompt_zh": "水槽边的一个桃红色立方体海绵",
+    "final_ranking": "{SD3, Banana} > {GPT, Z_Imag} > {Banana_proe, Qwen_Image} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "an ocean-blue cone megaphone on a bench",
+    "Prompt_zh": "长椅上的一个海蓝色圆锥形扩音器",
+    "final_ranking": "{Banana, GPT, Qwen_Image, Flux} > {Z_Image, Banana_pro} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "a pearl-white sphere lamp on a nightstand",
+    "Prompt_zh": "床头柜上的一个珍珠白球形台灯",
+    "final_ranking": "{Qwen_Image} > {Banana, Flux, Z_Image, Banana_pro, GPT, SD3} > {SDXL}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "a metallic fork and a fabric blanket",
+    "Prompt_zh": "一个金属叉子和一条织物毯子",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro} > {Z_Image, Flux, Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "a pentagonal badge and a pyramidal award statue",
+    "Prompt_zh": "一个五边形徽章和一个金字塔形奖像",
+    "final_ranking": "{Banana_pro, Qwen_Image, Banana, Z_Image} > {SD3, GPT, Flux} > {SDXL}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "an oblong squash and a teardrop strawberry",
+    "Prompt_zh": "一个椭圆形的南瓜和一个泪滴状的草莓",
+    "final_ranking": "{GPT} > {SD3, Banana} > {Qwen_Image, Flux} > {Z_Image, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "a round doughnut and a square napkin.",
+    "Prompt_zh": "一个圆圈甜甜圈和一张方形餐巾",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana, SD3, Banana_pro} > {Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "a cubic dice and a cylindrical salt shaker",
+    "Prompt_zh": "一个立方体骰子和一个圆柱形盐罐",
+    "final_ranking": "{Banana, Flux, Banana_pro, GPT} > {SDXL, Qwen_Image} > {SD3, Z_Image}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "an oval dining table and a square dining chair",
+    "Prompt_zh": "一张椭圆形餐桌和一把方形餐椅",
+    "final_ranking": "{Banana_pro, GPT, Banana, Qwen_Image} > {Z_Image} > {SDXL, Flux, SD3}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "a fabric shirt and a glass window",
+    "Prompt_zh": "一件织物衬衫和一扇玻璃窗",
+    "final_ranking": "{GPT, Banana_pro} > {Banana, Z_Image} > { SDXL} > {Qwen_Image,SD3} > {Flux}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "a metallic knife and a glass jar",
+    "Prompt_zh": "一把金属刀和一个玻璃罐",
+    "final_ranking": "{Qwen_Image, GPT, SD3} > {Z_Image} > {Banana_pro, Flux, Banana} > {SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "a plastic chair and leather gloves",
+    "Prompt_zh": "一把塑料椅子和一副皮手套",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Banana, Banana_pro} > {SD3}  > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "a teardrop pendant and a diamond brooch pin",
+    "Prompt_zh": "一个泪滴状吊坠和一个菱形胸针",
+    "final_ranking": "{GPT}  > {  Flux} > {Qwen_Image,SD3,SDXL, Banana_pro, Z_Image, Banana}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "a fluffy towel and a leather belt",
+    "Prompt_zh": "一条毛茸茸的毛巾和一条皮带",
+    "final_ranking": "{Flux, Z_Image, Banana_pro, SD3, Qwen_Image, Banana} > {GPT}  > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "a pale-blue cubic ice cube and a silver spherical ice bucket on a bar counter",
+    "Prompt_zh": "吧台上的一个淡蓝色立方体冰块和一个银色球形冰桶",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Flux, Z_Image} > {SDXL, Qwen_Image}  > {SD3}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "a purple oblong eggplant and a green teardrop melon in a market produce basket",
+    "Prompt_zh": "市场菜篮里的一个紫色长圆形茄子和一个绿色泪滴状甜瓜",
+    "final_ranking": "{Qwen_Image, Flux, GPT} > {SD3, Z_Image} > {Banana, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "a golden-brown round muffin and a white square napkin on a café plate",
+    "Prompt_zh": "咖啡馆餐盘里的一个金褐色圆形玛芬和一张白色方形餐巾",
+    "final_ranking": "{Banana_pro, Z_Image, Banana, Qwen_Image, Flux, GPT} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "a silver oval mirror and a black rectangular painting frame on a hallway wall",
+    "Prompt_zh": "走廊墙上的一个银色椭圆形镜子和一个黑色矩形画框",
+    "final_ranking": "{Banana_pro, GPT, Z_Image} > {Qwen_Image, Banana} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "a brown oval coffee table and a gray rectangular rug in a living room",
+    "Prompt_zh": "客厅里的一个棕色椭圆形咖啡桌和一张灰色矩形地毯",
+    "final_ranking": "{Qwen_Image, SD3} > {Z_Image, GPT, Banana_pro, Banana, Flux} > {SDXL}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "a tan round bagel and a black square toaster on a kitchen counter",
+    "Prompt_zh": "厨房台面上的一个黄褐色圆形贝果和一个黑色方形烤面包机",
+    "final_ranking": "{Z_Image, SD3, GPT, Flux, Banana} > {Banana_pro, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "a cream circular rug and a walnut triangular coffee table in a modern lounge",
+    "Prompt_zh": "现代休息室里的一张奶油色圆形地毯和一张胡桃木色三角形咖啡桌",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT, Flux,Banana} > { Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "a gold pentagonal medal and a silver pyramidal trophy in a glass display case",
+    "Prompt_zh": "玻璃展示柜里的一枚金色五边形奖牌和一个银色金字塔形奖杯",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Z_Image} > { Qwen_Image}  > {SD3,  Flux}  > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "a brown round cookie and a blue square tin on a bakery shelf",
+    "Prompt_zh": "面包店架子上的一个棕色圆形曲奇和一个蓝色方形锡罐",
+    "final_ranking": "{GPT, Banana_pro} > {SD3} > {Banana, Qwen_Image} > {Z_Image} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "a blue rectangular fabric towel and a clear round glass table in a dining area",
+    "Prompt_zh": "用餐区的一条蓝色矩形织物毛巾和一张透明圆形玻璃桌",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana_pro} > {SD3, Banana, GPT} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "a white rectangular fabric towel and a brown square-backed leather chair in a living room",
+    "Prompt_zh": "客厅里的一条白色矩形织物毛巾和一把棕色方背皮椅",
+    "final_ranking": "{GPT, Qwen_Image, Flux, Banana, Z_Image, SD3, SDXL} > {Banana_pro}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "a beige rectangular fluffy rug and a black rectangular leather wallet on a bedroom floor",
+    "Prompt_zh": "卧室地板上的一张米色矩形毛绒地毯和一个黑色矩形皮质钱包",
+    "final_ranking": "{Z_Image, Qwen_Image, Flux, GPT, Banana_pro, Banana} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "a silver oval metallic spoon and a brown wooden chair in a rustic kitchen",
+    "Prompt_zh": "乡村风厨房里的一个银色椭圆形金属勺和一把棕色木椅",
+    "final_ranking": "{Qwen_Image} > {Banana_pro, Z_Image, GPT, Banana} > {Flux}  > {SD3}> {SDXL}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "a gold circular necklace and a clear cylindrical glass bottle on a vanity table",
+    "Prompt_zh": "梳妆台上的一个金色圆形项链和一个透明圆柱形玻璃瓶",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image} > { Banana_pro, Banana} > {Flux}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "a black circular rubber tire and a brown leather chair in a garage",
+    "Prompt_zh": "车库里的一个黑色圆形橡胶轮胎和一把棕色皮椅",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT}  > {Z_Image} > {SD3, Flux} > { SDXL} > {Banana}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "a brown rectangular wooden door and a gray fluffy blanket on a bench by the entrance",
+    "Prompt_zh": "入口处长椅上的一扇棕色矩形木门和一条灰色毛绒毯子",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT} > {Banana, Banana_pro} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "a green spherical rubber ball and a silver oval metallic spoon on a picnic blanket",
+    "Prompt_zh": "野餐毯上的一个绿色球形橡胶球和一个银色椭圆形金属勺",
+    "final_ranking": "{Banana_pro, GPT, Flux, Z_Image, Banana, Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "a yellow hand-shaped rubber glove and a white rectangular fluffy pillow on a laundry shelf",
+    "Prompt_zh": "洗衣房架子上的一个黄色手形橡胶手套和一个白色矩形毛绒枕头",
+    "final_ranking": "{GPT,Qwen_Image} > {Z_Image} > {Banana_pro, Flux, Banana} > {SD3}  > {SDXL}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "a neon-green triangular prism toy on a white marble shelf",
+    "Prompt_zh": "白色大理石架子上的一个霓虹绿三角柱玩具",
+    "final_ranking": "{SD3, GPT, Flux, Qwen_Image} > {SDXL} > {Z_Image, Banana_pro} > {Banana}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "a matte-red cube gift box under a glass coffee table",
+    "Prompt_zh": "玻璃咖啡桌下的一个哑光红立方体礼盒",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, Flux, Qwen_Image}  > { SD3} > {SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "a sky-blue spherical balloon tied to a wooden chair",
+    "Prompt_zh": "系在木椅上的一个天蓝色球形气球",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT, Banana} > {Z_Image, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "a charcoal-gray cylindrical thermos beside a woven basket",
+    "Prompt_zh": "编织篮旁的一个深炭灰色圆柱形保温杯",
+    "final_ranking": "{SDXL, Z_Image, Qwen_Image, SD3} > {Banana_pro, GPT, Banana, Flux}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "a pale-pink heart-shaped soap dish on a bathroom sink",
+    "Prompt_zh": "浴室水槽上的一个淡粉色心形肥皂盒",
+    "final_ranking": "{Qwen_Image, GPT, Flux,Banana_pro} > { Banana, SDXL} > {SD3, Z_Image}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "a transparent conical wine glass on a dark oak table",
+    "Prompt_zh": "深色橡木桌上的一个透明圆锥形高脚杯",
+    "final_ranking": "{GPT, SD3} > {Qwen_Image, Banana, SDXL, Flux} > {Z_Image, Banana_pro}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "a copper-colored hexagonal lantern hanging from a metal hook",
+    "Prompt_zh": "挂在金属钩上的一个铜色六边形灯笼",
+    "final_ranking": "{GPT,  SD3, Z_Image, Qwen_Image, Flux} > {Banana} > {Banana_pro, SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "a lemon-yellow star-shaped sticky note on a laptop lid",
+    "Prompt_zh": "笔记本电脑盖上的一个柠檬黄星形便利贴",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {SD3} > {Qwen_Image, Z_Image} > { Flux} > {SDXL}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "a teal pyramidal paperweight next to a brass desk lamp",
+    "Prompt_zh": "黄铜台灯旁的一个青色金字塔形镇纸",
+    "final_ranking": "{SD3} > {Banana, Banana_pro,Z_Image} > {GPT} > {Qwen_Image} > {Flux}  > {SDXL}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "a lavender cylindrical candle inside a clear glass jar",
+    "Prompt_zh": "透明玻璃罐内的一根薰衣草紫色圆柱形蜡烛",
+    "final_ranking": "{GPT, Flux, Qwen_Image, Z_Image} > {SD3, Banana, Banana_pro, SDXL}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "a gold triangular pendant on a velvet cushion",
+    "Prompt_zh": "天鹅绒靠垫上的一个金色三角形吊坠",
+    "final_ranking": "{Banana, Flux, Qwen_Image, Z_Image, SD3} > {Banana_pro, GPT} > {SDXL}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "a white cubic sugar cube on a small saucer",
+    "Prompt_zh": "小茶碟上的一个白色立方体糖块",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image, SDXL, Banana} > {Flux, SD3, Banana_pro}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "a metallic wrench and a rubber glove on a workshop bench",
+    "Prompt_zh": "工作台上的一个金属扳手和一个橡胶手套",
+    "final_ranking": "{Z_Image, GPT} > {SD3, Banana_pro, Qwen_Image, Flux} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "a glass bottle and a wooden cutting board on a kitchen counter",
+    "Prompt_zh": "厨房台面上的一个玻璃瓶和一个木制砧板",
+    "final_ranking": "{Z_Image, SD3, Qwen_Image} > {SDXL, Banana, Flux, GPT, Banana_pro}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "a ceramic mug and a stainless-steel spoon in a dish rack",
+    "Prompt_zh": "碗碟架里的一个陶瓷马克杯和一个不锈钢勺子",
+    "final_ranking": "{Qwen_Image, Z_Image, GPT} > {Banana, Banana_pro, Flux} > {SD3} >  {SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "a leather wallet and a paper receipt on a café table",
+    "Prompt_zh": "咖啡馆桌子上的一个皮质钱包和一张纸质收据",
+    "final_ranking": "{Z_Image, Banana, Flux} > {Qwen_Image, GPT, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "a pentagonal road sign and a cylindrical mailbox by a sidewalk",
+    "Prompt_zh": "人行道旁的一个五边形路标和一个圆柱形邮箱",
+    "final_ranking": "{Qwen_Image,GPT} > {Banana_pro}  > {SD3} > {Banana, Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "a triangular sail and a circular lifebuoy on a boat deck",
+    "Prompt_zh": "船甲板上的一个三角形帆和一个圆形救生圈",
+    "final_ranking": "{Banana_pro, Z_Image} > {GPT, Qwen_Image, SDXL} > {Flux, Banana} > {SD3}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "a beige fluffy rectangular dog bed and a red spherical chew toy in a living room",
+    "Prompt_zh": "客厅里的一个米色毛绒矩形狗窝和一个红色球形咀嚼玩具",
+    "final_ranking": "{Flux, Banana, GPT, Z_Image, Qwen_Image} > {Banana_pro, SD3} > {SDXL}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "a black rubber circular tire and a red rectangular toolbox in a garage",
+    "Prompt_zh": "车库里的一个黑色橡胶圆形轮胎和一个红色矩形工具箱",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Banana, Qwen_Image} > {SD3} > {SDXL} > {Flux}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "a metallic bowl and a ceramic plate on a wooden table",
+    "Prompt_zh": "木桌上的一个金属碗和一个陶瓷盘子",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT} > {Banana_pro} > {Banana} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "a velvet cushion and a silk ribbon on a mahogany chair",
+    "Prompt_zh": "红木椅子上的一个天鹅绒靠垫和一条丝绸缎带",
+    "final_ranking": "{Qwen_Image} > {Banana_pro, GPT, Banana} > {SD3, Flux, SDXL, Z_Image}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "a translucent glass sphere and a matte-black pedestal in a gallery",
+    "Prompt_zh": "画廊里的一个半透明玻璃球和一个哑光黑底座",
+    "final_ranking": "{GPT, SDXL, Banana_pro, Banana, Z_Image, SD3, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "a leather jacket and a denim bag on a metal hook",
+    "Prompt_zh": "金属挂钩上的一件皮夹克和一个丹宁包",
+    "final_ranking": "{Qwen_Image, GPT, Banana, Flux, Z_Image,Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "a copper kettle and a porcelain tea cup on a marble counter",
+    "Prompt_zh": "大理石台面上的一个铜壶和一个瓷茶杯",
+    "final_ranking": "{Z_Image, GPT, Flux, Qwen_Image, Banana, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "a wicker basket and a cotton towel on a bathroom shelf",
+    "Prompt_zh": "浴室架子上的一个柳条篮子和一条棉质毛巾",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image} > {Flux} > {SDXL, Banana} > {Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "a stainless-steel whisk and a plastic mixing bowl on a kitchen island",
+    "Prompt_zh": "厨房中岛上的一个不锈钢搅拌器和一个塑料搅拌碗",
+    "final_ranking": "{Qwen_Image, Banana_pro} > {Banana, GPT} > {Flux} > { Z_Image} > {SD3,SDXL}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "a teardrop-shaped emerald and a gold necklace on a velvet display",
+    "Prompt_zh": "天鹅绒展示架上的一个泪滴状祖母绿和一条金项链",
+    "final_ranking": "{Qwen_Image, Banana_pro, Banana, Z_Image, GPT, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "an oblong wooden planter and a terracotta pot on a balcony",
+    "Prompt_zh": "阳台上的一个长方形木制花箱和一个赤陶土花盆",
+    "final_ranking": "{GPT, Flux, Z_Image, Banana} > {Banana_pro, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "a cylindrical glass jar and a metallic lid in a pantry",
+    "Prompt_zh": "食品储藏室里的一个圆柱形玻璃罐和一个金属盖子",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro} > {Z_Image, Banana, SDXL, SD3} > { Flux}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "a hexagonal mirror and a silver frame on a plaster wall",
+    "Prompt_zh": "灰泥墙上的一个六边形镜子和一个银色框架",
+    "final_ranking": "{Qwen_Image, Banana_pro, SDXL} > {GPT, Z_Image } > {Banana,Flux, SD3}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "a cubic salt block and a stone mortar on a prep table",
+    "Prompt_zh": "备菜台上的一个立方体盐块和一个石臼",
+    "final_ranking": "{Banana_pro, Banana, Flux} > {GPT, Z_Image,Qwen_Image} > { SDXL, SD3}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "a felt hat and a wool scarf on a wooden bench",
+    "Prompt_zh": "木长椅上的一顶毛毡帽和一条羊毛围巾",
+    "final_ranking": "{Flux, Qwen_Image, SD3, Banana, GPT, SDXL} > {Banana_pro, Z_Image}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "a brass compass and a weathered paper map on a desk",
+    "Prompt_zh": "书桌上的一个黄铜指南针和一张陈旧的纸质地图",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image,Flux} > {SDXL} > {SD3 , Banana} > {Z_Image}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "a matte-red gift box and a glossy silk bow on a floor",
+    "Prompt_zh": "地板上的一个哑光红礼盒和一个光滑的丝绸蝴蝶结",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Z_Image, Flux} > {Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "a crystal decanter and a silver tray on a sideboard",
+    "Prompt_zh": "餐边柜上的一个水晶醒酒器和一个银托盘",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image} > {SD3, Banana, SDXL, Banana_pro, Flux}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "a pyramidal incense burner and a ceramic plate on a nightstand",
+    "Prompt_zh": "床头柜上的一个金字塔形香炉和一个陶瓷盘子",
+    "final_ranking": "{Qwen_Image} > {Banana, Banana_pro, GPT} > {Flux, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "a rubber boot and a plastic raincoat in a hallway",
+    "Prompt_zh": "走廊里的一双橡胶靴和一件塑料雨衣",
+    "final_ranking": "{Banana} > {Banana_pro} > {GPT} > {SDXL, Qwen_Image, Z_Image, SD3, Flux}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "a green cap and a canvas backpack on a park bench",
+    "Prompt_zh": "公园长椅上的一个绿色帽子和一个帆布背包",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Banana, Banana_pro} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "a pentagonal glass lantern and a metal chain in a garden",
+    "Prompt_zh": "花园里的一个五边形玻璃灯笼和一条金属链条",
+    "final_ranking": "{GPT, Banana, SDXL, Qwen_Image, Flux} > { SD3,Z_Image, Banana_pro}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "a cast-iron pan and a wooden spatula on a stove",
+    "Prompt_zh": "炉灶上的一个铸铁锅和一个木铲子",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image, Banana} > {Flux, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "a glass artwork and a metal base in the museum hall",
+    "Prompt_zh": "博物馆大厅里的一件玻璃艺术品和一个金属底座",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana_pro, Banana} > {SD3, GPT} > {SDXL, Flux}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "a fleece blanket and a linen pillow on a sofa",
+    "Prompt_zh": "沙发上的一条羊羔绒毯子和一个亚麻枕头",
+    "final_ranking": "{Z_Image, GPT, Flux, Qwen_Image} > {Banana, SD3} > {SDXL} > {Banana_pro}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "a bamboo mat and a ceramic teapot in a tea room",
+    "Prompt_zh": "茶室里的一张竹席和一个陶瓷茶壶",
+    "final_ranking": "{GPT, SD3} > {Flux, Z_Image} > {SDXL, Qwen_Image} > {Banana, Banana_pro}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "a clay figurine and a ceramic pedestal on the shelf",
+    "Prompt_zh": "搁板上的一个陶土人偶和一个陶瓷基座",
+    "final_ranking": "{Z_Image, Banana} > {Qwen_Image, Flux} > {GPT} > {SD3, SDXL} > { Banana_pro}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "a velvet-lined jewelry box and a pearl brooch",
+    "Prompt_zh": "一个天鹅绒内衬的珠宝盒和一个珍珠胸针",
+    "final_ranking": "{GPT, Flux, Banana, Qwen_Image} > {Z_Image, Banana_pro, SDXL} > {SD3}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "a translucent plastic bottle and a metallic cap",
+    "Prompt_zh": "一个半透明塑料瓶和一个金属盖子",
+    "final_ranking": "{Z_Image, GPT, SDXL} > {SD3, Qwen_Image, Flux} > {Banana, Banana_pro}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "a corduroy jacket and a leather belt on a chair",
+    "Prompt_zh": "椅子上的一件灯芯绒夹克和一条皮带",
+    "final_ranking": "{Banana_pro, SD3, Qwen_Image, GPT,Banana} > {Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "a star-shaped glass dish and a ceramic spoon",
+    "Prompt_zh": "一个星形玻璃碟子和一个陶瓷勺子",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Qwen_Image} > {Flux} > {SD3} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "a porcelain doll and a lace dress on a shelf",
+    "Prompt_zh": "架子上的一个瓷娃娃和一件蕾丝裙子",
+    "final_ranking": "{Banana_pro} > {Banana, GPT} > {Flux, Qwen_Image} > {Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "a titanium watch and a rubber strap on a wrist",
+    "Prompt_zh": "手腕上的一块钛金属手表和一条橡胶表带",
+    "final_ranking": "{GPT, Qwen_Image, SD3} > {Z_Image,Banana, Flux, Banana_pro, SDXL}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "a terracotta vase and dried pampas grass on a mantle",
+    "Prompt_zh": "壁炉架上的一个赤陶土花瓶和干燥的芦苇草",
+    "final_ranking": "{SD3, Qwen_Image, Banana_pro, GPT} > {Banana, Flux} > {Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "a polished silver trophy and a mahogany base",
+    "Prompt_zh": "一个抛光银色奖杯和一个红木底座",
+    "final_ranking": "{Z_Image, GPT, SD3, Qwen_Image, Banana_pro} > {SDXL, Banana, Flux}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "a knitted sweater and a denim skirt on a bed",
+    "Prompt_zh": "床上的一件针织毛衣和一条丹宁裙子",
+    "final_ranking": "{Banana, SD3, Banana_pro, Z_Image, GPT} > {Flux, Qwen_Image}  > {SDXL}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "a frosted glass window and a wooden frame",
+    "Prompt_zh": "一扇磨砂玻璃窗和一个木制框架",
+    "final_ranking": "{Flux, GPT, Z_Image, Banana} > {Qwen_Image, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "a slate coaster and a glass tumbler on a table",
+    "Prompt_zh": "桌子上的一个石板杯垫和一个玻璃平底杯",
+    "final_ranking": "{Qwen_Image, Z_Image, GPT, Banana, SD3, Flux} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "a heart-shaped locket and a silver chain",
+    "Prompt_zh": "一个心形小吊坠盒和一条银链子",
+    "final_ranking": "{Qwen_Image, Banana_pro, Flux, Z_Image} > {SD3} > {Banana, GPT, SDXL}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "a sequined bag and a silk scarf on a vanity",
+    "Prompt_zh": "梳妆台上的一个亮片包和一条丝绸围巾",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image} > {Banana_pro, Flux, SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "a rusted iron gate and a stone pillar",
+    "Prompt_zh": "一个生锈的铁门和一个石柱子",
+    "final_ranking": "{Banana, Banana_pro, GPT, Qwen_Image} > {SD3, Flux} > {SDXL} > {Z_Image}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "a checkered tablecloth and a ceramic pitcher",
+    "Prompt_zh": "一张格子桌布和一个陶瓷水罐",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT, SD3} > {Flux}  > {SDXL} > {Banana_pro, Banana}"
+  }
+]

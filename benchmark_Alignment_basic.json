@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "a red mug on a kitchen counter",
+    "Prompt_zh": "厨房台面上的一个红马克杯",
+    "final_ranking": "{Z_Image, Banana_pro, SD3, GPT, Flux, Qwen_Image} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "a green notebook on a desk",
+    "Prompt_zh": "书桌上的一个绿笔记本",
+    "final_ranking": "{Z_Image} > {Qwen_Image} > {GPT, Banana, Banana_pro} > {Flux, SDXL} >  {SD3}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "a black phone on a bedside table",
+    "Prompt_zh": "床头柜上的一个黑手机",
+    "final_ranking": "{Qwen_Image, GPT} > {Banana_pro, Banana} > {SD3} > {Z_Image, Flux] >  [SDXL}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "a heavy box on the floor",
+    "Prompt_zh": "地板上的一个重箱子",
+    "final_ranking": "{Z_Image,  Banana_pro, Banana} > {GPT,Flux, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "a shiny spoon in a bowl",
+    "Prompt_zh": "碗里的一个亮勺子",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT, SD3} > {Banana_pro, Banana} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "a matte bottle on a picnic table",
+    "Prompt_zh": "野餐桌上的一个哑光瓶子",
+    "final_ranking": "{SD3, GPT, Z_Image} > {Banana, Qwen_Image, SDXL, Banana_pro, Flux}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "a wooden chair in a living room",
+    "Prompt_zh": "客厅里的一把木椅",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana_pro} > {GPT, SD3, Flux, SDXL, Banana}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "a metal ladder against a wall",
+    "Prompt_zh": "靠墙的一架金属梯子",
+    "final_ranking": "{GPT, Banana, Z_Image, Flux} > {Qwen_Image, SD3} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "a glass vase on a windowsill",
+    "Prompt_zh": "窗台上一个玻璃瓶",
+    "final_ranking": "{Z_Image, Qwen_Image} > {Banana_pro, Flux, GPT, Banana, SDXL, SD3}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "a floral cushion on a couch",
+    "Prompt_zh": "沙发上的一个碎花靠垫",
+    "final_ranking": "{Qwen_Image, Banana, SD3, GPT} > {SDXL, Z_Image, Banana_pro, Flux}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "a cracked mirror in a hallway",
+    "Prompt_zh": "走廊里的一面破裂的镜子",
+    "final_ranking": "{Flux, SD3, GPT} > {Banana, Qwen_Image, Banana_pro} > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "a dry sponge by the sink",
+    "Prompt_zh": "水槽边的一块干海绵",
+    "final_ranking": "{GPT, SDXL} > {Banana_pro} > {Banana, SD3, Flux} > {Qwen_Image,Z_Image }"
+  },
+  {
+    "ID": 13,
+    "Prompt": "a cold drink on a tray",
+    "Prompt_zh": "托盘上的一杯冷饮",
+    "final_ranking": "{Flux, Z_Image, Qwen_Image, SD3} > {GPT, Banana, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "a soft pillow on a chair",
+    "Prompt_zh": "椅子上的一个软枕头",
+    "final_ranking": "{Banana_pro} > {Z_Image, Qwen_Image} > {SDXL,GPT, Banana, SD3, Flux}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "a hard helmet on a bench",
+    "Prompt_zh": "长椅上的一个硬头盔",
+    "final_ranking": "{SD3, Banana, Qwen_Image, Z_Image, Banana_pro, Flux} > {GPT} > {SDXL}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "a round clock on a wall",
+    "Prompt_zh": "墙上的一个圆钟",
+    "final_ranking": "{ Banana,Z_Image}  > {Qwen_Image, Banana_pro, GPT, SD3, SDXL, Flux}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "a tall lamp in a corner",
+    "Prompt_zh": "角落里的一盏高灯",
+    "final_ranking": "{Banana_pro, Flux, Z_Image, Qwen_Image, GPT} > {SD3} > {Banana, SDXL}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "a dim lantern on a porch",
+    "Prompt_zh": "门廊上的一盏昏暗的灯笼",
+    "final_ranking": "{Banana_pro, Banana} > {Qwen_Image, Z_Image, GPT, SD3} > {Flux, SDXL}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "a smooth pebble on a path",
+    "Prompt_zh": "小路上的一块光滑的鹅卵石",
+    "final_ranking": "{Banana, GPT} > {SDXL, SD3} > {Banana_pro} > {Z_Image, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "a rough rock by a stream",
+    "Prompt_zh": "小溪边的一块粗糙的岩石",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Banana} > {Qwen_Image, SDXL, Flux} >  {SD3}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "a red kettle on a burning stove",
+    "Prompt_zh": "燃烧的炉子上的一个红水壶",
+    "final_ranking": "{Qwen_Image, Banana, Z_Image, Flux, GPT, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "a yellow folder on a desk",
+    "Prompt_zh": "书桌上的一个黄文件夹",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana_pro, GPT} > {Banana, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "a blue curtain by a window",
+    "Prompt_zh": "窗边的一个蓝窗帘",
+    "final_ranking": "{Qwen_Image, Flux} > {GPT, Banana_pro, Banana} > {Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "a white pillow on a bed",
+    "Prompt_zh": "床上的一白枕头",
+    "final_ranking": "{Qwen_Image, Flux,  Z_Image} > {Banana_pro,GPT, SD3}  > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "a dry leaf on a path",
+    "Prompt_zh": "小路上的一片干叶子",
+    "final_ranking": "{GPT, SDXL, Z_Image} > {Qwen_Image, SD3} > {Banana_pro, Banana}  > {Flux}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "a blue ball on a lawn",
+    "Prompt_zh": "草坪上的一个蓝色球",
+    "final_ranking": "{Z_Image, GPT, SD3, Qwen_Image} > {SDXL, Banana, Banana_pro, Flux}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "a dim candle on a table",
+    "Prompt_zh": "桌上的一支昏暗的蜡烛",
+    "final_ranking": "{GPT, Flux, Qwen_Image, Z_Image, Banana, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "a new calendar on a wall",
+    "Prompt_zh": "墙上的一本新日历",
+    "final_ranking": "{ GPT,Qwen_Image} > {Banana_pro,  Z_Image}  > {SDXL, Flux, SD3, Banana}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "an old radio on a shelf",
+    "Prompt_zh": "架子上的一台旧收音机",
+    "final_ranking": "{Qwen_Image, Z_Image, Flux} > {GPT, Banana_pro, SD3} >  {Banana} >{SDXL}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "a folded newspaper on a chair",
+    "Prompt_zh": "椅子上的一份折叠的报纸",
+    "final_ranking": "{Banana_pro, GPT} > {Z_Image,Banana} > { Flux, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "an unfolded map on a table",
+    "Prompt_zh": "桌上的一幅展开的地图",
+    "final_ranking": "{Z_Image, Banana_pro, Qwen_Image} > {Banana, GPT, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "a sealed envelope on a desk",
+    "Prompt_zh": "书桌上的一封密封的信封",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Flux, SDXL, Qwen_Image, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "a black suitcase by the door",
+    "Prompt_zh": "门边的一个黑手提箱",
+    "final_ranking": "{SDXL, Banana_pro} > {Flux, SD3, Qwen_Image} > {Banana, Z_Image, GPT}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "a heavy dumbbell on a gym floor",
+    "Prompt_zh": "健身房地板上的一个重哑铃",
+    "final_ranking": "{Banana, SDXL, SD3, Qwen_Image, Flux, GPT}  > {Banana_pro} > {Z_Image}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "a striped cushion on a sofa",
+    "Prompt_zh": "沙发上的一个条纹靠垫",
+    "final_ranking": "{Z_Image, GPT, Banana_pro} > {Qwen_Image, SDXL, Banana, SD3} > {Flux}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "a polka-dot apron in a kitchen",
+    "Prompt_zh": "厨房里的一条波点围裙",
+    "final_ranking": "{Banana_pro, GPT, Z_Image} > {Banana, Flux, SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "a broken mug in a sink",
+    "Prompt_zh": "水槽里的一个破马克杯",
+    "final_ranking": "{Banana, GPT}  > {Qwen_Image} > {Banana_pro} > {Z_Image, SDXL} > {SD3, Flux}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "a warm soup in a bowl",
+    "Prompt_zh": "碗里的一碗热汤",
+    "final_ranking": "{Banana_pro, Banana} > {Qwen_Image, Z_Image, SD3} > {SDXL, GPT, Flux}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "an open window in a bedroom",
+    "Prompt_zh": "卧室里的一扇开着的窗户",
+    "final_ranking": "{Banana, Banana_pro, GPT, Qwen_Image, Flux} > {SD3} > {SDXL, Z_Image}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "a rough rope on a dock",
+    "Prompt_zh": "码头上的一根粗糙的绳子",
+    "final_ranking": "{Banana_pro, Flux, GPT} > {Z_Image, Banana, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "a brown backpack on a chair",
+    "Prompt_zh": "椅子上的一个棕色背包",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana_pro, GPT, Banana} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "a blue watering can in a garden",
+    "Prompt_zh": "花园里的一个蓝喷壶",
+    "final_ranking": "{SD3, Banana_pro, Banana, GPT, Z_Image, Qwen_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "a soft blanket on a bed",
+    "Prompt_zh": "床上的一条软毯子",
+    "final_ranking": "{SDXL, GPT, Z_Image, Banana_pro, Qwen_Image, SD3} > {Banana, Flux}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "a hard rock on the ground",
+    "Prompt_zh": "地上的一块硬岩石",
+    "final_ranking": "{GPT, Banana, Banana_pro, SDXL, Qwen_Image, Flux, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "a damp towel on a chair",
+    "Prompt_zh": "椅子上的一条湿毛巾",
+    "final_ranking": "{Banana, Z_Image, Banana_pro, GPT} > {Qwen_Image, SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "a dry napkin on a plate",
+    "Prompt_zh": "盘子上的一块干餐巾",
+    "final_ranking": "{SD3, Banana} > {Flux, GPT} > {Banana_pro, Qwen_Image} > {SDXL, Z_Image}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "a sticky note on a monitor",
+    "Prompt_zh": "显示器上的一张便利贴",
+    "final_ranking": "{Banana_pro, Banana,Z_Image, Qwen_Image} > {Flux, GPT} > {SD3, SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "a transparent cup on a tray",
+    "Prompt_zh": "托盘上的一个透明杯子",
+    "final_ranking": "{Z_Image, Banana} > {GPT, Banana_pro, SDXL, SD3, Flux} > { Qwen_Image}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "a translucent curtain by a window",
+    "Prompt_zh": "窗边的一个半透明窗帘",
+    "final_ranking": "{Qwen_Image, Flux} > {Banana_pro, SD3, Banana, SDXL, Z_Image} > {GPT}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "a opaque jar on a counter",
+    "Prompt_zh": "台面上的一个不透明罐子",
+    "final_ranking": "{SD3, GPT} > {Banana, Banana_pro} > { SDXL, Flux} > {Qwen_Image,Z_Image}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "a polished shoe by the mat",
+    "Prompt_zh": "垫子旁的一只擦亮的鞋",
+    "final_ranking": "{GPT} > {Banana_pro, Qwen_Image, Banana} > {SD3} > {Flux}  > {Z_Image, SDXL}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "a dusty bottle on a windowsill",
+    "Prompt_zh": "窗台上的一个积灰的瓶子",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image, GPT} > {SDXL, Flux} > {Z_Image, SD3}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "a greasy pan in a sink",
+    "Prompt_zh": "水槽里的一个油腻的平底锅",
+    "final_ranking": "{Qwen_Image, Banana, Flux} > {Banana_pro, GPT} > {Z_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "a rubber ball on the lawn",
+    "Prompt_zh": "草坪上的一个橡胶球",
+    "final_ranking": "{Banana, Z_Image} > {Banana_pro, GPT, Qwen_Image, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "a leather belt on a dresser",
+    "Prompt_zh": "梳妆台上的一个皮带",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Flux, Banana} > {Banana_pro} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "a rubber ball on the lawn",
+    "Prompt_zh": "草坪上的一个橡胶球",
+    "final_ranking": "{GPT, Banana, Flux} > {Qwen_Image, Banana_pro, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "a leather belt on a dresser",
+    "Prompt_zh": "梳妆台上的一个皮带",
+    "final_ranking": "{GPT, SDXL, Flux} > {Z_Image, Banana, Qwen_Image} > {Banana_pro, SD3}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "a tiny coin on the counter",
+    "Prompt_zh": "台面上的一个一枚小硬币",
+    "final_ranking": "{Z_Image, Qwen_Image, Flux, GPT, Banana_pro, SD3} > {Banana, SDXL}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "a dim lamp in a corner",
+    "Prompt_zh": "角落里的一盏昏暗的灯",
+    "final_ranking": "{Flux, Banana_pro, Qwen_Image, GPT} > {SDXL, SD3, Banana} > {Z_Image}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "a small clock on a shelf",
+    "Prompt_zh": "架子上的一个小时钟",
+    "final_ranking": "{ Qwen_Image, SDXL, Z_Image, GPT}  > {Banana_pro,SD3,Flux} > {Banana}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "a green apple on a white plate",
+    "Prompt_zh": "白盘子上的一个绿苹果",
+    "final_ranking": "{Flux, Banana, SDXL, SD3} > {Z_Image, GPT, Banana_pro, Qwen_Image}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "a sharp pencil on a sketchpad",
+    "Prompt_zh": "素描本上的一支尖铅笔",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro} > {SD3, Banana, Z_Image, Flux} > {SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "a woolen scarf on a coat rack",
+    "Prompt_zh": "衣帽架上的一条羊毛围巾",
+    "final_ranking": "{GPT} > {Banana_pro} > {Z_Image, Banana,Qwen_Image} > {SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "a dirty plate in a sink",
+    "Prompt_zh": "水槽里的一个脏盘子",
+    "final_ranking": "{Qwen_Image, GPT, Banana} > {Banana_pro} > {Flux}  > {Z_Image, SD3}  > {SDXL}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "a closed laptop on a desk",
+    "Prompt_zh": "书桌上的一台合着的笔记本电脑",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Flux, Z_Image, SDXL, Banana, SD3}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "a blooming flower in a pot",
+    "Prompt_zh": "花盆里的一朵盛开的花",
+    "final_ranking": "{Flux, GPT, Z_Image,Banana} > {SD3} > {Qwen_Image}  > {SDXL} > {Banana_pro}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "a wet umbrella in a stand",
+    "Prompt_zh": "伞架里的一把湿雨伞",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {SDXL} > {Z_Image, Qwen_Image, SD3} > {Flux}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "a rusty key on a hook",
+    "Prompt_zh": "挂钩上的一把生锈的钥匙",
+    "final_ranking": "{Qwen_Image, Banana, Z_Image, Banana_pro} >  {GPT, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "a ceramic bowl on a wooden table",
+    "Prompt_zh": "木桌上的一只陶瓷碗",
+    "final_ranking": "{Z_Image, SD3, GPT, Qwen_Image} > {SDXL, Banana_pro} > {Banana, Flux}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "a folded towel on a rack",
+    "Prompt_zh": "架子上的一条折叠的毛巾",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image, SD3, Banana_pro} > {Flux, Banana}  > {SDXL}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "a wicker basket on a rug",
+    "Prompt_zh": "地毯上的一只柳条篮子",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, SDXL} > {Banana, Flux, Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "a silver ring on a velvet cushion",
+    "Prompt_zh": "天鹅绒垫子上的一枚银戒指",
+    "final_ranking": "{Z_Image, Qwen_Image} > {Banana_pro, GPT, Flux, SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "a leather wallet on a counter",
+    "Prompt_zh": "台面上的一只皮钱包",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Banana_pro} > {SDXL, Flux, SD3} > {Banana}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "a plastic bottle in a recycling bin",
+    "Prompt_zh": "回收桶里的一只塑料瓶",
+    "final_ranking": "{GPT, Flux, SD3} > {Banana_pro, Banana} > { Z_Image, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "a heavy hammer on a workbench",
+    "Prompt_zh": "工作台上的一把重锤子",
+    "final_ranking": "{GPT, Banana_pro, Banana, Flux, Z_Image, Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "a lit candle on a cake",
+    "Prompt_zh": "蛋糕上的一支点燃的蜡烛",
+    "final_ranking": "{Banana, Z_Image, Flux, GPT, SD3, Qwen_Image, Banana_pro, SDXL}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "a torn letter on the floor",
+    "Prompt_zh": "地板上的一封撕破的信",
+    "final_ranking": "{GPT, Banana, Banana_pro}  > {Qwen_Image} > {Z_Image, Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "a fresh orange on a cutting board",
+    "Prompt_zh": "砧板上的一只新鲜橙子",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image,SD3, Qwen_Image} > { SDXL, Banana, Flux}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "a golden trophy on a shelf",
+    "Prompt_zh": "架子上的一座金奖杯",
+    "final_ranking": "{SDXL, Flux, GPT, Z_Image, Qwen_Image, SD3, Banana} > {Banana_pro}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "a fluffy cat on a windowsill",
+    "Prompt_zh": "窗台上的一只毛茸茸的猫",
+    "final_ranking": "{SDXL, GPT, Qwen_Image, Z_Image} > {Banana_pro, Flux, SD3, Banana}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "a straw hat on a beach chair",
+    "Prompt_zh": "沙滩椅上的一顶草帽",
+    "final_ranking": "{GPT, Z_Image, SDXL} > {Banana, SD3, Banana_pro, Qwen_Image} > {Flux}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "a glass jar on a shelf",
+    "Prompt_zh": "架子上的一只玻璃罐",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image} > {Banana_pro} > {Banana, Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "a silk tie on a bed",
+    "Prompt_zh": "床上的一条丝绸领带",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Flux, Z_Image} > {SDXL, Banana, SD3}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "a clay pot on a garden bench",
+    "Prompt_zh": "花园长椅上的一只陶罐",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image} > {Banana_pro, Banana} > {SD3, SDXL, Flux}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "a thick dictionary on a desk",
+    "Prompt_zh": "书桌上的一本厚字典",
+    "final_ranking": "{GPT, Banana_pro, Flux,Z_Image, Qwen_Image} > {Banana} > {SDXL , SD3}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "a wooden spoon in a saucepan",
+    "Prompt_zh": "平底锅里的一把木勺",
+    "final_ranking": "{GPT, Z_Image} > {Qwen_Image, SD3, Flux, SDXL, Banana} > {Banana_pro}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "a colorful painting on an easel",
+    "Prompt_zh": "画架上的一幅多彩的画",
+    "final_ranking": "{Z_Image, GPT, Qwen_Image, SDXL, Banana_pro, Banana} > {Flux, SD3}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "a ripe banana in a fruit bowl",
+    "Prompt_zh": "水果碗里的一根熟香蕉",
+    "final_ranking": "{Banana_pro, Banana, GPT} > {Z_Image, Qwen_Image, Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "a shiny coin on the pavement",
+    "Prompt_zh": "人行道上的一枚亮硬币",
+    "final_ranking": "{GPT, Flux, Banana_pro, Qwen_Image, SDXL} > {Banana, Z_Image, SD3}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "a vintage camera on a tripod",
+    "Prompt_zh": "三脚架上的一台老式相机",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Z_Image, Flux, Qwen_Image, SDXL, SD3}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "a knitted sweater on a sofa",
+    "Prompt_zh": "沙发上的一件针织毛衣",
+    "final_ranking": "{GPT, Banana, Flux} > {Z_Image} > {Banana_pro, SD3} > {SDXL, Qwen_Image}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "a glass of water on a coaster",
+    "Prompt_zh": "杯垫上的一杯水",
+    "final_ranking": "{GPT, Qwen_Image, Banana, Z_Image, Flux} > {SD3, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "a pink ribbon on a gift box",
+    "Prompt_zh": "礼物盒上的一条粉色丝带",
+    "final_ranking": "{Z_Image, GPT, Flux, Qwen_Image} > {Banana_pro, SDXL, Banana, SD3}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "a metal ruler on a blueprint",
+    "Prompt_zh": "蓝图上的一把金属尺",
+    "final_ranking": "{GPT, SD3, Qwen_Image, Banana_pro} > {Z_Image, Flux, Banana} > {SDXL}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "a wooden toy on a carpet",
+    "Prompt_zh": "地毯上的一件木制玩具",
+    "final_ranking": "{GPT, Flux, SDXL, Qwen_Image, Z_Image, SD3} > {Banana, Banana_pro}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "a ceramic tile on the floor",
+    "Prompt_zh": "地板上的一块瓷砖",
+    "final_ranking": "{Z_Image, GPT} > {SD3, SDXL, Banana, Banana_pro} > {Qwen_Image, Flux}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "a clean shirt on a hanger",
+    "Prompt_zh": "衣架上的一件干净衬衫",
+    "final_ranking": "{SDXL, Banana, Banana_pro} > {Qwen_Image, GPT, Z_Image, Flux} > {SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "a digital watch on a nightstand",
+    "Prompt_zh": "床头柜上的一块电子表",
+    "final_ranking": "{Banana_pro, Qwen_Image, SDXL, Banana} > {Flux, Z_Image, SD3} > {GPT}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "a red apple in a basket",
+    "Prompt_zh": "篮子里的一只红苹果",
+    "final_ranking": "{GPT, Qwen_Image, Flux, Banana_pro} > {Z_Image, SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "a large map on a wall",
+    "Prompt_zh": "墙上的一幅大地图",
+    "final_ranking": "{Z_Image, SD3, GPT, Qwen_Image} > {SDXL, Banana_pro, Banana, Flux}"
+  }
+]

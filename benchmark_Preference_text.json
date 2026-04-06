@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "Neon sign at night: a blue-and-pink neon sign that clearly reads “Spring Plan 2026”, clean letter strokes (no broken characters), rainy street reflections in the background.",
+    "Prompt_zh": "夜晚的霓虹灯：一个粉蓝相间的霓虹灯招牌，清晰地写着“Spring Plan 2026”，笔画干净（无断字），背景有雨天街道的倒影。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {Z_Image, Banana, Flux, GPT} > {SD3, SDXL}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "Minimal poster design: white background, centered title text “AI Visual Benchmark”, smaller subtitle “Benchmark v1.0” below it, perfectly centered alignment, generous whitespace, print-like sharpness.",
+    "Prompt_zh": "极简海报设计：白色背景，居中标题文字“AI Visual Benchmark”，下方是较小的副标题“Benchmark v1.0”，完美居中对齐，大量留白，具有印刷般的清晰度。",
+    "final_ranking": "{Flux, Banana, GPT,Banana_pro} > {Z_Image} > {Qwen_Image}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "Tea packaging mockup: a premium tea box with the main title “Mountain Oolong” and subtitle “Light Aroma”, modern serif typography, realistic print texture, clean layout margins.",
+    "Prompt_zh": "茶叶包装样机：一个高级茶叶盒，主标题为“Mountain Oolong”，副标题为“Light Aroma”，现代衬线体字体，真实的印刷质感，布局边距整洁。",
+    "final_ranking": "{Qwen_Image, Banana} > {Z_Image, GPT,Banana_pro} > {Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "Generate a supermarket shelf price label strip where the center label clearly reads “Oat Milk 1L $3.49” with clean kerning and no warped letters.",
+    "Prompt_zh": "生成超市货架价格标签条，中间的标签清晰地写着“Oat Milk 1L $3.49”，字间距整齐，字母无变形。",
+    "final_ranking": "{Banana_pro, GPT} > {Qwen_Image, Z_Image} > {Banana, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "Make a coffee shop menu board that clearly reads “LATTE 4.50 AMERICANO 3.50 MOCHA 5.00” with consistent baseline alignment and even spacing.",
+    "Prompt_zh": "制作咖啡店菜单板，清晰地写着“LATTE 4.50 AMERICANO 3.50 MOCHA 5.00”，基线对齐一致，间距均匀。",
+    "final_ranking": "{GPT, Banana_pro,Qwen_Image} > {Z_Image, Banana} > {Flux} > {SD3} >  {SDXL}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "Create a street name sign mounted on a pole that reads “PINE STREET” in all caps, perfectly legible and correctly foreshortened.",
+    "Prompt_zh": "创建一个安装在电线杆上的街道名称牌，大写字母写着“PINE STREET”，完全清晰可辨，且透视缩短效果正确。",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image, SD3, Banana_pro, Flux} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "Create a neon storefront sign at night that clearly reads “OPEN 24 HOURS” with continuous strokes and realistic glow without broken letters.",
+    "Prompt_zh": "创建一个夜晚的霓虹灯店面招牌，清晰地写着“OPEN 24 HOURS”，笔画连续，光泽真实，字母完整。",
+    "final_ranking": "{Flux} > {GPT, SD3, Banana_pro,Banana} > {Z_Image, Qwen_Image} > {SDXL }"
+  },
+  {
+    "ID": 8,
+    "Prompt": "Make a bookstore window poster that reads “WINTER SALE UP TO 50% OFF” with centered layout and clean margins.",
+    "Prompt_zh": "制作书店橱窗海报，写着“WINTER SALE UP TO 50% OFF”，采用居中布局和整洁的边距。",
+    "final_ranking": "{Flux, Banana, Banana_pro, GPT, Qwen_Image} > {Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "Generate a handwritten grocery list on a notepad that reads “eggs, rice, apples, soap, tea” with consistent stroke thickness and no garbled words.",
+    "Prompt_zh": "在记事本上生成一份手写的购物清单，写着“eggs, rice, apples, soap, tea”，笔画粗细一致，文字清晰无乱码。",
+    "final_ranking": "{GPT, Z_Image,Flux, Banana} > {Qwen_Image, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "Generate a cardboard box stamp that reads “HANDLE WITH CARE” in bold stencil letters, evenly spaced and not smudged.",
+    "Prompt_zh": "生成纸箱印章，用粗体模板字体写着“HANDLE WITH CARE”，间距均匀且无污迹。",
+    "final_ranking": "{Z_Image, Banana, Flux, GPT, Banana_pro, Qwen_Image, SD3} > {SDXL}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "Generate a cereal box front design that reads “WHOLE GRAIN OATS” with a smaller tagline “High Fiber” aligned under it, no logos.",
+    "Prompt_zh": "生成谷物盒正面设计，写着“WHOLE GRAIN OATS”，下方对齐较小的标语“High Fiber”，无 Logo。",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT, Z_Image, Banana, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "Create an elevator instruction placard that reads “In case of fire, use stairs” with small text that remains readable at a distance.",
+    "Prompt_zh": "制作电梯指示牌，写着“In case of fire, use stairs”，小字在一定距离外仍清晰可读。",
+    "final_ranking": "{GPT, Qwen_Image} > {Flux, Banana,Z_Image, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "Generate a restroom sign that reads “WOMEN” on one door and “MEN” on the other, both centered and perfectly legible.",
+    "Prompt_zh": "生成洗手间标志，一扇门上写着“WOMEN”，另一扇门上写着“MEN”，均居中且完全清晰。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image} > {Z_Image} > {SD3} > {Flux} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "Create a hospital waiting room sign that reads “CHECK-IN” with an arrow pointing right, clean typography, and correct perspective.",
+    "Prompt_zh": "制作医院候诊室标牌，写着“CHECK-IN”并带有一个指向右侧的箭头，排版整洁，透视正确。",
+    "final_ranking": "{Z_Image, Flux, Qwen_Image, Banana, SD3, GPT, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "Generate a subway platform digital sign that reads “Next Train: 3 min” and “Destination: Central Station” with sharp LED-style text.",
+    "Prompt_zh": "生成地铁站台电子显示屏，显示“Next Train: 3 min”和“Destination: Central Station”，采用清晰的 LED 风格文字。",
+    "final_ranking": "{Banana_pro} > {Banana, Z_Image, GPT} > {Flux, Qwen_Image} > {SDXL,SD3}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "Generate a small handwritten note on lined paper that reads “Meet me at the station at 6” with natural pen pressure but fully readable words.",
+    "Prompt_zh": "在横线纸上生成一张手写小纸条，写着“Meet me at the station at 6”，笔触压力自然且文字完全可读。",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image, Banana, Banana_pro} > {Flux} >  {SD3}  >{ SDXL}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "A rainy cyberpunk street at night, glowing neon signs, one big sign clearly showing the Chinese characters “未来城市”, cinematic lighting, ultra detailed",
+    "Prompt_zh": "夜晚多雨的赛博朋克街道，闪烁的霓虹灯，一个巨大的招牌清晰地显示着汉字“未来城市”，电影级灯光，极高细节。",
+    "final_ranking": "{Banana_pro, Z_Image, GPT} > {Qwen_Image} > {Banana}  > {Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "Minimalist logo design on a white background, bold sans-serif letters spelling “NOVA”, subtle shadow, clean and modern, high resolution vector style.",
+    "Prompt_zh": "白色背景上的极简 Logo 设计，粗体无衬线字母拼写为“NOVA”，带有淡淡的阴影，整洁现代，高分辨率矢量风格。",
+    "final_ranking": "{GPT, Flux, Banana_pro, Qwen_Image} > {Z_Image, Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "A traditional Chinese calligraphy scroll hanging on a wooden wall, ink brush style characters clearly showing “山高水长”, warm lighting.",
+    "Prompt_zh": "挂在木墙上的中国传统书法卷轴，水墨笔触清晰地显示“山高水长”，暖色调灯光。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Banana, Z_Image} > {Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "Front view of a black T-shirt on a hanger, graphic design printed on the chest, retro style letters clearly reading “STAY CURIOUS”, soft fabric, studio lighting.",
+    "Prompt_zh": "衣架上黑色 T 恤的正视图，胸前印有图案设计，复古风格字母清晰地写着“STAY CURIOUS”，面料柔软，摄影棚灯光。",
+    "final_ranking": "{Flux, Banana, Qwen_Image, SD3, GPT} > {Z_Image, Banana_pro}  > {SDXL}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "Close-up of a paper coffee cup on a wooden table, hand-drawn logo on the cup, the cup clearly shows the word “MOON CAFE”, shallow depth of field, cozy atmosphere.",
+    "Prompt_zh": "木桌上纸咖啡杯的特写，杯子上有手绘 Logo，清晰地显示“MOON CAFE”字样，浅景深，温馨氛围。",
+    "final_ranking": "{Qwen_Image, GPT, Banana_pro, SDXL, Flux, Banana, Z_Image} > {SD3}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "An urban brick wall covered with colorful graffiti, in the center there is a large tag clearly reading “自由 FREEDOM”, vibrant colors.",
+    "Prompt_zh": "满是彩色涂鸦的城市砖墙，中心有一个巨大的标签，清晰地写着“自由 FREEDOM”，色彩鲜艳。",
+    "final_ranking": "{Banana_pro, GPT, Qwen_Image, Z_Image} > {Banana} >  {SD3} > { Flux, SDXL}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "A neon storefront sign at night with the Chinese characters “夜猫咖啡” glowing in pink and blue, reflected on a rainy street.",
+    "Prompt_zh": "夜晚的霓虹灯店面招牌，汉字“夜猫咖啡”发出粉色和蓝色的光，倒映在多雨的街道上。",
+    "final_ranking": "{Z_Image} > {GPT, Qwen_Image,Banana_pro} > {Banana} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "A sleek smartphone lock screen mockup displaying the phrase “FOCUS MODE” in large clean typography at the center of the screen.",
+    "Prompt_zh": "一款时尚的智能手机锁屏样机，屏幕中央以简洁的大字体显示短语“FOCUS MODE”。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Banana} > {Flux, Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "A retro arcade entrance with a bright sign overhead clearly reading “GAME ZONE”, colorful lights and nostalgic 80s atmosphere.",
+    "Prompt_zh": "复古游戏厅入口，头顶上方有明亮的招牌，清晰地写着“GAME ZONE”，五彩斑斓的灯光，怀旧的 80 年代氛围。",
+    "final_ranking": "{Flux, GPT, SD3, Z_Image} > {Banana_pro, Qwen_Image, Banana} > {SDXL}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "A kraft paper shopping bag standing on a table with a simple logo that clearly shows the Chinese characters “森系生活”, natural and eco style.",
+    "Prompt_zh": "桌子上的牛皮纸购物袋，上面有一个简洁的 Logo，清晰地显示汉字“森系生活”，自然环保风格。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Z_Image} > {Banana, GPT} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "A metal office door with a frosted glass panel and clean black letters clearly reading “LAB 07”, industrial sci-fi interior.",
+    "Prompt_zh": "带有磨砂玻璃面板的金属办公室门，清晰的黑色字母写着“LAB 07”，工业科幻风格室内。",
+    "final_ranking": "{Qwen_Image, Banana} > {Z_Image, Banana_pro, SD3} > {Flux} > {GPT}  > {SDXL}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "A round café sign hanging outside a brick building with elegant script letters clearly spelling “Sunday Brunch”, warm morning sunlight.",
+    "Prompt_zh": "砖石建筑外悬挂的圆形咖啡馆招牌，优雅的手写体字母清晰地拼写出“Sunday Brunch”，温暖的晨光。",
+    "final_ranking": "{Qwen_Image, GPT, Z_Image, Flux, Banana} > {SD3, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "A fantasy tavern wooden sign swinging above a stone road, engraved with the Chinese characters “勇者酒馆”, medieval style.",
+    "Prompt_zh": "石路边摇晃的奇幻酒馆木牌，上面刻着汉字“勇者酒馆”，中世纪风格。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Z_Image} > {Banana} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "A sleek landing page screenshot featuring a hero headline that clearly reads “BUILD YOUR FUTURE”, modern web UI design.",
+    "Prompt_zh": "一款时尚的落地页截图，主标题清晰地写着“BUILD YOUR FUTURE”，现代网页 UI 设计。",
+    "final_ranking": "{GPT, Qwen_Image, Banana} > {Z_Image, Flux, SD3} > {Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "An illuminated vending machine at night with a glowing banner clearly reading “冰爽可乐”, cool colors and city street background.",
+    "Prompt_zh": "夜晚亮起的自动售货机，带有发光的横幅，清晰地写着“冰爽可乐”，冷色调，城市街道背景。",
+    "final_ranking": "{Banana_pro} > {Z_Image} > {GPT, Qwen_Image} > {Banana} >  {SDXL} > {Flux, SD3}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "A glossy soda can design with bold diagonal typography clearly showing the word “SPARK”, energetic and sporty style.",
+    "Prompt_zh": "亮面汽水罐设计，粗体对角线排版清晰显示“SPARK”字样，活力动感风格。",
+    "final_ranking": "{Banana_pro, GPT, Banana} > {Qwen_Image, Flux} > {Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "A ramen shop curtain (noren) hanging at the entrance, printed with the Chinese characters “深夜拉面”, warm yellow lanterns around it.",
+    "Prompt_zh": "挂在门口的拉面店门帘（暖帘），印有汉字“深夜拉面”，周围挂着暖黄色灯笼。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Z_Image} > {SD3, Banana, SDXL} > {Flux}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "A futuristic holographic display in a dark room clearly showing the word “INITIATE”, high tech sci-fi atmosphere.",
+    "Prompt_zh": "暗室中的未来感全息显示屏，清晰地显示“INITIATE”字样，高科技科幻氛围。",
+    "final_ranking": "{Flux, Banana, GPT} > {Banana_pro, Z_Image, Qwen_Image} > {SD3} >{SDXL}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "A fabric tote bag hanging on a hook with hand-drawn lettering clearly reading “READ MORE BOOKS”, cozy lifestyle vibe.",
+    "Prompt_zh": "挂在钩子上的帆布袋，手绘字体清晰地写着“READ MORE BOOKS”，温馨生活氛围。",
+    "final_ranking": "{Qwen_Image, Banana, Banana_pro, GPT, Flux} > {SD3, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "A colorful festival banner in the sky with large Chinese characters clearly reading “夏日音乐节”, crowd and stage in the background.",
+    "Prompt_zh": "天空中色彩斑斓的节日横幅，巨大的汉字清晰地写着“夏日音乐节”，背景是人群和舞台。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro} > {Qwen_Image} > {Banana} > {Flux, SD3}  > {SDXL}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "A vinyl record cover design with bold typography clearly showing the title “MIDNIGHT GROOVE”, retro 80s synthwave style.",
+    "Prompt_zh": "黑胶唱片封面设计，粗体字清晰显示标题“MIDNIGHT GROOVE”，复古 80 年代合成器波风格。",
+    "final_ranking": "{Flux, GPT} > {Z_Image, Banana_pro, SD3,Banana, Qwen_Image} > { SDXL}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "A coffee shop chalkboard menu on an easel outside the door, with handwritten title clearly reading “TODAY’S SPECIAL”, cozy street scene.",
+    "Prompt_zh": "门口架子上的咖啡店黑板菜单，手写标题清晰显示“TODAY’S SPECIAL”，温馨街景。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Banana} > {Qwen_Image,Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "A sleek metal water bottle standing upright, printed with the Chinese characters “每天都好”, minimalist lifestyle product shot.",
+    "Prompt_zh": "竖立的时尚金属水瓶，印有汉字“每天都好”，极简生活方式产品摄影。",
+    "final_ranking": "{Banana_pro, Qwen_Image} > {Banana, Z_Image}  > {Flux, GPT} > {SDXL, SD3}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "A large LED billboard on a city building at night clearly displaying the word “RESTART”, dramatic lighting and cinematic mood.",
+    "Prompt_zh": "夜晚城市建筑上的大型 LED 广告牌，清晰显示“RESTART”字样，戏剧性灯光，电影氛围。",
+    "final_ranking": "{Banana_pro, Banana, Qwen_Image, GPT, SDXL, Z_Image, SD3} > {Flux}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "A cute pastel notebook cover lying on a desk with big rounded letters clearly reading “DREAM NOTES”, stationery aesthetic.",
+    "Prompt_zh": "桌上可爱的淡色笔记本封面，圆润的大字母清晰显示“DREAM NOTES”，文具美学。",
+    "final_ranking": "{Banana, Flux, SD3} > {Z_Image, GPT, Qwen_Image, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "A lantern festival scene where a large floating lantern is painted with the Chinese characters “心想事成”, glowing warmly against the night sky.",
+    "Prompt_zh": "元宵灯会场景，一个巨大的漂浮灯笼上写着汉字“心想事成”，在夜空中发出温暖的光芒。",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT} > {Banana,Z_Image}  > {Flux,  SD3} > {SDXL}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "A desktop wallpaper mockup on a monitor displaying the phrase “CODE & CREATE” in bold geometric typography.",
+    "Prompt_zh": "显示器上的桌面壁纸样机，以粗体几何字体显示短语“CODE & CREATE”。",
+    "final_ranking": "{Banana_pro, Banana, Flux, GPT, Qwen_Image, Z_Image, SDXL} > {SD3}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "A street food stall sign under warm lights with big Chinese characters clearly reading “夜市小吃”, busy crowd in the background.",
+    "Prompt_zh": "暖色灯光下的街头小吃摊招牌，大汉字清晰写着“夜市小吃”，背景是忙碌的人群。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Z_Image}  > {Banana, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "A luxury perfume bottle on a reflective surface with a minimal label clearly showing the word “MUSE”, elegant and high-end.",
+    "Prompt_zh": "反光表面上的奢华香水瓶，极简标签清晰显示“MUSE”字样，优雅高端。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image, Flux, Banana, Z_Image} > {SDXL,SD3}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "A sports team jersey hanging in a locker room with the team name “THUNDER” printed boldly across the chest, dynamic and energetic.",
+    "Prompt_zh": "更衣室里悬挂的运动队球衣，胸前印有粗体队名“THUNDER”，动感十足。",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT} > {Flux, Banana, SD3, Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "A futuristic subway station sign on the wall clearly reading “LINE 7 – AURORA”, sleek minimal design and cool lighting.",
+    "Prompt_zh": "墙上的未来感地铁站标牌，清晰写着“LINE 7 – AURORA”，时尚极简设计，冷色灯光。",
+    "final_ranking": "{Banana, GPT, Z_Image, Qwen_Image} > {Flux, Banana_pro}  > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "A soft cotton hoodie laid flat on a table with stylized Chinese characters clearly reading “慢慢来”, cozy lifestyle shot.",
+    "Prompt_zh": "平铺在桌上的柔软棉质卫衣，艺术化汉字清晰显示“慢慢来”，温馨生活写实。",
+    "final_ranking": "{Qwen_Image, Banana_pro, GPT, Z_Image} > {Banana} > {Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "A sci-fi computer interface screen with a central warning message clearly reading “SYSTEM ERROR”, glitch effects and neon accents.",
+    "Prompt_zh": "科幻电脑界面屏幕，中央警告信息清晰显示“SYSTEM ERROR”，带有故障效果和霓虹装饰。",
+    "final_ranking": "{GPT, Banana_pro, Banana, Flux, Z_Image} > {Qwen_Image, SD3} >  {SDXL}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "A bakery shop window decal with handwritten script clearly reading “Fresh Bread Daily”, warm golden lighting.",
+    "Prompt_zh": "面包店橱窗贴纸，手写体清晰显示“Fresh Bread Daily”，温暖的金色灯光。",
+    "final_ranking": "{Z_Image, GPT, Banana } > {Qwen_Image} > {Flux, Banana_pro, SD3} > {SDXL}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "A festival ticket lying on a concrete surface with bold typography clearly showing the title “NIGHT FEST 2026”, grunge style.",
+    "Prompt_zh": "平铺在混凝土表面上的节日门票，粗体字清晰显示标题“NIGHT FEST 2026”，颓废风格。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro} > {Z_Image, SDXL} > {Banana} > {SD3, Flux}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "A surfboard standing in the sand with hand-painted letters clearly reading “OCEAN VIBES”, sunset beach background.",
+    "Prompt_zh": "立在沙滩上的冲浪板，手绘字母清晰显示“OCEAN VIBES”，日落沙滩背景。",
+    "final_ranking": "{GPT, Banana_pro, Flux, Qwen_Image} > {SD3} > {SDXL} > {Z_Image} > {Banana}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "A noodle restaurant wall mural featuring large Chinese characters clearly reading “一碗人间”, warm and rustic interior.",
+    "Prompt_zh": "面馆墙上的壁画，巨大的汉字清晰显示“一碗人间”，温馨质朴的室内风格。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Z_Image} > {Banana}  > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "A retro diner sign by the roadside at dusk with bold neon letters clearly reading “OPEN 24/7”, nostalgic American road trip mood.",
+    "Prompt_zh": "黄昏时分路边的复古餐馆招牌，粗体霓虹字母清晰显示“OPEN 24/7”，怀旧的美国公路旅行氛围。",
+    "final_ranking": "{Flux, Qwen_Image} > {Z_Image} > { GPT, Banana,Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "A ceramic mug on a wooden desk with simple printed Chinese characters clearly reading “加油”, soft morning light.",
+    "Prompt_zh": "木桌上的陶瓷马克杯，印有简单的汉字“加油”，柔和的晨光。",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana_pro, GPT} > {Banana} > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "A professional conference badge with clean typography clearly showing the name “GLOBAL TECH SUMMIT”, lanyard visible.",
+    "Prompt_zh": "专业的会议胸卡，排版整洁，清晰显示名称“GLOBAL TECH SUMMIT”，挂绳可见。",
+    "final_ranking": "{Flux, Banana, GPT, Z_Image,Banana_pro} > { SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "A fantasy kingdom gate with a carved stone plaque clearly reading the Chinese characters “王者之门”, epic atmosphere.",
+    "Prompt_zh": "奇幻王国的城门，刻有的石牌清晰显示汉字“王者之门”，史诗氛围。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Z_Image} > {Banana} > {Flux,SD3, SDXL}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "A cute chibi-style character holding a signboard that clearly reads the Chinese characters “欢迎光临”, bright and cheerful colors.",
+    "Prompt_zh": "一个可爱的 Q 版角色举着招牌，上面清晰地写着汉字“欢迎光临”，色彩明亮欢快。",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image} > {GPT, Banana} > {SD3, Flux, SDXL}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "A hiking trail wooden signpost in the mountains clearly showing the word “SUMMIT” with an arrow, realistic nature scene.",
+    "Prompt_zh": "山间的徒步木质路标，清晰显示“SUMMIT”字样及箭头，真实的自然场景。",
+    "final_ranking": "{GPT, Z_Image, Qwen_Image} > {Banana, Flux, Banana_pro, SD3} > {SDXL}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "A stationery brand logo on a white box with elegant Chinese characters clearly reading “纸间故事”, soft pastel palette.",
+    "Prompt_zh": "白色包装盒上的文具品牌 Logo，优雅的汉字清晰显示“纸间故事”，柔和的淡色调。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Z_Image} > {GPT}  > {Banana, Flux, SDXL, SD3}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "A classroom blackboard with neat chalk writing clearly reading the Chinese characters “好好学习”, nostalgic school atmosphere.",
+    "Prompt_zh": "教室黑板上整齐的粉笔字清晰地写着汉字“好好学习”，怀旧的校园氛围。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, Z_Image} > { Banana}  > {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "A yoga studio glass door decal with minimal sans-serif letters clearly reading “INNER PEACE”, soft and airy interior.",
+    "Prompt_zh": "瑜伽馆玻璃门贴纸，极简无衬线字母清晰显示“INNER PEACE”，柔和通透的室内风格。",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana, Banana_pro, Flux, GPT} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "A retro cinema marquee at night with glowing lights, clearly displaying the phrase “NOW SHOWING: THE ODYSSEY” in bold capital letters.",
+    "Prompt_zh": "夜晚带有发光灯泡的复古电影院遮檐招牌，清晰地用粗体大写字母显示短语“NOW SHOWING: THE ODYSSEY”。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT, Qwen_Image,Flux} > {Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "A yellow road construction sign on a tripod, with clean black letters clearly reading “SLOW DOWN”, realistic outdoor lighting and orange cones around it.",
+    "Prompt_zh": "三脚架上的黄色道路施工标志，清晰的黑色字母写着“SLOW DOWN”，真实的户外光照，周围放着橙色路锥。",
+    "final_ranking": "{SD3, Banana_pro, GPT, Banana, Z_Image, Qwen_Image} > {Flux} > { SDXL}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "A minimalist coffee bean bag mockup on a white counter, the label clearly reading “ARABICA BEANS” and “Medium Roast” in elegant sans-serif typography.",
+    "Prompt_zh": "白色台面上的极简咖啡豆包装袋样机，标签上清晰地用优雅的无衬线字体写着“ARABICA BEANS”和“Medium Roast”。",
+    "final_ranking": "{GPT, Qwen_Image, Z_Image, Banana_pro} > {Banana} > {SD3, Flux, SDXL}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "A wooden bookstore section sign hanging from the ceiling, carved with the word “POETRY” in a classic serif font, warm library atmosphere.",
+    "Prompt_zh": "从天花板悬挂下的木制书店分区标牌，用经典衬线字体刻着“POETRY”字样，温馨的图书馆氛围。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Z_Image, Flux} > {SD3, Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "A traditional Chinese restaurant storefront at night, a bright red sign clearly showing the Chinese characters “吉祥饭店”, steam rising from the kitchen window.",
+    "Prompt_zh": "夜晚的中国传统餐馆店面，明亮的红色招牌清晰显示汉字“吉祥饭店”，厨房窗户飘出蒸汽。",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana_pro, GPT} > {Banana}  > {SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "The back of a white cotton T-shirt, a large graphic print with the slogan “NO GUTS NO GLORY” in a bold distressed font, natural fabric folds.",
+    "Prompt_zh": "白色棉质 T 恤的背面，大面积图形印花，印有粗体做旧字体的标语“NO GUTS NO GLORY”，自然的织物折痕。",
+    "final_ranking": "{Banana_pro, Z_Image} > {Qwen_Image, GPT, Banana, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "An airport gate digital display clearly showing “GATE 42” and “BOARDING” in bright blue LED characters, blurred travelers in the background.",
+    "Prompt_zh": "机场登机口电子显示屏，清晰地用亮蓝色 LED 字符显示“GATE 42”和“BOARDING”，背景是模糊的旅客。",
+    "final_ranking": "{Banana, Banana_pro} > {Qwen_Image, Z_Image, Flux, GPT} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "A sleek silver sign on a library wall with clean black letters clearly reading “SILENCE PLEASE”, soft indirect lighting and book stacks in view.",
+    "Prompt_zh": "图书馆墙上的时尚银色标牌，清晰的黑色字母写着“SILENCE PLEASE”，柔和的间接照明，可以看到书架。",
+    "final_ranking": "{GPT, Banana, Flux, Qwen_Image} > {SD3, Z_Image, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "A luxury cosmetic glass bottle with a minimal label clearly showing the words “ORGANIC GLOW”, soft studio lighting and plant shadows.",
+    "Prompt_zh": "奢华的化妆品玻璃瓶，极简标签清晰显示“ORGANIC GLOW”字样，柔和的影棚灯光和植物阴影。",
+    "final_ranking": "{Qwen_Image, SD3, Banana_pro} > {Banana, GPT, Flux} > {SDXL, Z_Image}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "A sophisticated wine label design on a dark green bottle, clearly reading “Estate Reserve 2018”, realistic glass texture and elegant layout.",
+    "Prompt_zh": "深绿色瓶子上的精致红酒标签设计，清晰写着“Estate Reserve 2018”，真实的玻璃质感和优雅的布局。",
+    "final_ranking": "{Banana_pro, Z_Image} > {Qwen_Image} > {Banana,  GPT} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "A cardboard pizza box on a wooden table, the top clearly printed with the words “HOT & FRESH” in a playful red font, steam rising from the corner.",
+    "Prompt_zh": "木桌上的纸皮比萨盒，顶部清晰地用俏皮的红色字体印着“HOT & FRESH”，角落冒着蒸汽。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Z_Image} > {Banana} > {GPT, Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "An exhibition entrance wall featuring large clean letters clearly reading “ANCIENT ART”, museum-style lighting and stone textures.",
+    "Prompt_zh": "展览入口墙，带有清晰的大字母写着“ANCIENT ART”，博物馆风格的照明和石头质感。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Banana, GPT, Flux, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "A traditional Chinese silk scroll hanging in a study, ink brush calligraphy clearly showing the characters “和为贵”, calm and scholarly atmosphere.",
+    "Prompt_zh": "书房里悬挂的中国传统丝绸卷轴，水墨书法清晰显示“和为贵”，宁静的书卷气息。",
+    "final_ranking": "{Banana_pro} >  {Z_Image, Qwen_Image, GPT} > {Banana} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "A white delivery truck driving on a city street, side panel clearly showing the logo “EXPRESS MAIL” in bold blue typography.",
+    "Prompt_zh": "在城市街道上行驶的白色快递车，侧面清晰显示粗体蓝色字体的 Logo“EXPRESS MAIL”。",
+    "final_ranking": "{Banana, Flux, Banana_pro, Qwen_Image} > {GPT, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "An ornate iron garden gate with a small brass plaque clearly reading “SECRET GARDEN”, climbing roses and soft morning mist.",
+    "Prompt_zh": "装饰华丽的铁艺花园门，上面有一个小黄铜标牌，清晰写着“SECRET GARDEN”，攀缘的玫瑰和柔和的晨雾。",
+    "final_ranking": "{Z_Image, Banana, Banana_pro, GPT, Qwen_Image} > {SDXL} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "A minimalist candle jar on a nightstand, the label clearly reading “Lavender Fields” in a clean modern font, warm flickering candlelight.",
+    "Prompt_zh": "床头柜上的极简蜡烛罐，标签上清晰地用简洁的现代字体写着“Lavender Fields”，温暖闪烁的烛光。",
+    "final_ranking": "{Banana_pro, Flux, Z_Image, Qwen_Image} > {GPT, SD3, Banana} > {SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "A large traditional Chinese red lantern hanging from a roof, painted with the characters “万事如意” in gold, glowing against a night sky.",
+    "Prompt_zh": "屋檐下悬挂的大型中国传统红灯笼，上面用金漆写着汉字“万事如意”，在夜色中发光。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT} > {Z_Image, Banana} > {SDXL, Flux, SD3}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "A gym wall mural with bold black letters clearly reading “NO EXCUSES”, industrial gym equipment and dramatic lighting in the background.",
+    "Prompt_zh": "健身房墙壁上的壁画，粗体黑色字母清晰显示“NO EXCUSES”，背景是工业风格的健身器械和戏剧性灯光。",
+    "final_ranking": "{Banana, Banana_pro, Flux, Qwen_Image, SD3,GPT} > {Z_Image} > { SDXL}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "A rustic chalkboard menu at a farmer's market, with neat chalk handwriting clearly reading “Daily Specials”, baskets of fresh vegetables around it.",
+    "Prompt_zh": "农贸市场上的质朴黑板菜单，整齐的粉笔字清晰写着“Daily Specials”，周围放着几篮新鲜蔬菜。",
+    "final_ranking": "{Banana_pro, Banana, Z_Image} > {Qwen_Image, GPT} > {SD3,Flux} > {SDXL}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "A vintage postcard lying on a desk, with the cursive text “Greetings from Paris” clearly visible, stamps and travel accessories nearby.",
+    "Prompt_zh": "桌上放着的一张复古明信片，清晰可见手写体文字“Greetings from Paris”，旁边有邮票和旅行配件。",
+    "final_ranking": "{Qwen_Image, Banana} > {Z_Image, Banana_pro, Flux, GPT} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "A laptop lid covered in colorful stickers, one central sticker clearly showing the phrase “I Love Code” in a pixelated computer font.",
+    "Prompt_zh": "贴满彩色贴纸的笔记本电脑盖，中心的一张贴纸清晰显示像素化电脑字体的短语“I Love Code”。",
+    "final_ranking": "{Banana_pro, Qwen_Image, Z_Image, Banana} > {GPT,  Flux} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "A luxury tea brand mockup featuring a white tin container with the Chinese characters “云间草木” in gold, clean minimalist aesthetic.",
+    "Prompt_zh": "高端茶叶品牌样机，白色马口铁罐上带有金色的汉字“云间草木”，极简纯净美学。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image, Qwen_Image} > {Banana} > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "A hotel room keycard lying on a white bedsheet, clearly printed with the name “CENTRAL HOTEL” and “ROOM 305”, clean typography.",
+    "Prompt_zh": "铺在白色床单上的酒店房卡，清晰印有名称“CENTRAL HOTEL”和“ROOM 305”，排版整洁。",
+    "final_ranking": "{Banana_pro, Z_Image, Banana, GPT} > {Qwen_Image, SDXL} > {SD3, Flux}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "A street graffiti piece on a gray wall, bold stylized letters clearly reading “REBEL”, vibrant spray paint drips and textures.",
+    "Prompt_zh": "灰色墙上的街道涂鸦作品，粗体艺术化字母清晰显示“REBEL”，鲜艳的喷漆滴落感和纹理。",
+    "final_ranking": "{GPT, SD3, Qwen_Image, Z_Image, Banana_pro, Flux} > {Banana} > {SDXL}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "A realistic store receipt resting on a counter, with the text “Total: $12.50” clearly legible at the bottom, soft shop lighting.",
+    "Prompt_zh": "柜台上真实的商店收据，底部清晰可辨文字“Total: $12.50”，柔和的商店灯光。",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image, Banana} > {Flux} > {GPT, SD3} > {SDXL}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "A neon sign in a rainy alleyway at night, the Chinese characters “不夜城” glowing in electric green, reflections on wet pavement.",
+    "Prompt_zh": "夜晚多雨巷弄里的霓虹灯，汉字“不夜城”发出荧光绿的光，湿润路面上有倒影。",
+    "final_ranking": "{Banana_pro, Banana, Z_Image, Qwen_Image,GPT} > {SDXL, SD3} > {Flux}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "A digital bus destination sign on the front of a bus, clearly displaying “CITY CENTER” in bright amber dot-matrix characters.",
+    "Prompt_zh": "公交车前部的电子目的地显示屏，清晰地用亮琥珀色点阵字符显示“CITY CENTER”。",
+    "final_ranking": "{Banana_pro, Z_Image, Qwen_Image, Flux, Banana, GPT, SD3} > {SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "A paper bakery bag standing on a table, with a simple logo that clearly reading “WHOLE WHEAT” in a rustic stamp style.",
+    "Prompt_zh": "桌上的面包纸袋，带有一个简单的 Logo，清晰显示质朴印章风格的“WHOLE WHEAT”字样。",
+    "final_ranking": "{Banana_pro, Flux, Banana} > {GPT, Qwen_Image, SD3} > {Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "A sleek modern UI button on a screen, with bold white letters clearly reading “START ENGINE”, cool glowing tech atmosphere.",
+    "Prompt_zh": "屏幕上时尚的现代 UI 按钮，清晰显示粗体白色字母“START ENGINE”，冷色调科技感氛围。",
+    "final_ranking": "{GPT, Flux, Banana_pro, Z_Image, Qwen_Image, Banana} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "A cyberpunk computer terminal in a dark room, displaying the message “ACCESS GRANTED” in bright green monospace text.",
+    "Prompt_zh": "暗室里的赛博朋克电脑终端，以亮绿色等宽文字显示信息“ACCESS GRANTED”。",
+    "final_ranking": "{Z_Image} > {Banana_pro, Flux, Banana, GPT,Qwen_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "A close-up of a red traditional Chinese seal stamp on white paper, clearly showing the characters “心迹” in an ancient style.",
+    "Prompt_zh": "白纸上红色中国传统印章的特写，清晰显示古风样式的汉字“心迹”。",
+    "final_ranking": "{Qwen_Image} > {Z_Image, Banana_pro} > {Banana} > {GPT} > {Flux,SD3, SDXL}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "A vinyl record label spinning on a turntable, the text clearly reading “Side A: Retro Vibes” in a clean circular layout.",
+    "Prompt_zh": "转盘上旋转的黑胶唱片标签，文字清晰地以简洁的圆形布局写着“Side A: Retro Vibes”。",
+    "final_ranking": "{Z_Image} > {Banana_pro, SD3} > {Qwen_Image, GPT} > {Banana, Flux} >  {SDXL}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "A museum description plaque on a gallery wall, with sharp black text clearly reading “Oil on Canvas, 1895”, warm gallery spotlights.",
+    "Prompt_zh": "画廊墙上的博物馆描述牌，清晰的黑色文字写着“Oil on Canvas, 1895”，暖色画廊聚光灯。",
+    "final_ranking": "{Banana, Banana_pro, Flux, GPT} > {Z_Image,Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "A white wedding invitation card with elegant gold foil lettering clearly reading “Save the Date”, surrounded by soft flowers.",
+    "Prompt_zh": "白色的婚礼邀请卡，优雅的金箔刻字清晰写着“Save the Date”，周围环绕着柔和的花朵。",
+    "final_ranking": "{SD3, Banana, GPT, Banana_pro} > {Qwen_Image, Z_Image, Flux, SDXL}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "A traditional Chinese calligraphy piece on a wooden table, ink brush characters clearly showing “宁静致远”, scholarly tools nearby.",
+    "Prompt_zh": "木桌上的中国传统书法作品，水墨笔触清晰显示“宁静致远”，旁边放着文房四宝。",
+    "final_ranking": "{Banana_pro} > {GPT,Qwen_Image} > {Z_Image}  > {Banana} > {SDXL,Flux, SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "A roll of packing tape on a cardboard box with the word “FRAGILE” printed repeatedly in bold red letters, realistic texture.",
+    "Prompt_zh": "纸箱上的包装胶带，重复印有粗体红色字母“FRAGILE”，质感真实。",
+    "final_ranking": "{Qwen_Image, Banana} > {Flux, GPT} > {SD3, Z_Image, Banana_pro} > {SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "A retro arcade screen displaying the high score board, with the top text clearly reading “TOP PLAYER: ACE”, pixel art style.",
+    "Prompt_zh": "显示最高分榜单的复古游戏机屏幕，顶部文字清晰显示“TOP PLAYER: ACE”，像素艺术风格。",
+    "final_ranking": "{GPT, Banana_pro, Flux, Z_Image} > {SD3} > {Banana} > {Qwen_Image} > {SDXL}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "A boutique shop sign in an old street, featuring artistic Chinese characters clearly reading “古风遗韵”, warm sunset lighting.",
+    "Prompt_zh": "老街上的精品店招牌，艺术化的汉字清晰显示“古风遗韵”，温暖的夕阳光照。",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana_pro} > {GPT, Banana} > {SD3, SDXL} > {Flux}"
+  }
+]

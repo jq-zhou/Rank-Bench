@@ -1,0 +1,602 @@
+[
+  {
+    "ID": 1,
+    "Prompt": "A person writing with a pencil, index finger and thumb gripping firmly with slight pressure marks.",
+    "Prompt_zh": "一个人正在用铅笔写字，食指和拇指紧紧握住，有轻微的按压痕迹。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT} > { Qwen_Image,Flux} > {Banana}  > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 2,
+    "Prompt": "A person tying shoelaces, both hands pinching the lace ends with realistic finger bend.",
+    "Prompt_zh": "一个人正在系鞋带，双手捏住鞋带末端，手指弯曲自然逼真。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro} > {Qwen_Image, Flux} > {Banana} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 3,
+    "Prompt": "Close-up of a face with faint freckles, visible pores and fine facial hair.",
+    "Prompt_zh": "面部特写，有淡淡的雀斑，毛孔和细小的面部汗毛清晰可见。",
+    "final_ranking": "{Banana, GPT, Banana_pro} > {Qwen_Image, Z_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 4,
+    "Prompt": "A middle-aged face in soft light, subtle crow’s feet appearing with a gentle smile.",
+    "Prompt_zh": "柔和光线下的一张中年面孔，伴随着温柔的微笑，眼角出现隐约的鱼尾纹。",
+    "final_ranking": "{GPT, Z_Image, Banana, Banana_pro} > {Qwen_Image, SD3, SDXL} > {Flux}"
+  },
+  {
+    "ID": 5,
+    "Prompt": "A teen athlete wiping sweat with the back of a hand, damp skin",
+    "Prompt_zh": "一名青少年运动员用手背擦汗，皮肤湿润。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Z_Image, Qwen_Image} > {SDXL} > { SD3, Flux}"
+  },
+  {
+    "ID": 6,
+    "Prompt": "A person smiling softly, natural lip texture and realistic skin creases near the eyes.",
+    "Prompt_zh": "一个人温柔地微笑着，唇部纹理自然，眼周皮肤皱褶逼真。",
+    "final_ranking": "{Banana_pro, GPT} > {Z_Image, Qwen_Image, Banana,Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 7,
+    "Prompt": "A person adjusting glasses, fingertips touching the frame near the temple.",
+    "Prompt_zh": "一个人正在调整眼镜，指尖触碰着太阳穴附近的镜框。",
+    "final_ranking": "{Banana_pro, Flux, Qwen_Image, GPT} > {Z_Image,Banana} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 8,
+    "Prompt": "A hand holding a paintbrush, bristles touching canvas with relaxed wrist posture.",
+    "Prompt_zh": "一只手拿着画笔，刷毛触碰到画布，手腕姿势放松。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Banana} > {Flux, Z_Image,GPT} > {SDXL, SD3}"
+  },
+  {
+    "ID": 9,
+    "Prompt": "A person putting on a small hoop earring, fingers pinching the clasp near the earlobe.",
+    "Prompt_zh": "一个人正在戴小环形耳环，手指捏住耳垂附近的扣环。",
+    "final_ranking": "{Banana_pro,Banana, Z_Image} > {GPT, Qwen_Image, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 10,
+    "Prompt": "Natural smile showing upper teeth, slight variation in tooth shape and realistic gum line.",
+    "Prompt_zh": "露出上牙的自然微笑，牙齿形状略有变化，牙龈线逼真。",
+    "final_ranking": "{GPT} > {Z_Image, Banana_pro, Qwen_Image, Banana} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 11,
+    "Prompt": "A person in front of a mirror brushing hair, both real figure and reflection consistent.",
+    "Prompt_zh": "一个人在镜子前梳头，真实人物和镜中倒影保持一致。",
+    "final_ranking": "{Banana_pro,Banana} > {Z_Image, Qwen_Image, Flux} > {GPT, SDXL, SD3}"
+  },
+  {
+    "ID": 12,
+    "Prompt": "A person biting a paper straw, straw slightly flattened where it meets the teeth.",
+    "Prompt_zh": "一个人咬着纸吸管，吸管在接触牙齿的地方略微变扁。",
+    "final_ranking": "{Banana_pro} > {GPT, Banana,Qwen_Image} > {Flux, Z_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 13,
+    "Prompt": "A person licking their lips once, tongue tip touching the upper lip naturally.",
+    "Prompt_zh": "一个人舔了一下嘴唇，舌尖自然地触碰上唇。",
+    "final_ranking": "{Banana_pro,GPT} > {Banana, Qwen_Image, Z_Image} > {Flux, SD3, SDXL}"
+  },
+  {
+    "ID": 14,
+    "Prompt": "Bare feet on a textured carpet, toes slightly curled and toenails visible.",
+    "Prompt_zh": "光脚踩在有纹理的地毯上，脚趾微微卷曲，脚指甲清晰可见。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Flux, Banana,Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 15,
+    "Prompt": "A person stepping into wet sand, clear toe separation and a crisp footprint behind.",
+    "Prompt_zh": "一个人踩入湿沙中，脚趾分明，身后留下清晰的脚印。",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro, Banana, Z_Image, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 16,
+    "Prompt": "A person covering half their face with one hand, one eye peeking through finger gaps.",
+    "Prompt_zh": "一个人用一只手遮住半边脸，一只眼睛透过指缝向外看。",
+    "final_ranking": "{GPT} > {Z_Image, Qwen_Image,Flux} > {Banana, Banana_pro} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 17,
+    "Prompt": "Two people hugging, arms overlapping with hands resting on backs and sleeves wrinkling.",
+    "Prompt_zh": "两个人拥抱，手臂交叠，手放在对方背上，衣袖有褶皱。",
+    "final_ranking": "{Banana, Qwen_Image} > {GPT, Flux} > {Z_Image, SD3, SDXL, Banana_pro}"
+  },
+  {
+    "ID": 18,
+    "Prompt": "A person handing over a business card with both hands, card edges crisp against fingertips.",
+    "Prompt_zh": "一个人双手递名片，名片边缘在指尖处显得清晰锐利。",
+    "final_ranking": "{Flux, Banana_pro, Banana} > {Z_Image} > {GPT} > {SD3, SDXL, Qwen_Image}"
+  },
+  {
+    "ID": 19,
+    "Prompt": "A crowded subway scene with multiple hands gripping an overhead strap, varied skin tones and poses.",
+    "Prompt_zh": "拥挤的地铁场景，多只手握住头顶的扶手带，肤色和姿势各异。",
+    "final_ranking": "{GPT, Banana_pro} > { Qwen_Image,Z_Image, Flux} > {Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 20,
+    "Prompt": "A person washing hands at a sink, water droplets beading on skin and nails.",
+    "Prompt_zh": "一个人在水槽洗手，水珠挂在皮肤和指甲上。",
+    "final_ranking": "{Z_Image, Banana, GPT} > {Qwen_Image,Banana_pro} > {Flux, SD3} > {SDXL}"
+  },
+  {
+    "ID": 21,
+    "Prompt": "a person holds one hand near the lens making an “OK” gesture, with clean finger separation and visible knuckles. The subject’s eyes are in focus behind the hand.",
+    "Prompt_zh": "一个人在镜头附近伸出一只手做“OK”手势，手指分明，指关节可见。手后的眼睛聚焦清晰。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Z_Image} > {Banana} > {Flux}  > {SD3, SDXL}"
+  },
+  {
+    "ID": 22,
+    "Prompt": "A candid indoor photo of a person typing on a laptop, both hands clearly visible with distinct fingertips on the keys. The upper body and face are softly lit in the background.",
+    "Prompt_zh": "室内抓拍：一个人在笔记本电脑上打字，双手清晰可见，指尖分明地按在键上。背景中的上半身和面部光线柔和。",
+    "final_ranking": "{Banana} > {GPT, Qwen_Image, Banana_pro,Z_Image} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 23,
+    "Prompt": "a person tying shoelaces, with both hands crossing and pulling the laces in the foreground. The full figure is visible, and the hands are sharply detailed.",
+    "Prompt_zh": "一个人正在系鞋带，前景中双手交叉拉动鞋带。全身可见，手部细节清晰锐利。",
+    "final_ranking": "{Z_Image, Banana_pro, GPT} > {Qwen_Image} >  {Flux} > {SD3, SDXL, Banana}"
+  },
+  {
+    "ID": 24,
+    "Prompt": "A concert-like scene showing a seated pianist, full upper body visible, with both hands on the keys and each finger clearly defined.",
+    "Prompt_zh": "音乐会般的场景：一位坐着的钢琴家，上半身完全可见，双手放在琴键上，每一根手指都清晰分明。",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro, Z_Image} > {SDXL, Flux, Banana, SD3}"
+  },
+  {
+    "ID": 25,
+    "Prompt": "A candid indoor photo of a person typing on a laptop at a desk, both hands fully visible, all ten fingers clearly separated and placed on the keyboard, distinct fingertips and nails visible.",
+    "Prompt_zh": "室内抓拍：一个人在书桌前用笔记本电脑打字，双手完全可见，十指清晰分开放在键盘上，指尖和指甲清晰可见。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Z_Image, Qwen_Image} > {SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 26,
+    "Prompt": "A barista pouring latte art, one hand holding a cup and the other holding a milk pitcher, both hands visible with accurate finger positions and nails.",
+    "Prompt_zh": "咖啡师正在制作拿铁拉花，一只手拿着杯子，另一只手拿着奶缸，双手可见，手指位置准确，指甲清晰。",
+    "final_ranking": "{GPT} > {Qwen_Image, Z_Image, Flux, Banana_pro, Banana} > {SD3, SDXL}"
+  },
+  {
+    "ID": 27,
+    "Prompt": "A person chopping vegetables, one hand gripping a knife handle and the other hand forming a safe ‘claw’ grip, all fingers visible and separated.",
+    "Prompt_zh": "一个人正在切菜，一只手握着刀柄，另一只手呈安全的“爪形”握姿，所有手指可见且分开。",
+    "final_ranking": "{Banana_pro, GPT, Z_Image} > {Flux, Qwen_Image} > {Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 28,
+    "Prompt": "A person playing acoustic guitar, left hand fretting the strings, right hand strumming, both hands visible with correct finger placement and realistic knuckles.",
+    "Prompt_zh": "一个人在弹原声吉他，左手按弦，右手扫弦，双手可见，手指位置正确，指关节逼真。",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro, Z_Image,Flux} > { Banana} > {SDXL, SD3}"
+  },
+  {
+    "ID": 29,
+    "Prompt": "A pianist seated at a grand piano, upper body visible, both hands on the keys, each finger clearly defined, realistic hand proportions.",
+    "Prompt_zh": "坐在三角钢琴前的钢琴家，上半身可见，双手放在琴键上，每一根手指都清晰分明，手部比例逼真。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT, Z_Image, Qwen_Image} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 30,
+    "Prompt": "A craftsman using a screwdriver, close-up of hands turning the screw, accurate grip, visible fingertips and nails.",
+    "Prompt_zh": "工匠正在使用螺丝刀，特写镜头显示双手转动螺丝，握姿准确，指尖和指甲可见。",
+    "final_ranking": "{Banana, GPT} > {Banana_pro,Z_Image } > {Qwen_Image, Flux}  > {SD3, SDXL}"
+  },
+  {
+    "ID": 31,
+    "Prompt": "A person holding a transparent glass mug with one hand while stirring with a spoon using the other, both hands visible through the glass, realistic refraction.",
+    "Prompt_zh": "一个人一只手拿着透明玻璃杯，另一只手用勺子搅拌，双手透过玻璃可见，折射效果逼真。",
+    "final_ranking": "{Qwen_Image} > {Z_Image, Banana, Banana_pro, Flux} > {SD3}  >  {SDXL, GPT}"
+  },
+  {
+    "ID": 32,
+    "Prompt": "A handshake between two people, both hands fully in frame, realistic finger lengths and knuckles, no extra fingers.",
+    "Prompt_zh": "两人握手，双手完全在画面内，手指长度和关节逼真，没有多余的手指。",
+    "final_ranking": "{Qwen_Image, Banana_pro, Z_Image, Banana, GPT} > {Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 33,
+    "Prompt": "a person standing at the shoreline, with bare feet in the foreground and toes clearly visible on wet sand. The person’s legs and posture are fully shown.",
+    "Prompt_zh": "一个人站在海岸线上，前景是光脚，脚趾在湿沙上清晰可见。腿部和姿态完全展示。",
+    "final_ranking": "{Banana, Z_Image} > {Flux, Qwen_Image} > { GPT, SDXL} > {Banana_pro} > {SD3}"
+  },
+  {
+    "ID": 34,
+    "Prompt": "Top-down photo of a person sitting on a chair with both bare feet flat on the floor, all toes visible, realistic toenails and skin texture.",
+    "Prompt_zh": "俯拍照片：一个人坐在椅子上，双脚光着平放在地板上，所有脚趾可见，脚指甲和皮肤纹理逼真。",
+    "final_ranking": "{Z_Image, Qwen_Image, Banana, GPT} > {Banana_pro, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 35,
+    "Prompt": "A person stepping into a shallow pool, water ripples around the toes, toes visible through the water, correct toe count.",
+    "Prompt_zh": "一个人踏入浅水池，水波在脚趾周围荡漾，透过水面可见脚趾，脚趾数量正确。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image, Z_Image} > {SDXL, Banana} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 36,
+    "Prompt": "A person wearing open-toe sandals, both feet visible, toes clearly shown with realistic proportions and toenails.",
+    "Prompt_zh": "一个人穿着露趾凉鞋，双脚可见，脚趾清晰展示，比例和脚指甲逼真。",
+    "final_ranking": "{Z_Image} > {Qwen_Image, Banana, GPT} > {Banana_pro, Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 37,
+    "Prompt": "A person walking on grass barefoot, one foot mid-step, toes visible and not distorted.",
+    "Prompt_zh": "一个人光脚走在草地上，一只脚迈步中，脚趾可见且未变形。",
+    "final_ranking": "{Banana, GPT, Banana_pro} > {Z_Image} > {Flux} > {Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 38,
+    "Prompt": "A calm scene of a person standing in shallow clear water, full body visible, with feet and toes seen through ripples and realistic refraction. Soft sunlight highlights the water surface.",
+    "Prompt_zh": "平静的场景：一个人站在清澈的浅水中，全身可见，透过涟漪和逼真的折射可以看到脚和脚趾。柔和的阳光照亮水面。",
+    "final_ranking": "{Z_Image, GPT, Banana_pro} > {Flux, Qwen_Image, Banana} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 39,
+    "Prompt": "A modern editorial portrait of a person wearing glasses, eyes and facial features sharp behind realistic lens reflections.",
+    "Prompt_zh": "现代时尚人像：一个人戴着眼镜，透过逼真的镜片反光，眼睛和面部特征清晰锐利。",
+    "final_ranking": "{GPT, Banana_pro, Qwen_Image,  Banana, Flux} >  {Z_Image,SDXL} > {SD3}"
+  },
+  {
+    "ID": 40,
+    "Prompt": "A teenager in a hoodie under indoor lighting, face fully visible, no blur, accurate facial symmetry.",
+    "Prompt_zh": "室内光线下身穿连帽衫的青少年，面部完全可见，无模糊，面部对称准确。",
+    "final_ranking": "{GPT, Qwen_Image, Banana_pro, Banana, Flux, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 41,
+    "Prompt": "A close-up portrait with freckles, clear skin texture, symmetrical eyes and eyebrows, no duplicated pupils.",
+    "Prompt_zh": "有雀斑的特写肖像，皮肤纹理清晰，眼睛和眉毛对称，无重影瞳孔。",
+    "final_ranking": "{GPT} > {Z_Image, Banana} > {Flux, Qwen_Image, SD3} > {Banana_pro, }> {SDXL}"
+  },
+  {
+    "ID": 42,
+    "Prompt": "A person laughing, mouth open slightly, cheeks raised, eyes squinting naturally, no warped teeth.",
+    "Prompt_zh": "一个人在大笑，嘴巴微张，脸颊抬起，眼睛自然眯起，牙齿无变形。",
+    "final_ranking": "{Banana, Z_Image, Banana_pro, GPT} > {Qwen_Image} > {Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 43,
+    "Prompt": "A close-up of a person biting into an apple, teeth visible in contact with the fruit, accurate bite alignment, no extra teeth.",
+    "Prompt_zh": "咬苹果的人特写，可见牙齿与水果接触，咬合对齐准确，无多余牙齿。",
+    "final_ranking": "{Z_Image} > {Qwen_Image, GPT} > {Banana} > {Flux, Banana_pro} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 44,
+    "Prompt": "A person holding a cup while waving with the other hand, full body visible, both hands and face visible.",
+    "Prompt_zh": "一个人一只手拿着杯子，另一只手挥手，全身可见，双手和面部均可见。",
+    "final_ranking": "{Banana} > {Banana_pro, Qwen_Image} > {Flux, GPT, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 45,
+    "Prompt": "A person lifting a suitcase, both hands gripping the handle, full body visible including feet, face visible, realistic proportions.",
+    "Prompt_zh": "一个人提起手提箱，双手握住把手，全身可见包括脚，面部可见，比例逼真。",
+    "final_ranking": "{Banana} > {Banana_pro, Qwen_Image} > {GPT} > {Z_Image, SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 46,
+    "Prompt": "A person playing with a dog, one hand holding a toy and the other hand petting, both hands visible, face visible, no extra limbs.",
+    "Prompt_zh": "一个人在和狗玩耍，一只手拿着玩具，另一只手抚摸，双手可见，面部可见，无多余肢体。",
+    "final_ranking": "{Banana} > {Banana_pro, GPT, Qwen_Image} > {Flux} > {Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 47,
+    "Prompt": "A person opening a door: one hand turning the doorknob while the other hand holds a keyring.",
+    "Prompt_zh": "一个人在开门：一只手转动门把手，另一只手拿着钥匙圈。",
+    "final_ranking": "{GPT, Banana_pro} > { Z_Image, Flux} >{Qwen_Image, } > {Banana, SD3} > {SDXL}"
+  },
+  {
+    "ID": 48,
+    "Prompt": "A person riding a bicycle slowly and waving: one hand on the handlebar, the other hand waving.",
+    "Prompt_zh": "一个人慢慢骑着自行车并挥手：一只手扶着车把，另一只手挥舞。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Z_Image} > {Qwen_Image} > {SDXL} > {SD3, Flux}"
+  },
+  {
+    "ID": 49,
+    "Prompt": "A person holding a tennis racket in one hand while catching a ball with the other hand.",
+    "Prompt_zh": "一个人一只手拿着网球拍，另一只手接球。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana, Flux, Banana_pro} > {Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 50,
+    "Prompt": "A person holding a basketball with both hands at chest height, full body visible including feet, face visible, fingers clearly separated on the ball surface.",
+    "Prompt_zh": "一个人双手在胸前抱住篮球，全身可见包括脚，面部可见，手指在球面清晰分开。",
+    "final_ranking": "{Banana_pro} > {GPT, Banana} > {Qwen_Image, Z_Image} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 51,
+    "Prompt": "A potter shaping clay on a spinning wheel, sleeves rolled up, clay splatter on an apron, rhythmic movement, earthy tones and texture.",
+    "Prompt_zh": "陶艺家在旋转的轮盘上塑造陶土，袖子卷起，围裙上有泥点，动作富有节奏感，色调和质感质朴。",
+    "final_ranking": "{Banana_pro, Qwen_Image, GPT, SDXL} > {Banana, Z_Image} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 52,
+    "Prompt": "A tailor fastening the last button on a fitted jacket in front of a mirror, neat studio lighting, fabric texture crisp and realistic.",
+    "Prompt_zh": "裁缝在镜子前扣上合身夹克的最后一颗扣子，工作室光线整洁，面料纹理清晰逼真。",
+    "final_ranking": "{Qwen_Image, Banana_pro} > {GPT, Flux} > {Z_Image, Banana, SDXL} > {SD3}"
+  },
+  {
+    "ID": 53,
+    "Prompt": "A chef plating a dish with tweezers and a spoon, precise movements, glossy sauces, clean kitchen ambience, editorial food styling vibe.",
+    "Prompt_zh": "厨师用镊子和勺子摆盘，动作精准，酱汁有光泽，厨房环境干净，具有时尚美食摄影风格。",
+    "final_ranking": "{Banana, Banana_pro} > {Z_Image} > {Qwen_Image} > {GPT, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 54,
+    "Prompt": "A chess player reaching to move a piece, focused gaze, café background softly out of focus, gentle indoor lighting.",
+    "Prompt_zh": "棋手伸手移动棋子，目光专注，背景咖啡馆柔和虚化，室内光线柔和。",
+    "final_ranking": "{GPT, Banana_pro, Banana} > {Flux, Qwen_Image, Z_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 55,
+    "Prompt": "A traveler lifting a suitcase into a train overhead rack, candid station lighting, a sense of motion and urgency.",
+    "Prompt_zh": "旅行者将手提箱举起放入火车头顶行李架，车站抓拍光线，具有动感和紧迫感。",
+    "final_ranking": "{Banana, Banana_pro, GPT, Z_Image} > {Qwen_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 56,
+    "Prompt": "A candid portrait of someone reading with glasses by a window, gentle reflections on the lenses, sharp eyes, quiet mood.",
+    "Prompt_zh": "窗边戴眼镜读书的人的抓拍肖像，镜片上有柔和的反光，眼神清晰，情绪安静。",
+    "final_ranking": "{Banana, GPT, Qwen_Image, Flux, Z_Image, Banana_pro} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 57,
+    "Prompt": "A person blowing out birthday candles, cheeks puffed slightly, warm glow, friends in the background, a fleeting moment frozen.",
+    "Prompt_zh": "一个人吹灭生日蜡烛，脸颊微微鼓起，温暖的光芒，背景里有朋友，定格的瞬间。",
+    "final_ranking": "{Banana_pro, Banana, GPT, Z_Image, Qwen_Image} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 58,
+    "Prompt": "A person kneeling to pet a dog, soft fur detail, affectionate posture, golden hour light in a quiet neighborhood.",
+    "Prompt_zh": "一个人跪下来抚摸狗，毛发细节柔和，姿态充满爱意，安静社区的黄金时段光线。",
+    "final_ranking": "{Qwen_Image, Z_Image, Banana} > {Flux, GPT, Banana_pro} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 59,
+    "Prompt": "A person biting into a crisp apple on a sunny day, natural jawline tension, tiny droplets and texture, casual lifestyle vibe.",
+    "Prompt_zh": "阳光明媚的日子，一个人咬着脆苹果，下颌线条自然紧绷，细小的水滴和纹理可见，休闲生活氛围。",
+    "final_ranking": "{Z_Image} > {GPT, Banana_pro} > {Qwen_Image, Banana} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 60,
+    "Prompt": "Someone stepping into a shallow stream, water ripples expanding outward, bright pebbles visible beneath the surface, calm summer feel.",
+    "Prompt_zh": "有人踏入浅溪，水波向外扩散，水面下可见明亮的鹅卵石，宁静的夏日感觉。",
+    "final_ranking": "{Banana, Z_Image, Qwen_Image, GPT} > {Banana_pro, SD3} > {SDXL} > {Flux}"
+  },
+  {
+    "ID": 61,
+    "Prompt": "A person knitting with wool, close-up of hands and needles, intricate finger movements, realistic yarn texture and tension.",
+    "Prompt_zh": "一个人正在织毛衣，手部和织针的特写，复杂的手指动作，真实的毛线纹理和张力。",
+    "final_ranking": "{GPT} > {Qwen_Image, Flux, Banana, Banana_pro} > {Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 62,
+    "Prompt": "A person shuffling a deck of cards, cards arching between hands, clear finger separation and realistic motion blur on the edges.",
+    "Prompt_zh": "一个人正在洗牌，纸牌在双手间呈弧形跳动，手指分界清晰，边缘有真实的运动模糊。",
+    "final_ranking": "{Banana_pro} > {Banana} > {Qwen_Image, GPT, Z_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 63,
+    "Prompt": "A man tying a silk necktie in front of a mirror, hands holding the knot, realistic finger pressure on the fabric, neck and chin visible.",
+    "Prompt_zh": "一名男子在镜子前系丝绸领带，双手握住领带结，手指在织物上的按压感真实，颈部和下巴可见。",
+    "final_ranking": "{Banana_pro} > {Banana, Z_Image, GPT, Qwen_Image} > {SDXL} > {Flux} > {SD3}"
+  },
+  {
+    "ID": 64,
+    "Prompt": "Macro shot of a hand threading a needle, precision grip between thumb and index finger, sharp focus on the thread and needle eye.",
+    "Prompt_zh": "一只手穿针的微距拍摄，拇指和食指间的精准捏握，焦点在细线和针眼上。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT} > {Qwen_Image} > {Z_Image, Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 65,
+    "Prompt": "A person whispering into someone’s ear, hand cupped around the mouth, realistic skin contact and soft facial lighting.",
+    "Prompt_zh": "一个人在另一个人耳边低语，手捂在嘴边，皮肤接触感真实，面部光线柔和。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana} > {Banana_pro} > {Flux, Z_Image} > {SDXL, SD3}"
+  },
+  {
+    "ID": 66,
+    "Prompt": "A full body shot of a person squatting on the floor, realistic knee joint bending, feet flat on the ground, logical limb overlapping.",
+    "Prompt_zh": "一个人蹲在地板上的全身照，膝关节弯曲写实，双脚平放地面，肢体重叠符合逻辑。",
+    "final_ranking": "{GPT} > {Qwen_Image, Banana_pro, Banana} > {Z_Image, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 67,
+    "Prompt": "A close-up of a hand holding a small coin between fingertips, clear view of the fingernail, skin ridges, and correct finger length.",
+    "Prompt_zh": "指尖捏着一枚小硬币的手部特写，指甲、皮纹清晰可见，手指长度正确。",
+    "final_ranking": "{GPT, Banana, Qwen_Image} > {Banana_pro, SD3, Flux} > {Z_Image} > {SDXL}"
+  },
+  {
+    "ID": 68,
+    "Prompt": "A woman tying her hair into a ponytail, both arms raised, hands holding a hair tie, realistic shoulder and armpit structure.",
+    "Prompt_zh": "一名女子正在扎马尾，双臂举起，双手拿着发圈，肩膀和腋部结构写实。",
+    "final_ranking": "{GPT} > {Banana, Z_Image, Banana_pro, Qwen_Image} > {Flux} > {SDXL}  > {SD3}"
+  },
+  {
+    "ID": 69,
+    "Prompt": "A person peeling an orange, juice droplets on skin, fingernails digging into the peel, realistic hand texture and palm lines.",
+    "Prompt_zh": "一个人正在剥橙子，皮肤上有果汁滴，指甲嵌入果皮，手部纹理和掌纹真实。",
+    "final_ranking": "{GPT, Banana_pro} > {Z_Image} > {Qwen_Image, Banana, SD3} > {Flux} > {SDXL}"
+  },
+  {
+    "ID": 70,
+    "Prompt": "A close-up of an adult’s hand holding a baby’s tiny hand, realistic scale difference, soft skin textures and distinct finger count for both.",
+    "Prompt_zh": "成年人的手握着婴儿小手的特写，真实的比例差异，柔软的皮肤质感，两者的手指数量清晰准确。",
+    "final_ranking": "{Z_Image, Qwen_Image, GPT, Banana_pro} > {Banana} > {SD3} >  {Flux, SDXL}"
+  },
+  {
+    "ID": 71,
+    "Prompt": "An archer pulling back a bowstring, tension in the arm muscles, fingers hooked around the string, sharp focus on the eye and aim.",
+    "Prompt_zh": "一名弓箭手正在拉满弓弦，手臂肌肉紧绷，手指勾住弓弦，焦点在眼睛和瞄准动作上。",
+    "final_ranking": "{Banana_pro, Banana, GPT,Z_Image} > { Flux} > {Qwen_Image} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 72,
+    "Prompt": "A person putting on a wedding ring, one hand sliding the ring onto the other's finger, realistic knuckle structure and finger contact.",
+    "Prompt_zh": "一个人戴上婚戒，一只手将戒指滑入另一只手的手指，指关节结构和手指接触写实。",
+    "final_ranking": "{Banana_pro, Z_Image} > {Qwen_Image, Banana} > {GPT} > {SDXL, SD3, Flux}"
+  },
+  {
+    "ID": 73,
+    "Prompt": "A hyper-realistic cinematic close-up of a person's face in a dark environment. The screen's light should cast detailed reflections in the pupils and highlight skin textures, pores, and micro-expressions, with soft blue light spilling onto the hands and thumbs positioned naturally on the screen.",
+    "Prompt_zh": "黑暗环境中人脸的超写实电影感特写。屏幕光应在瞳孔中投射出细腻的倒影，并清晰勾勒出皮肤纹理、毛孔和细微表情，柔和的蓝光洒在自然放置于屏幕上的双手和拇指上。",
+    "final_ranking": "{Qwen_Image} > {GPT, Banana_pro} > {Banana, Z_Image, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 74,
+    "Prompt": "A person rubbing their eyes with closed lids, fingers pressing gently against the face, realistic skin folding near the eyes.",
+    "Prompt_zh": "一个人闭着眼揉眼睛，手指轻轻按压面部，眼周皮肤褶皱真实。",
+    "final_ranking": "{GPT, Banana_pro} > {Flux, Z_Image, Qwen_Image} > {Banana} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 75,
+    "Prompt": "A person sitting cross-legged in meditation, hands resting on knees in a mudra pose, clear and logical leg interlocking.",
+    "Prompt_zh": "一个人盘腿坐着冥想，手放在膝盖上呈手印姿势，双腿交叠清晰且符合逻辑。",
+    "final_ranking": "{Banana_pro, Banana} > {Qwen_Image, GPT} > {Flux, Z_Image} > {SD3, SDXL}"
+  },
+  {
+    "ID": 76,
+    "Prompt": "A person holding a magnifying glass to inspect a stamp, fingers gripping the handle, realistic refraction of the hand through the lens.",
+    "Prompt_zh": "一个人拿着放大镜观察邮票，手指握住手柄，透过镜片看手部的折射效果真实。",
+    "final_ranking": "{Banana_pro} > {GPT, Qwen_Image, Flux} > {SDXL,  Z_Image} > {Banana,SD3}"
+  },
+  {
+    "ID": 77,
+    "Prompt": "A person leaning their chin on their hand, skin of the cheek slightly compressed by the fingers, realistic facial tension.",
+    "Prompt_zh": "一个人托着腮，脸颊皮肤被手指轻微挤压，面部张力表现写实。",
+    "final_ranking": "{Banana, GPT, Z_Image, Banana_pro} > {Qwen_Image} > {Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 78,
+    "Prompt": "A person applying lipstick in a mirror, mouth slightly open, hand steadying the lipstick, realistic lip texture and symmetry.",
+    "Prompt_zh": "一个人在镜子前涂口红，嘴巴微张，手稳稳地拿住口红，唇部纹理和对称性写实。",
+    "final_ranking": "{GPT, Qwen_Image,  Banana} > {Flux, Z_Image} > {Banana_pro,SD3} > {SDXL}"
+  },
+  {
+    "ID": 79,
+    "Prompt": "A person wiping a single tear from their cheek with an index finger, realistic skin moisture and focused gaze.",
+    "Prompt_zh": "一个人用食指擦去脸颊上的一滴泪，皮肤水分感真实，眼神专注。",
+    "final_ranking": "{Banana} > {GPT,  Banana_pro} > {Qwen_Image} > {Z_Image, Flux, SDXL} > { SD3}"
+  },
+  {
+    "ID": 80,
+    "Prompt": "A person braiding long hair, multiple strands of hair crossing between fingers, realistic hand positioning and hair texture.",
+    "Prompt_zh": "一个人正在编长辫子，多股头发在手指间交叉，手部位置和头发质感写实。",
+    "final_ranking": "{GPT, Banana_pro} > {Banana} > {Z_Image, Flux, Qwen_Image} > {SDXL} >  {SD3}"
+  },
+  {
+    "ID": 81,
+    "Prompt": "A violinist playing, left hand fingers pressed on the strings, right hand holding the bow, realistic wrist angles and finger spacing.",
+    "Prompt_zh": "小提琴手正在演奏，左手手指按在琴弦上，右手持弓，手腕角度和手指间距写实。",
+    "final_ranking": "{Banana_pro, Z_Image, Banana} > {GPT} > {Flux} > {Qwen_Image, SDXL}  > {SD3}"
+  },
+  {
+    "ID": 82,
+    "Prompt": "A person clapping their hands, palms meeting, motion blur on the fingers, realistic hand structure and skin tone.",
+    "Prompt_zh": "一个人正在鼓掌，手掌相碰，手指上有运动模糊，手部结构和肤色写实。",
+    "final_ranking": "{Qwen_Image} > {GPT} > {Z_Image,Banana_pro} > {Banana} > { SDXL, Flux} > {SD3}"
+  },
+  {
+    "ID": 83,
+    "Prompt": "A person doing a push-up, hands flat on the floor, realistic wrist bending and palm pressure, arm muscles defined.",
+    "Prompt_zh": "一个人正在做俯卧撑，手掌平贴地面，手腕弯曲和手掌压力感真实，手臂肌肉线条清晰。",
+    "final_ranking": "{GPT, Banana_pro} > {Qwen_Image} > {Z_Image, Banana, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 84,
+    "Prompt": "A person putting on a sock, toes stretching the fabric, fingers holding the rim, realistic foot and toe structure.",
+    "Prompt_zh": "一个人正在穿袜子，脚趾撑起织物，手指抓着袜口，脚部和脚趾结构写实。",
+    "final_ranking": "{Banana} > {Qwen_Image, Banana_pro, Z_Image} > {GPT,  Flux } > {SDXL,SD3}"
+  },
+  {
+    "ID": 85,
+    "Prompt": "A person holding a delicate wine glass by the stem, pinky finger elegantly extended, clear finger count and realistic grip.",
+    "Prompt_zh": "一个人捏着高脚杯的杯梗，小指优雅地伸出，手指数量清晰且握姿写实。",
+    "final_ranking": "{Banana} > {Banana_pro} > {Qwen_Image, Z_Image} > {GPT, Flux, SDXL} > {SD3}"
+  },
+  {
+    "ID": 86,
+    "Prompt": "A person pointing at a map on a table, index finger straight and clear, other fingers curled naturally, realistic skin details.",
+    "Prompt_zh": "一个人指向桌上的地图，食指伸直清晰，其余手指自然卷曲，皮肤细节写实。",
+    "final_ranking": "{GPT, Qwen_Image} > {Banana_pro, Flux, Banana, Z_Image} > {SD3} > {SDXL}"
+  },
+  {
+    "ID": 87,
+    "Prompt": "A person counting paper bills, thumb sliding the top bill, realistic finger movement and paper texture.",
+    "Prompt_zh": "一个人正在数钞票，大拇指滑过最上面的一张，手指动作和纸张质感写实。",
+    "final_ranking": "{GPT,Qwen_Image, Z_Image} > { Flux,Banana_pro} > { SDXL, Banana} > {SD3}"
+  },
+  {
+    "ID": 88,
+    "Prompt": "A person putting on a shoe, hand using a shoehorn at the heel, fingers gripping the shoe, realistic heel and ankle structure.",
+    "Prompt_zh": "一个人正在穿鞋，手在鞋跟处使用鞋拔，手指抓住鞋子，脚跟和脚踝结构写实。",
+    "final_ranking": "{Banana, GPT} > {Banana_pro} > {Flux, Qwen_Image}  > {SDXL} > {SD3, Z_Image}"
+  },
+  {
+    "ID": 89,
+    "Prompt": "Two people high-fiving, palms aligned at the moment of impact, clear arm extension and correct finger count for both hands.",
+    "Prompt_zh": "两个人击掌，碰撞瞬间手掌对齐，手臂伸展清晰且双手手指数量正确。",
+    "final_ranking": "{GPT, Z_Image, Banana_pro, Qwen_Image} > {Banana, Flux} > {SD3} > { SDXL}"
+  },
+  {
+    "ID": 90,
+    "Prompt": "A person stretching their arms above their head, interlaced fingers with palms facing up, realistic shoulder joint and ribcage detail.",
+    "Prompt_zh": "一个人双臂举过头顶拉伸，手指交错，手掌向上，肩关节和肋骨细节写实。",
+    "final_ranking": "{Z_Image} > {Banana} >  {Banana_pro, GPT} > {Flux, Qwen_Image, SD3, SDXL}"
+  },
+  {
+    "ID": 91,
+    "Prompt": "A person taking a selfie, one arm extended holding the phone, correct perspective of the arm and hand, face centered and symmetrical.",
+    "Prompt_zh": "一个人正在自拍，一根手臂伸出拿着手机，手臂和手的透视关系正确，面部居中对称。",
+    "final_ranking": "{ Flux, Banana_pro, Banana} >  {Qwen_Image} > {GPT} > {Z_Image} > { SDXL} > {SD3}"
+  },
+  {
+    "ID": 92,
+    "Prompt": "A person trimming their fingernails with a clipper, precise alignment of the tool and nail, clear view of the fingers.",
+    "Prompt_zh": "一个人正在用指甲剪剪指甲，工具和指甲的对齐动作精准，手指清晰可见。",
+    "final_ranking": "{Banana_pro} > {GPT, Banana} > {Z_Image} > {Qwen_Image} > {SD3, SDXL, Flux}"
+  },
+  {
+    "ID": 93,
+    "Prompt": "A person drinking water from a bowl held with both hands, fingers wrapped around the rim, realistic hand and mouth interaction.",
+    "Prompt_zh": "一个人用双手端着碗喝水，手指包裹着碗缘，手部和嘴部的交互写实。",
+    "final_ranking": "{GPT} > {Banana_pro} > {Z_Image, Qwen_Image, Banana} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 94,
+    "Prompt": "A person lacing up a leather vest, fingers threading the cord through eyelets, realistic tension and hand positioning.",
+    "Prompt_zh": "一个人正在系皮背心的绳子，手指将绳索穿过金属孔，张力和手部位置写实。",
+    "final_ranking": "{Banana, Banana_pro, Qwen_Image, GPT} > {Z_Image, Flux} > {SDXL} > {SD3}"
+  },
+  {
+    "ID": 95,
+    "Prompt": "A person examining a wristwatch on their wrist, other hand touching the dial, realistic wrist and finger structure.",
+    "Prompt_zh": "一个人正在观察腕上的手表，另一只手触碰表盘，手腕和手指结构写实。",
+    "final_ranking": "{Qwen_Image, Banana, Banana_pro, GPT} > {Z_Image} > {SD3, Flux} > {SDXL}"
+  },
+  {
+    "ID": 96,
+    "Prompt": "A person pinching their own cheek, skin stretching under the fingers, realistic elasticity and facial expression.",
+    "Prompt_zh": "一个人掐着自己的脸颊，皮肤在手指下伸展，弹性和面部表情写实。",
+    "final_ranking": "{Banana_pro, Banana} > {GPT} > {Qwen_Image} > {Z_Image} > {Flux} > {SDXL, SD3}"
+  },
+  {
+    "ID": 97,
+    "Prompt": "A person reaching for a book on a high shelf, body fully stretched, fingers touching the spine of the book, realistic proportions.",
+    "Prompt_zh": "一个人伸手去够高架子上的书，身体完全拉伸，手指触碰书脊，比例写实。",
+    "final_ranking": "{Banana_pro, GPT} > {Banana, Qwen_Image} > {Flux} > {SDXL} > {Z_Image} > {SD3}"
+  },
+  {
+    "ID": 98,
+    "Prompt": "A person yawning, mouth wide open, hand covering the mouth slightly, eyes closed with realistic facial muscle tension.",
+    "Prompt_zh": "一个人在打哈欠，大张着嘴，手略微遮挡，闭着眼，面部肌肉张力真实。",
+    "final_ranking": "{Banana_pro, Z_Image, GPT} > {Banana, Qwen_Image} > {Flux} > {SD3, SDXL}"
+  },
+  {
+    "ID": 99,
+    "Prompt": "A person tying a ribbon on a gift box, fingers making a loop, realistic knot logic and hand positioning.",
+    "Prompt_zh": "一个人正在礼盒上系缎带，手指打圈，结的逻辑和手部位置写实。",
+    "final_ranking": "{Z_Image, GPT} > {Qwen_Image, Flux, Banana, Banana_pro} > {SDXL, SD3}"
+  },
+  {
+    "ID": 100,
+    "Prompt": "A person doing a handstand against a wall, full body visible, fingers spread wide on the floor, realistic arm and shoulder support.",
+    "Prompt_zh": "一个人靠墙倒立，全身可见，手指在地面张开，手臂和肩膀的支撑结构写实。",
+    "final_ranking": "{GPT, Banana, Banana_pro} > {Z_Image} > {Qwen_Image}  > {Flux}  > { SD3, SDXL}"
+  }
+]
